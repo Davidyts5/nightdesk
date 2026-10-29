@@ -15,6 +15,15 @@ jobs:
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
+      - name: heartbeat
+        run: |
+          KILLS=$(wc -l < logs/kills.jsonl 2>/dev/null || echo 0)
+          CYC=$(python3 -c "import json;print(json.load(open('state/state.json'))['counters']['cycles'])" 2>/dev/null || echo "?")
+          EQ=$(python3 -c "import json;print(json.load(open('state/state.json')).get('cash',0))" 2>/dev/null || echo "?")
+          curl -s "https://api.telegram.org/bot${{ secrets.TELEGRAM_TOKEN }}/sendMessage" \
+            -d chat_id=${{ secrets.CHAT_ID }} -d parse_mode=HTML \
+            --data-urlencode "text=🐸 Desk cycle #${CYC} done | kills: ${KILLS} | cash: \$${EQ}" \
+            || echo "TG SEND FAILED - check secret names"
       - run: |
           git config user.name desk-bot
           git config user.email desk-bot@users.noreply.github.com
