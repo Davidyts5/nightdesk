@@ -253,3 +253,6 @@
 {"ts": "2026-10-30 21:12:24 WAT", "kind": "SESSION", "msg": "desk online, 69 prior cycles in state"}
 {"ts": "2026-10-30 21:13:01 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: POR (no pair birth time)"}
 {"ts": "2026-10-30 21:13:01 WAT", "kind": "CYCLE", "msg": "cycle 70 done, equity $1000.00"}
+{"ts": "2026-10-30 21:23:53 WAT", "kind": "SESSION", "msg": "desk online, 70 prior cycles in state"}
+{"ts": "2026-10-30 21:24:21 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: free (mcap $563.0M > $20M)"}
+{"ts": "2026-10-30 21:24:21 WAT", "kind": "CYCLE", "msg": "cycle 71 done, equity $1000.00"}
