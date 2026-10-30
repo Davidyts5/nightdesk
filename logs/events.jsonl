@@ -13,3 +13,6 @@
 {"ts": "2026-10-30 03:23:10 WAT", "kind": "CYCLE", "msg": "cycle 5 done, equity $1000.00"}
 {"ts": "2026-10-30 03:34:10 WAT", "kind": "SESSION", "msg": "desk online, 5 prior cycles in state"}
 {"ts": "2026-10-30 03:34:44 WAT", "kind": "CYCLE", "msg": "cycle 6 done, equity $1000.00"}
+{"ts": "2026-10-30 03:45:32 WAT", "kind": "SESSION", "msg": "desk online, 6 prior cycles in state"}
+{"ts": "2026-10-30 03:46:07 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: BCIL (no pair birth time); $bi (no pair birth time)"}
+{"ts": "2026-10-30 03:46:07 WAT", "kind": "CYCLE", "msg": "cycle 7 done, equity $1000.00"}
