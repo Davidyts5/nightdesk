@@ -149,3 +149,6 @@
 {"ts": "2026-10-30 13:12:53 WAT", "kind": "SESSION", "msg": "desk online, 32 prior cycles in state"}
 {"ts": "2026-10-30 13:13:26 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: PPS (no pair birth time); CLAUDIA (mcap $239.8M > $20M); KIM (mcap $84.7M > $20M) ..."}
 {"ts": "2026-10-30 13:13:26 WAT", "kind": "CYCLE", "msg": "cycle 33 done, equity $1000.00"}
+{"ts": "2026-10-30 13:24:25 WAT", "kind": "SESSION", "msg": "desk online, 33 prior cycles in state"}
+{"ts": "2026-10-30 13:25:02 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: Mngchase (mcap $29.3M > $20M); COBA38 (mcap $26.1M > $20M)"}
+{"ts": "2026-10-30 13:25:02 WAT", "kind": "CYCLE", "msg": "cycle 34 done, equity $1000.00"}
