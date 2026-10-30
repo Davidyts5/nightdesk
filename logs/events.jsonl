@@ -68,3 +68,6 @@
 {"ts": "2026-10-30 07:24:23 WAT", "kind": "SESSION", "msg": "desk online, 2 prior cycles in state"}
 {"ts": "2026-10-30 07:25:02 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: AOP (mcap $37.4M > $20M)"}
 {"ts": "2026-10-30 07:25:02 WAT", "kind": "CYCLE", "msg": "cycle 3 done, equity $1000.00"}
+{"ts": "2026-10-30 07:36:08 WAT", "kind": "SESSION", "msg": "desk online, 3 prior cycles in state"}
+{"ts": "2026-10-30 07:36:44 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: E91 (mcap $397.3M > $20M)"}
+{"ts": "2026-10-30 07:36:45 WAT", "kind": "CYCLE", "msg": "cycle 4 done, equity $1000.00"}
