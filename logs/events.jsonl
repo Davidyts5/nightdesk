@@ -241,3 +241,6 @@
 {"ts": "2026-10-30 20:26:31 WAT", "kind": "SESSION", "msg": "desk online, 65 prior cycles in state"}
 {"ts": "2026-10-30 20:27:08 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: CIO (mcap $79.4M > $20M)"}
 {"ts": "2026-10-30 20:27:08 WAT", "kind": "CYCLE", "msg": "cycle 66 done, equity $1000.00"}
+{"ts": "2026-10-30 20:38:10 WAT", "kind": "SESSION", "msg": "desk online, 66 prior cycles in state"}
+{"ts": "2026-10-30 20:38:47 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: LIVE (no pair birth time); MINECAT (no pair birth time)"}
+{"ts": "2026-10-30 20:38:47 WAT", "kind": "CYCLE", "msg": "cycle 67 done, equity $1000.00"}
