@@ -80,3 +80,6 @@
 {"ts": "2026-10-30 08:10:51 WAT", "kind": "SESSION", "msg": "desk online, 6 prior cycles in state"}
 {"ts": "2026-10-30 08:11:20 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: Sonoct (mcap $22.6M > $20M); EURO-SOL (mcap $117.0M > $20M)"}
 {"ts": "2026-10-30 08:11:20 WAT", "kind": "CYCLE", "msg": "cycle 7 done, equity $1000.00"}
+{"ts": "2026-10-30 08:22:23 WAT", "kind": "SESSION", "msg": "desk online, 7 prior cycles in state"}
+{"ts": "2026-10-30 08:23:00 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: \ud83d\udd25\ud83d\ude02 (no pair birth time); SILTRN (mcap $30.7M > $20M)"}
+{"ts": "2026-10-30 08:23:02 WAT", "kind": "CYCLE", "msg": "cycle 8 done, equity $1000.00"}
