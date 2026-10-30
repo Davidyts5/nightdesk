@@ -155,3 +155,6 @@
 {"ts": "2026-10-30 13:36:04 WAT", "kind": "SESSION", "msg": "desk online, 34 prior cycles in state"}
 {"ts": "2026-10-30 13:36:40 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: CTO (mcap $83.7M > $20M); Gruffalo (mcap $81.5M > $20M); Ghost Cat (mcap $723975.0M > $20M) ..."}
 {"ts": "2026-10-30 13:36:40 WAT", "kind": "CYCLE", "msg": "cycle 35 done, equity $1000.00"}
+{"ts": "2026-10-30 13:47:31 WAT", "kind": "SESSION", "msg": "desk online, 35 prior cycles in state"}
+{"ts": "2026-10-30 13:48:08 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: CZC (no pair birth time)"}
+{"ts": "2026-10-30 13:48:08 WAT", "kind": "CYCLE", "msg": "cycle 36 done, equity $1000.00"}
