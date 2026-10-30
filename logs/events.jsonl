@@ -132,3 +132,5 @@
 {"ts": "2026-10-30 11:52:26 WAT", "kind": "CYCLE", "msg": "cycle 26 done, equity $1000.00"}
 {"ts": "2026-10-30 12:03:21 WAT", "kind": "SESSION", "msg": "desk online, 26 prior cycles in state"}
 {"ts": "2026-10-30 12:04:00 WAT", "kind": "CYCLE", "msg": "cycle 27 done, equity $1000.00"}
+{"ts": "2026-10-30 12:15:04 WAT", "kind": "SESSION", "msg": "desk online, 27 prior cycles in state"}
+{"ts": "2026-10-30 12:15:41 WAT", "kind": "CYCLE", "msg": "cycle 28 done, equity $1000.00"}
