@@ -1026,6 +1026,33 @@ def do_cycle(state, scout, flt, analyst, executor, risk, log):
     return fresh
 
 
+def rollover_if_needed(state, log):
+    """New trading day: write yesterday's recap, roll the balance forward, fresh sheet."""
+    if not state.get("end_epoch") or time.time() < state["end_epoch"]:
+        return
+    md = log.recap_md(state, {}, "session end (morning rollover)")
+    with open(log.recap_path, "w") as f:
+        f.write(md)
+    print(md[:600], flush=True)
+    log.event("SESSION", "morning recap written at rollover")
+    eq = state["cash"] + sum(p["tokens"] * p.get("last_price", 0) or 0
+                             for p in state["positions"].values())
+    state["start_balance"] = eq
+    state["cash"] = eq
+    state["kills_by_rule"] = {}
+    state["kills_cache"] = {}
+    state["survivors"] = {}
+    state["rug_cache"] = {}
+    state["counters"] = new_state()["counters"]
+    state["trade_seq"] = 1
+    state["started_at"] = iso_now()
+    state["end_epoch"] = compute_end_epoch()
+    save_state(state)
+    print("[%s] NEW SESSION - balance $%.2f rolled forward, ends %s"
+          % (iso_now(), eq, datetime.fromtimestamp(state["end_epoch"], TZ).strftime("%Y-%m-%d %H:%M WAT")),
+          flush=True)
+
+
 def main():
     once = "--once" in sys.argv
     recap_only = "--recap" in sys.argv
@@ -1045,6 +1072,7 @@ def main():
     if state["end_epoch"] is None:
         state["end_epoch"] = compute_end_epoch()
         save_state(state)
+    rollover_if_needed(state, log)
 
     if recap_only:
         fresh = scout.gather([p["mint"] for p in state["positions"].values()])
@@ -1176,11 +1204,11 @@ def tg_push_main():
         by = {}
         for k in kills:
             by[k.get("rule", "?")] = by.get(k.get("rule", "?"), 0) + 1
-        _send("\U0001F5D1 <b>Kill digest: %d scams rejected</b>\n%s"
+        _send("🗑 <b>Kill digest: %d scams rejected</b>\n%s"
               % (len(kills), _esc(", ".join("%sx%d" % kv for kv in sorted(by.items(), key=lambda x: -x[1])))))
     else:
         for k in kills:
-            _send("\🗑 <b>KILL %s - %s</b>\n<i>%s</i>"
+            _send("🗑 <b>KILL %s - %s</b>\n<i>%s</i>"
                   % (_esc(k.get("rule")), _esc(k.get("symbol")), _esc(str(k.get("detail", ""))[:90])))
 
     if os.path.exists("reports/morning_recap.md"):
