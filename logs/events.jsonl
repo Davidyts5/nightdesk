@@ -264,3 +264,6 @@
 {"ts": "2026-10-30 21:58:26 WAT", "kind": "SESSION", "msg": "desk online, 73 prior cycles in state"}
 {"ts": "2026-10-30 21:59:04 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: AKIRA (no pair birth time)"}
 {"ts": "2026-10-30 21:59:04 WAT", "kind": "CYCLE", "msg": "cycle 74 done, equity $1000.00"}
+{"ts": "2026-10-30 22:10:05 WAT", "kind": "SESSION", "msg": "desk online, 74 prior cycles in state"}
+{"ts": "2026-10-30 22:10:39 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: PILLY (mcap $569.0M > $20M); Pumpfluencer (mcap $74.4M > $20M)"}
+{"ts": "2026-10-30 22:10:43 WAT", "kind": "CYCLE", "msg": "cycle 75 done, equity $1000.00"}
