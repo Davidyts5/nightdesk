@@ -295,3 +295,6 @@
 {"ts": "2026-10-31 00:05:56 WAT", "kind": "SESSION", "msg": "desk online, 84 prior cycles in state"}
 {"ts": "2026-10-31 00:06:29 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: USOE (mcap $576.1M > $20M)"}
 {"ts": "2026-10-31 00:06:31 WAT", "kind": "CYCLE", "msg": "cycle 85 done, equity $1000.00"}
+{"ts": "2026-10-31 00:17:26 WAT", "kind": "SESSION", "msg": "desk online, 85 prior cycles in state"}
+{"ts": "2026-10-31 00:18:03 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: iCoin (mcap $1037.9M > $20M); ADP (mcap $143.7M > $20M)"}
+{"ts": "2026-10-31 00:18:03 WAT", "kind": "CYCLE", "msg": "cycle 86 done, equity $1000.00"}
