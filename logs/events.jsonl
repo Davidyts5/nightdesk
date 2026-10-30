@@ -193,3 +193,6 @@
 {"ts": "2026-10-30 17:08:31 WAT", "kind": "SESSION", "msg": "desk online, 48 prior cycles in state"}
 {"ts": "2026-10-30 17:09:08 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: MOONINU (no pair birth time); GIGALON (mcap $271.6M > $20M)"}
 {"ts": "2026-10-30 17:09:08 WAT", "kind": "CYCLE", "msg": "cycle 49 done, equity $1000.00"}
+{"ts": "2026-10-30 17:20:12 WAT", "kind": "SESSION", "msg": "desk online, 49 prior cycles in state"}
+{"ts": "2026-10-30 17:20:49 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: MONGHERO (mcap $32.2M > $20M)"}
+{"ts": "2026-10-30 17:20:50 WAT", "kind": "CYCLE", "msg": "cycle 50 done, equity $1000.00"}
