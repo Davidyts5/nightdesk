@@ -160,3 +160,6 @@
 {"ts": "2026-10-30 13:48:08 WAT", "kind": "CYCLE", "msg": "cycle 36 done, equity $1000.00"}
 {"ts": "2026-10-30 13:59:06 WAT", "kind": "SESSION", "msg": "desk online, 36 prior cycles in state"}
 {"ts": "2026-10-30 13:59:43 WAT", "kind": "CYCLE", "msg": "cycle 37 done, equity $1000.00"}
+{"ts": "2026-10-30 14:10:28 WAT", "kind": "SESSION", "msg": "desk online, 37 prior cycles in state"}
+{"ts": "2026-10-30 14:10:52 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: BTC (mcap $590.7M > $20M)"}
+{"ts": "2026-10-30 14:10:52 WAT", "kind": "CYCLE", "msg": "cycle 38 done, equity $1000.00"}
