@@ -11,3 +11,5 @@
 {"ts": "2026-10-30 03:22:39 WAT", "kind": "SESSION", "msg": "desk online, 4 prior cycles in state"}
 {"ts": "2026-10-30 03:23:09 WAT", "kind": "SCOUT_DROP", "msg": "13 outside scope: HN (hatchery TTL 6h, never qualified); HN (hatchery TTL 6h, never qualified); HN (hatchery TTL 6h, never qualified) ..."}
 {"ts": "2026-10-30 03:23:10 WAT", "kind": "CYCLE", "msg": "cycle 5 done, equity $1000.00"}
+{"ts": "2026-10-30 03:34:10 WAT", "kind": "SESSION", "msg": "desk online, 5 prior cycles in state"}
+{"ts": "2026-10-30 03:34:44 WAT", "kind": "CYCLE", "msg": "cycle 6 done, equity $1000.00"}
