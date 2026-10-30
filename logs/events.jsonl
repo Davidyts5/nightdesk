@@ -83,3 +83,6 @@
 {"ts": "2026-10-30 08:22:23 WAT", "kind": "SESSION", "msg": "desk online, 7 prior cycles in state"}
 {"ts": "2026-10-30 08:23:00 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: \ud83d\udd25\ud83d\ude02 (no pair birth time); SILTRN (mcap $30.7M > $20M)"}
 {"ts": "2026-10-30 08:23:02 WAT", "kind": "CYCLE", "msg": "cycle 8 done, equity $1000.00"}
+{"ts": "2026-10-30 08:34:06 WAT", "kind": "SESSION", "msg": "desk online, 8 prior cycles in state"}
+{"ts": "2026-10-30 08:34:43 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: E91 (mcap $476.1M > $20M); XTO (mcap $22.3M > $20M)"}
+{"ts": "2026-10-30 08:34:44 WAT", "kind": "CYCLE", "msg": "cycle 9 done, equity $1000.00"}
