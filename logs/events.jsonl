@@ -111,3 +111,6 @@
 {"ts": "2026-10-30 10:19:44 WAT", "kind": "CYCLE", "msg": "cycle 18 done, equity $1000.00"}
 {"ts": "2026-10-30 10:30:36 WAT", "kind": "SESSION", "msg": "desk online, 18 prior cycles in state"}
 {"ts": "2026-10-30 10:31:10 WAT", "kind": "CYCLE", "msg": "cycle 19 done, equity $1000.00"}
+{"ts": "2026-10-30 10:42:13 WAT", "kind": "SESSION", "msg": "desk online, 19 prior cycles in state"}
+{"ts": "2026-10-30 10:42:47 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: MrBeast (mcap $81.9M > $20M)"}
+{"ts": "2026-10-30 10:42:48 WAT", "kind": "CYCLE", "msg": "cycle 20 done, equity $1000.00"}
