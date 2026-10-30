@@ -169,3 +169,6 @@
 {"ts": "2026-10-30 14:33:15 WAT", "kind": "SESSION", "msg": "desk online, 39 prior cycles in state"}
 {"ts": "2026-10-30 14:33:52 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: UNIPARTY (no pair birth time); Ironhrt (mcap $30.6M > $20M)"}
 {"ts": "2026-10-30 14:33:52 WAT", "kind": "CYCLE", "msg": "cycle 40 done, equity $1000.00"}
+{"ts": "2026-10-30 14:44:52 WAT", "kind": "SESSION", "msg": "desk online, 40 prior cycles in state"}
+{"ts": "2026-10-30 14:45:21 WAT", "kind": "SCOUT_DROP", "msg": "5 outside scope: 1029 (mcap $58.0M > $20M); UDTF (mcap $1784.8M > $20M); Ardlake (mcap $29.8M > $20M) ..."}
+{"ts": "2026-10-30 14:45:21 WAT", "kind": "CYCLE", "msg": "cycle 41 done, equity $1000.00"}
