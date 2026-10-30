@@ -190,3 +190,6 @@
 {"ts": "2026-10-30 16:56:58 WAT", "kind": "SESSION", "msg": "desk online, 47 prior cycles in state"}
 {"ts": "2026-10-30 16:57:32 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: Periodt (no pair birth time); PERIDOT (no pair birth time); NEBULA (mcap $68.4M > $20M) ..."}
 {"ts": "2026-10-30 16:57:32 WAT", "kind": "CYCLE", "msg": "cycle 48 done, equity $1000.00"}
+{"ts": "2026-10-30 17:08:31 WAT", "kind": "SESSION", "msg": "desk online, 48 prior cycles in state"}
+{"ts": "2026-10-30 17:09:08 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: MOONINU (no pair birth time); GIGALON (mcap $271.6M > $20M)"}
+{"ts": "2026-10-30 17:09:08 WAT", "kind": "CYCLE", "msg": "cycle 49 done, equity $1000.00"}
