@@ -261,3 +261,6 @@
 {"ts": "2026-10-30 21:35:57 WAT", "kind": "CYCLE", "msg": "cycle 72 done, equity $1000.00"}
 {"ts": "2026-10-30 21:46:57 WAT", "kind": "SESSION", "msg": "desk online, 72 prior cycles in state"}
 {"ts": "2026-10-30 21:47:31 WAT", "kind": "CYCLE", "msg": "cycle 73 done, equity $1000.00"}
+{"ts": "2026-10-30 21:58:26 WAT", "kind": "SESSION", "msg": "desk online, 73 prior cycles in state"}
+{"ts": "2026-10-30 21:59:04 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: AKIRA (no pair birth time)"}
+{"ts": "2026-10-30 21:59:04 WAT", "kind": "CYCLE", "msg": "cycle 74 done, equity $1000.00"}
