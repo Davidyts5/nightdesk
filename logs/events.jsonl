@@ -292,3 +292,6 @@
 {"ts": "2026-10-30 23:43:07 WAT", "kind": "CYCLE", "msg": "cycle 83 done, equity $1000.00"}
 {"ts": "2026-10-30 23:54:18 WAT", "kind": "SESSION", "msg": "desk online, 83 prior cycles in state"}
 {"ts": "2026-10-30 23:54:56 WAT", "kind": "CYCLE", "msg": "cycle 84 done, equity $1000.00"}
+{"ts": "2026-10-31 00:05:56 WAT", "kind": "SESSION", "msg": "desk online, 84 prior cycles in state"}
+{"ts": "2026-10-31 00:06:29 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: USOE (mcap $576.1M > $20M)"}
+{"ts": "2026-10-31 00:06:31 WAT", "kind": "CYCLE", "msg": "cycle 85 done, equity $1000.00"}
