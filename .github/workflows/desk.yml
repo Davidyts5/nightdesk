@@ -1,10 +1,14 @@
 name: desk
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "7-59/20 * * * *"
   workflow_dispatch: {}
 permissions:
   contents: write
+  actions: write
+concurrency:
+  group: desk
+  cancel-in-progress: false
 jobs:
   desk:
     runs-on: ubuntu-latest
@@ -24,6 +28,13 @@ jobs:
             -d chat_id=${{ secrets.CHAT_ID }} -d parse_mode=HTML \
             --data-urlencode "text=🐸 Desk cycle #${CYC} done | kills: ${KILLS} | cash: \$${EQ}" \
             || echo "TG SEND FAILED - check secret names"
+      - name: chain next run in 5 min
+        run: |
+          sleep 300
+          curl -s -X POST -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/desk.yml/dispatches" \
+            -d '{"ref":"main"}'
       - run: |
           git config user.name desk-bot
           git config user.email desk-bot@users.noreply.github.com
