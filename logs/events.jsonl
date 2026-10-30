@@ -106,3 +106,6 @@
 {"ts": "2026-10-30 09:56:38 WAT", "kind": "CYCLE", "msg": "cycle 16 done, equity $1000.00"}
 {"ts": "2026-10-30 10:07:31 WAT", "kind": "SESSION", "msg": "desk online, 16 prior cycles in state"}
 {"ts": "2026-10-30 10:08:09 WAT", "kind": "CYCLE", "msg": "cycle 17 done, equity $1000.00"}
+{"ts": "2026-10-30 10:19:07 WAT", "kind": "SESSION", "msg": "desk online, 17 prior cycles in state"}
+{"ts": "2026-10-30 10:19:44 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: EUROSWN (mcap $28.6M > $20M)"}
+{"ts": "2026-10-30 10:19:44 WAT", "kind": "CYCLE", "msg": "cycle 18 done, equity $1000.00"}
