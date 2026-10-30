@@ -124,3 +124,6 @@
 {"ts": "2026-10-30 11:28:37 WAT", "kind": "SESSION", "msg": "desk online, 23 prior cycles in state"}
 {"ts": "2026-10-30 11:29:09 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: CTO (no pair birth time)"}
 {"ts": "2026-10-30 11:29:09 WAT", "kind": "CYCLE", "msg": "cycle 24 done, equity $1000.00"}
+{"ts": "2026-10-30 11:40:13 WAT", "kind": "SESSION", "msg": "desk online, 24 prior cycles in state"}
+{"ts": "2026-10-30 11:40:50 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: \ud83d\ude2c\ud83d\ude2c (no pair birth time); CTO (mcap $93.8M > $20M)"}
+{"ts": "2026-10-30 11:40:51 WAT", "kind": "CYCLE", "msg": "cycle 25 done, equity $1000.00"}
