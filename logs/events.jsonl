@@ -196,3 +196,6 @@
 {"ts": "2026-10-30 17:20:12 WAT", "kind": "SESSION", "msg": "desk online, 49 prior cycles in state"}
 {"ts": "2026-10-30 17:20:49 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: MONGHERO (mcap $32.2M > $20M)"}
 {"ts": "2026-10-30 17:20:50 WAT", "kind": "CYCLE", "msg": "cycle 50 done, equity $1000.00"}
+{"ts": "2026-10-30 17:32:00 WAT", "kind": "SESSION", "msg": "desk online, 50 prior cycles in state"}
+{"ts": "2026-10-30 17:32:37 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: CC (mcap $96.0M > $20M); Fedinu (mcap $92.7M > $20M); SPACECAT (mcap $43.5M > $20M)"}
+{"ts": "2026-10-30 17:32:37 WAT", "kind": "CYCLE", "msg": "cycle 51 done, equity $1000.00"}
