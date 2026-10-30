@@ -250,3 +250,6 @@
 {"ts": "2026-10-30 21:01:06 WAT", "kind": "SESSION", "msg": "desk online, 68 prior cycles in state"}
 {"ts": "2026-10-30 21:01:27 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: ACAT (mcap $91.2M > $20M)"}
 {"ts": "2026-10-30 21:01:27 WAT", "kind": "CYCLE", "msg": "cycle 69 done, equity $1000.00"}
+{"ts": "2026-10-30 21:12:24 WAT", "kind": "SESSION", "msg": "desk online, 69 prior cycles in state"}
+{"ts": "2026-10-30 21:13:01 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: POR (no pair birth time)"}
+{"ts": "2026-10-30 21:13:01 WAT", "kind": "CYCLE", "msg": "cycle 70 done, equity $1000.00"}
