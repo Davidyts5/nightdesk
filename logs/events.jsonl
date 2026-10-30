@@ -272,3 +272,6 @@
 {"ts": "2026-10-30 22:22:15 WAT", "kind": "CYCLE", "msg": "cycle 76 done, equity $1000.00"}
 {"ts": "2026-10-30 22:33:17 WAT", "kind": "SESSION", "msg": "desk online, 76 prior cycles in state"}
 {"ts": "2026-10-30 22:33:55 WAT", "kind": "CYCLE", "msg": "cycle 77 done, equity $1000.00"}
+{"ts": "2026-10-30 22:44:44 WAT", "kind": "SESSION", "msg": "desk online, 77 prior cycles in state"}
+{"ts": "2026-10-30 22:45:18 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: REMARC (mcap $87.6M > $20M)"}
+{"ts": "2026-10-30 22:45:18 WAT", "kind": "CYCLE", "msg": "cycle 78 done, equity $1000.00"}
