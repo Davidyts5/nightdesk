@@ -298,3 +298,6 @@
 {"ts": "2026-10-31 00:17:26 WAT", "kind": "SESSION", "msg": "desk online, 85 prior cycles in state"}
 {"ts": "2026-10-31 00:18:03 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: iCoin (mcap $1037.9M > $20M); ADP (mcap $143.7M > $20M)"}
 {"ts": "2026-10-31 00:18:03 WAT", "kind": "CYCLE", "msg": "cycle 86 done, equity $1000.00"}
+{"ts": "2026-10-31 00:29:14 WAT", "kind": "SESSION", "msg": "desk online, 86 prior cycles in state"}
+{"ts": "2026-10-31 00:29:51 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Candy (mcap $408.4M > $20M)"}
+{"ts": "2026-10-31 00:29:51 WAT", "kind": "CYCLE", "msg": "cycle 87 done, equity $1000.00"}
