@@ -166,3 +166,6 @@
 {"ts": "2026-10-30 14:21:38 WAT", "kind": "SESSION", "msg": "desk online, 38 prior cycles in state"}
 {"ts": "2026-10-30 14:22:13 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Pum Coin (mcap $409.6M > $20M)"}
 {"ts": "2026-10-30 14:22:14 WAT", "kind": "CYCLE", "msg": "cycle 39 done, equity $1000.00"}
+{"ts": "2026-10-30 14:33:15 WAT", "kind": "SESSION", "msg": "desk online, 39 prior cycles in state"}
+{"ts": "2026-10-30 14:33:52 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: UNIPARTY (no pair birth time); Ironhrt (mcap $30.6M > $20M)"}
+{"ts": "2026-10-30 14:33:52 WAT", "kind": "CYCLE", "msg": "cycle 40 done, equity $1000.00"}
