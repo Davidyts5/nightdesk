@@ -71,3 +71,6 @@
 {"ts": "2026-10-30 07:36:08 WAT", "kind": "SESSION", "msg": "desk online, 3 prior cycles in state"}
 {"ts": "2026-10-30 07:36:44 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: E91 (mcap $397.3M > $20M)"}
 {"ts": "2026-10-30 07:36:45 WAT", "kind": "CYCLE", "msg": "cycle 4 done, equity $1000.00"}
+{"ts": "2026-10-30 07:47:42 WAT", "kind": "SESSION", "msg": "desk online, 4 prior cycles in state"}
+{"ts": "2026-10-30 07:48:09 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: AUUD (mcap $71.0M > $20M)"}
+{"ts": "2026-10-30 07:48:10 WAT", "kind": "CYCLE", "msg": "cycle 5 done, equity $1000.00"}
