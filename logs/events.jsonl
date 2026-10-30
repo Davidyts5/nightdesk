@@ -174,3 +174,6 @@
 {"ts": "2026-10-30 14:45:21 WAT", "kind": "CYCLE", "msg": "cycle 41 done, equity $1000.00"}
 {"ts": "2026-10-30 14:56:05 WAT", "kind": "SESSION", "msg": "desk online, 41 prior cycles in state"}
 {"ts": "2026-10-30 14:56:43 WAT", "kind": "CYCLE", "msg": "cycle 42 done, equity $1000.00"}
+{"ts": "2026-10-30 15:07:37 WAT", "kind": "SESSION", "msg": "desk online, 42 prior cycles in state"}
+{"ts": "2026-10-30 15:08:12 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: SpookyPant (mcap $86.8M > $20M); USDF (mcap $140.7M > $20M)"}
+{"ts": "2026-10-30 15:08:13 WAT", "kind": "CYCLE", "msg": "cycle 43 done, equity $1000.00"}
