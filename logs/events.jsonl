@@ -92,3 +92,6 @@
 {"ts": "2026-10-30 08:57:23 WAT", "kind": "SESSION", "msg": "desk online, 10 prior cycles in state"}
 {"ts": "2026-10-30 08:58:00 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: RARI (mcap $96.1M > $20M)"}
 {"ts": "2026-10-30 08:58:00 WAT", "kind": "CYCLE", "msg": "cycle 11 done, equity $1000.00"}
+{"ts": "2026-10-30 09:08:57 WAT", "kind": "SESSION", "msg": "desk online, 11 prior cycles in state"}
+{"ts": "2026-10-30 09:09:31 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: NEX AI (mcap $2464.4M > $20M)"}
+{"ts": "2026-10-30 09:09:31 WAT", "kind": "CYCLE", "msg": "cycle 12 done, equity $1000.00"}
