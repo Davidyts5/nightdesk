@@ -86,3 +86,6 @@
 {"ts": "2026-10-30 08:34:06 WAT", "kind": "SESSION", "msg": "desk online, 8 prior cycles in state"}
 {"ts": "2026-10-30 08:34:43 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: E91 (mcap $476.1M > $20M); XTO (mcap $22.3M > $20M)"}
 {"ts": "2026-10-30 08:34:44 WAT", "kind": "CYCLE", "msg": "cycle 9 done, equity $1000.00"}
+{"ts": "2026-10-30 08:45:38 WAT", "kind": "SESSION", "msg": "desk online, 9 prior cycles in state"}
+{"ts": "2026-10-30 08:46:12 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: CZ DNA (no pair birth time)"}
+{"ts": "2026-10-30 08:46:14 WAT", "kind": "CYCLE", "msg": "cycle 10 done, equity $1000.00"}
