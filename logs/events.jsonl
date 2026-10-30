@@ -244,3 +244,6 @@
 {"ts": "2026-10-30 20:38:10 WAT", "kind": "SESSION", "msg": "desk online, 66 prior cycles in state"}
 {"ts": "2026-10-30 20:38:47 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: LIVE (no pair birth time); MINECAT (no pair birth time)"}
 {"ts": "2026-10-30 20:38:47 WAT", "kind": "CYCLE", "msg": "cycle 67 done, equity $1000.00"}
+{"ts": "2026-10-30 20:49:27 WAT", "kind": "SESSION", "msg": "desk online, 67 prior cycles in state"}
+{"ts": "2026-10-30 20:50:04 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: Halloween (mcap $371.6M > $20M); NIGHT (mcap $38.9M > $20M)"}
+{"ts": "2026-10-30 20:50:04 WAT", "kind": "CYCLE", "msg": "cycle 68 done, equity $1000.00"}
