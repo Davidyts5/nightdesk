@@ -55,3 +55,6 @@
 {"ts": "2026-10-30 06:27:21 WAT", "kind": "CYCLE", "msg": "cycle 21 done, equity $1000.00"}
 {"ts": "2026-10-30 06:38:20 WAT", "kind": "SESSION", "msg": "desk online, 21 prior cycles in state"}
 {"ts": "2026-10-30 06:38:51 WAT", "kind": "CYCLE", "msg": "cycle 22 done, equity $1000.00"}
+{"ts": "2026-10-30 06:49:48 WAT", "kind": "SESSION", "msg": "desk online, 22 prior cycles in state"}
+{"ts": "2026-10-30 06:50:21 WAT", "kind": "SCOUT_DROP", "msg": "5 outside scope: IROKOKO (no pair birth time); GM (no pair birth time); Steak (no pair birth time) ..."}
+{"ts": "2026-10-30 06:50:21 WAT", "kind": "CYCLE", "msg": "cycle 23 done, equity $1000.00"}
