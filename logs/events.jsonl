@@ -89,3 +89,6 @@
 {"ts": "2026-10-30 08:45:38 WAT", "kind": "SESSION", "msg": "desk online, 9 prior cycles in state"}
 {"ts": "2026-10-30 08:46:12 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: CZ DNA (no pair birth time)"}
 {"ts": "2026-10-30 08:46:14 WAT", "kind": "CYCLE", "msg": "cycle 10 done, equity $1000.00"}
+{"ts": "2026-10-30 08:57:23 WAT", "kind": "SESSION", "msg": "desk online, 10 prior cycles in state"}
+{"ts": "2026-10-30 08:58:00 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: RARI (mcap $96.1M > $20M)"}
+{"ts": "2026-10-30 08:58:00 WAT", "kind": "CYCLE", "msg": "cycle 11 done, equity $1000.00"}
