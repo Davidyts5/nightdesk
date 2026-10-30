@@ -77,3 +77,6 @@
 {"ts": "2026-10-30 07:59:12 WAT", "kind": "SESSION", "msg": "desk online, 5 prior cycles in state"}
 {"ts": "2026-10-30 07:59:50 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: Votgho (mcap $39.7M > $20M); ETC (mcap $723.1M > $20M); KRW (mcap $70.0M > $20M) ..."}
 {"ts": "2026-10-30 07:59:50 WAT", "kind": "CYCLE", "msg": "cycle 6 done, equity $1000.00"}
+{"ts": "2026-10-30 08:10:51 WAT", "kind": "SESSION", "msg": "desk online, 6 prior cycles in state"}
+{"ts": "2026-10-30 08:11:20 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: Sonoct (mcap $22.6M > $20M); EURO-SOL (mcap $117.0M > $20M)"}
+{"ts": "2026-10-30 08:11:20 WAT", "kind": "CYCLE", "msg": "cycle 7 done, equity $1000.00"}
