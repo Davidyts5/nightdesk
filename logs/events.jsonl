@@ -158,3 +158,5 @@
 {"ts": "2026-10-30 13:47:31 WAT", "kind": "SESSION", "msg": "desk online, 35 prior cycles in state"}
 {"ts": "2026-10-30 13:48:08 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: CZC (no pair birth time)"}
 {"ts": "2026-10-30 13:48:08 WAT", "kind": "CYCLE", "msg": "cycle 36 done, equity $1000.00"}
+{"ts": "2026-10-30 13:59:06 WAT", "kind": "SESSION", "msg": "desk online, 36 prior cycles in state"}
+{"ts": "2026-10-30 13:59:43 WAT", "kind": "CYCLE", "msg": "cycle 37 done, equity $1000.00"}
