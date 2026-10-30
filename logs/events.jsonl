@@ -62,3 +62,6 @@
 {"ts": "2026-10-30 07:01:20 WAT", "kind": "SESSION", "msg": "desk online, 0 prior cycles in state"}
 {"ts": "2026-10-30 07:01:58 WAT", "kind": "SCOUT_DROP", "msg": "8 outside scope: UNBOTHERED (no pair birth time); TELEPATHY (no pair birth time); UDTF (mcap $736.6M > $20M) ..."}
 {"ts": "2026-10-30 07:01:58 WAT", "kind": "CYCLE", "msg": "cycle 1 done, equity $1000.00"}
+{"ts": "2026-10-30 07:12:56 WAT", "kind": "SESSION", "msg": "desk online, 1 prior cycles in state"}
+{"ts": "2026-10-30 07:13:28 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: FWOG (mcap $64.8M > $20M); FIKESMK (mcap $40.0M > $20M); NIO (mcap $88.6M > $20M)"}
+{"ts": "2026-10-30 07:13:28 WAT", "kind": "CYCLE", "msg": "cycle 2 done, equity $1000.00"}
