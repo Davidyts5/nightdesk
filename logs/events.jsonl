@@ -281,3 +281,6 @@
 {"ts": "2026-10-30 23:08:02 WAT", "kind": "SESSION", "msg": "desk online, 79 prior cycles in state"}
 {"ts": "2026-10-30 23:08:39 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: Poland (no pair birth time); Ghost Cat (mcap $603.1M > $20M); ONBOARD (mcap $29.0M > $20M)"}
 {"ts": "2026-10-30 23:08:39 WAT", "kind": "CYCLE", "msg": "cycle 80 done, equity $1000.00"}
+{"ts": "2026-10-30 23:19:34 WAT", "kind": "SESSION", "msg": "desk online, 80 prior cycles in state"}
+{"ts": "2026-10-30 23:19:56 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: CHIP (no pair birth time); Ghost Dog (mcap $554.9M > $20M); P C (mcap $409.1M > $20M)"}
+{"ts": "2026-10-30 23:19:59 WAT", "kind": "CYCLE", "msg": "cycle 81 done, equity $1000.00"}
