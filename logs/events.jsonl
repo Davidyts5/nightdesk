@@ -224,3 +224,6 @@
 {"ts": "2026-10-30 19:18:12 WAT", "kind": "SESSION", "msg": "desk online, 59 prior cycles in state"}
 {"ts": "2026-10-30 19:18:49 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: USDT (mcap $133.8M > $20M)"}
 {"ts": "2026-10-30 19:18:49 WAT", "kind": "CYCLE", "msg": "cycle 60 done, equity $1000.00"}
+{"ts": "2026-10-30 19:29:55 WAT", "kind": "SESSION", "msg": "desk online, 60 prior cycles in state"}
+{"ts": "2026-10-30 19:30:20 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: KITTY (mcap $124.5M > $20M)"}
+{"ts": "2026-10-30 19:30:20 WAT", "kind": "CYCLE", "msg": "cycle 61 done, equity $1000.00"}
