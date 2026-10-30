@@ -99,3 +99,6 @@
 {"ts": "2026-10-30 09:21:00 WAT", "kind": "CYCLE", "msg": "cycle 13 done, equity $1000.00"}
 {"ts": "2026-10-30 09:31:59 WAT", "kind": "SESSION", "msg": "desk online, 13 prior cycles in state"}
 {"ts": "2026-10-30 09:32:33 WAT", "kind": "CYCLE", "msg": "cycle 14 done, equity $1000.00"}
+{"ts": "2026-10-30 09:43:31 WAT", "kind": "SESSION", "msg": "desk online, 14 prior cycles in state"}
+{"ts": "2026-10-30 09:44:09 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: RAMP (mcap $343.3M > $20M)"}
+{"ts": "2026-10-30 09:44:09 WAT", "kind": "CYCLE", "msg": "cycle 15 done, equity $1000.00"}
