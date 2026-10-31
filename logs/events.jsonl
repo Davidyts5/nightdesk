@@ -391,3 +391,6 @@
 {"ts": "2026-10-31 06:45:54 WAT", "kind": "SESSION", "msg": "desk online, 19 prior cycles in state"}
 {"ts": "2026-10-31 06:46:26 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: LUMI (mcap $137.8M > $20M); UODF (mcap $36.5M > $20M); Halloween (mcap $307.3M > $20M) ..."}
 {"ts": "2026-10-31 06:46:42 WAT", "kind": "CYCLE", "msg": "cycle 20 done, equity $1000.00"}
+{"ts": "2026-10-31 06:58:13 WAT", "kind": "SESSION", "msg": "desk online, 20 prior cycles in state"}
+{"ts": "2026-10-31 06:58:50 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: AOTF (mcap $140.2M > $20M); SAFU (mcap $291.0M > $20M)"}
+{"ts": "2026-10-31 06:58:50 WAT", "kind": "CYCLE", "msg": "cycle 21 done, equity $1000.00"}
