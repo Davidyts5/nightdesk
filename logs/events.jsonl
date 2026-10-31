@@ -552,3 +552,7 @@
 {"ts": "2026-10-31 13:16:00 WAT", "kind": "SESSION", "msg": "desk online, 41 prior cycles in state"}
 {"ts": "2026-10-31 13:17:26 WAT", "kind": "SCOUT_DROP", "msg": "6 outside scope: VAMPCAT (mcap $1570.3M > $20M); FOMO (mcap $84.2M > $20M); LUMI (mcap $126.2M > $20M) ..."}
 {"ts": "2026-10-31 13:18:08 WAT", "kind": "CYCLE", "msg": "cycle 42 done, equity $1000.00"}
+{"ts": "2026-10-31 13:23:19 WAT", "kind": "SESSION", "msg": "desk online, 42 prior cycles in state"}
+{"ts": "2026-10-31 13:24:34 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: Wojak (mcap $245.4M > $20M); TENURE (mcap $63.1M > $20M); Wojak (mcap $104.6M > $20M)"}
+{"ts": "2026-10-31 13:25:14 WAT", "kind": "DEFER", "msg": "NEX Ai: safety data unreachable (strike 1/3, HTTPError) - retrying next cycle"}
+{"ts": "2026-10-31 13:25:14 WAT", "kind": "CYCLE", "msg": "cycle 43 done, equity $1000.00"}
