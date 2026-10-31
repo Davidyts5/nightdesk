@@ -500,3 +500,6 @@
 {"ts": "2026-10-31 11:41:32 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: WRAP (no pair birth time); Kraken (mcap $83.9M > $20M); \uc0bc\uc131\ucc2c (mcap $158.6M > $20M)"}
 {"ts": "2026-10-31 11:42:11 WAT", "kind": "DEFER", "msg": "BEAST: safety data unreachable (strike 2/3, HTTPError) - retrying next cycle"}
 {"ts": "2026-10-31 11:42:11 WAT", "kind": "CYCLE", "msg": "cycle 30 done, equity $1000.00"}
+{"ts": "2026-10-31 11:47:22 WAT", "kind": "SESSION", "msg": "desk online, 30 prior cycles in state"}
+{"ts": "2026-10-31 11:48:38 WAT", "kind": "SCOUT_DROP", "msg": "5 outside scope: $CWH (no pair birth time); keep going (no pair birth time); Bible (no pair birth time) ..."}
+{"ts": "2026-10-31 11:49:17 WAT", "kind": "CYCLE", "msg": "cycle 31 done, equity $1000.00"}
