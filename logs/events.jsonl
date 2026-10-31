@@ -394,3 +394,7 @@
 {"ts": "2026-10-31 06:58:13 WAT", "kind": "SESSION", "msg": "desk online, 20 prior cycles in state"}
 {"ts": "2026-10-31 06:58:50 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: AOTF (mcap $140.2M > $20M); SAFU (mcap $291.0M > $20M)"}
 {"ts": "2026-10-31 06:58:50 WAT", "kind": "CYCLE", "msg": "cycle 21 done, equity $1000.00"}
+{"ts": "2026-10-31 07:10:00 WAT", "kind": "SESSION", "msg": "morning recap written at rollover"}
+{"ts": "2026-10-31 07:10:00 WAT", "kind": "SESSION", "msg": "desk online, 0 prior cycles in state"}
+{"ts": "2026-10-31 07:10:37 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: MetaMask (mcap $94.2M > $20M); ANON (mcap $125.3M > $20M)"}
+{"ts": "2026-10-31 07:10:54 WAT", "kind": "CYCLE", "msg": "cycle 1 done, equity $1000.00"}
