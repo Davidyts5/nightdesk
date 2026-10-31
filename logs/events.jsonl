@@ -526,3 +526,7 @@
 {"ts": "2026-10-31 12:30:21 WAT", "kind": "SESSION", "msg": "desk online, 36 prior cycles in state"}
 {"ts": "2026-10-31 12:31:36 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: LBS (no pair birth time); ATOMBRG (mcap $98.1M > $20M)"}
 {"ts": "2026-10-31 12:31:36 WAT", "kind": "CYCLE", "msg": "cycle 37 done, equity $1000.00"}
+{"ts": "2026-10-31 12:36:46 WAT", "kind": "SESSION", "msg": "desk online, 37 prior cycles in state"}
+{"ts": "2026-10-31 12:38:42 WAT", "kind": "DEFER", "msg": "PQCJAK: safety data unreachable (strike 1/3, HTTPError) - retrying next cycle"}
+{"ts": "2026-10-31 12:39:24 WAT", "kind": "DEFER", "msg": "Whitepaper: safety data unreachable (strike 1/3, HTTPError) - retrying next cycle"}
+{"ts": "2026-10-31 12:39:24 WAT", "kind": "CYCLE", "msg": "cycle 38 done, equity $1000.00"}
