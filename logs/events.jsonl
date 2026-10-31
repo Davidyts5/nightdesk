@@ -382,3 +382,6 @@
 {"ts": "2026-10-31 06:09:38 WAT", "kind": "SESSION", "msg": "desk online, 16 prior cycles in state"}
 {"ts": "2026-10-31 06:10:13 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: PANKO (mcap $84.2M > $20M)"}
 {"ts": "2026-10-31 06:10:13 WAT", "kind": "CYCLE", "msg": "cycle 17 done, equity $1000.00"}
+{"ts": "2026-10-31 06:21:13 WAT", "kind": "SESSION", "msg": "desk online, 17 prior cycles in state"}
+{"ts": "2026-10-31 06:21:51 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: NEX Ai (mcap $122.4M > $20M)"}
+{"ts": "2026-10-31 06:21:51 WAT", "kind": "CYCLE", "msg": "cycle 18 done, equity $1000.00"}
