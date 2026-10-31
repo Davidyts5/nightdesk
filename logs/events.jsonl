@@ -569,3 +569,6 @@
 {"ts": "2026-10-31 13:47:34 WAT", "kind": "SCOUT_DROP", "msg": "6 outside scope: FURSTAPPEN (no pair birth time); FURSTAPPEN (no pair birth time); \u5927A\u80a1 (mcap $231.4M > $20M) ..."}
 {"ts": "2026-10-31 13:48:14 WAT", "kind": "DEFER", "msg": "VAMPCAT: safety data unreachable (strike 2/3, HTTPError) - retrying next cycle"}
 {"ts": "2026-10-31 13:48:14 WAT", "kind": "CYCLE", "msg": "cycle 46 done, equity $1000.00"}
+{"ts": "2026-10-31 13:53:27 WAT", "kind": "SESSION", "msg": "desk online, 46 prior cycles in state"}
+{"ts": "2026-10-31 13:54:47 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: poge (no pair birth time); ween (no pair birth time); Halloween (mcap $362.4M > $20M)"}
+{"ts": "2026-10-31 13:54:47 WAT", "kind": "CYCLE", "msg": "cycle 47 done, equity $1000.00"}
