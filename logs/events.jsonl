@@ -714,3 +714,6 @@
 {"ts": "2026-10-31 22:47:59 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: Anubis (no pair birth time); CHETCR (mcap $45.2M > $20M)"}
 {"ts": "2026-10-31 22:49:20 WAT", "kind": "DEFER", "msg": "KIM: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-10-31 22:50:41 WAT", "kind": "CYCLE", "msg": "cycle 82 done, equity $1000.00"}
+{"ts": "2026-10-31 22:54:53 WAT", "kind": "SESSION", "msg": "desk online, 82 prior cycles in state"}
+{"ts": "2026-10-31 22:57:13 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: KUM (no pair birth time); GRAINDK (mcap $42.8M > $20M); AE (mcap $80.6M > $20M)"}
+{"ts": "2026-10-31 22:58:34 WAT", "kind": "CYCLE", "msg": "cycle 83 done, equity $1000.00"}
