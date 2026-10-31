@@ -442,3 +442,6 @@
 {"ts": "2026-10-31 09:53:43 WAT", "kind": "SESSION", "msg": "desk online, 15 prior cycles in state"}
 {"ts": "2026-10-31 09:54:56 WAT", "kind": "SCOUT_DROP", "msg": "5 outside scope: NEX Ai (mcap $437.3M > $20M); Halloween (mcap $323.0M > $20M); KAS (mcap $32.5M > $20M) ..."}
 {"ts": "2026-10-31 09:54:56 WAT", "kind": "CYCLE", "msg": "cycle 16 done, equity $1000.00"}
+{"ts": "2026-10-31 10:00:07 WAT", "kind": "SESSION", "msg": "desk online, 16 prior cycles in state"}
+{"ts": "2026-10-31 10:01:33 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: iCoin (mcap $272.4M > $20M)"}
+{"ts": "2026-10-31 10:01:33 WAT", "kind": "CYCLE", "msg": "cycle 17 done, equity $1000.00"}
