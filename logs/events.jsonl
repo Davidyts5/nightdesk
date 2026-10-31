@@ -445,3 +445,8 @@
 {"ts": "2026-10-31 10:00:07 WAT", "kind": "SESSION", "msg": "desk online, 16 prior cycles in state"}
 {"ts": "2026-10-31 10:01:33 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: iCoin (mcap $272.4M > $20M)"}
 {"ts": "2026-10-31 10:01:33 WAT", "kind": "CYCLE", "msg": "cycle 17 done, equity $1000.00"}
+{"ts": "2026-10-31 10:06:44 WAT", "kind": "SESSION", "msg": "desk online, 17 prior cycles in state"}
+{"ts": "2026-10-31 10:07:58 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: \u53d1\u53d1 (mcap $289.8M > $20M); SI (mcap $278.2M > $20M); SI (mcap $275.3M > $20M)"}
+{"ts": "2026-10-31 10:08:38 WAT", "kind": "DEFER", "msg": "Polymarket: safety data unreachable (strike 1/3, HTTPError) - retrying next cycle"}
+{"ts": "2026-10-31 10:09:19 WAT", "kind": "DEFER", "msg": "\u53d1\u53d1: safety data unreachable (strike 1/3, HTTPError) - retrying next cycle"}
+{"ts": "2026-10-31 10:09:19 WAT", "kind": "CYCLE", "msg": "cycle 18 done, equity $1000.00"}
