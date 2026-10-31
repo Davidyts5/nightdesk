@@ -401,3 +401,6 @@
 {"ts": "2026-10-31 07:22:09 WAT", "kind": "SESSION", "msg": "desk online, 1 prior cycles in state"}
 {"ts": "2026-10-31 07:22:46 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: Pum Coin (mcap $524.0M > $20M); USPD (mcap $1000.2M > $20M)"}
 {"ts": "2026-10-31 07:22:46 WAT", "kind": "CYCLE", "msg": "cycle 2 done, equity $1000.00"}
+{"ts": "2026-10-31 07:33:40 WAT", "kind": "SESSION", "msg": "desk online, 2 prior cycles in state"}
+{"ts": "2026-10-31 07:34:13 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: sithpepe (no pair birth time)"}
+{"ts": "2026-10-31 07:34:13 WAT", "kind": "CYCLE", "msg": "cycle 3 done, equity $1000.00"}
