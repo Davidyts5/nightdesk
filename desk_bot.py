@@ -22,7 +22,7 @@ START_BALANCE_USD = 1000.0        # paper bankroll
 
 # ---------------- SCOUT ----------------
 POLL_SECONDS = 180                # one full desk cycle every 3 minutes
-GT_PAGES = 10                     # GeckoTerminal new_pools pages (20 pools each = 200 newest)
+GT_PAGES = 15                     # GeckoTerminal new_pools pages (20 pools each = 300 newest)
 HATCHERY_MAX = 500                # sub-30-min pools held until they cross the 30-min line
 HATCHERY_TTL_H = 6                # hours a pool may sit hatched without qualifying, then released
 ENRICH_BATCH = 30                 # DexScreener allows 30 mints per lookup
@@ -85,6 +85,13 @@ import urllib.parse
 import urllib.request
 
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) desk-paper/0.1", "Accept": "application/json"}
+
+
+def num(x):
+    try:
+        return float(x) if x is not None else 0.0
+    except (TypeError, ValueError):
+        return 0.0
 
 
 def http_get_json(url, timeout=20, retries=2):
@@ -151,9 +158,95 @@ class RugCheck:
         if mint in self.cache:
             return self.cache[mint]
         self.T.wait()
-        rep = http_get_json("https://api.rugcheck.xyz/v1/tokens/%s/report" % mint, retries=4)
+        rep = http_get_json("https://api.rugcheck.xyz/v1/tokens/%s/report" % mint, retries=5)
         self.cache[mint] = rep
         return rep
+
+
+B58 = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz"
+
+
+def b58encode(b):
+    n = int.from_bytes(b, "big")
+    out = ""
+    while n > 0:
+        n, r = divmod(n, 58)
+        out = B58[r] + out
+    for byte in b:
+        if byte == 0:
+            out = "1" + out
+        else:
+            break
+    return out or "1"
+
+
+def http_post_json(url, payload, timeout=25, retries=3):
+    last = None
+    for attempt in range(retries + 1):
+        try:
+            req = urllib.request.Request(url, data=json.dumps(payload).encode(),
+                                         headers={**UA, "Content-Type": "application/json"})
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return json.loads(r.read().decode())
+        except Exception as e:  # noqa: BLE001
+            last = e
+            code = getattr(e, "code", None)
+            time.sleep(6.0 if code in (429, 403, 503) else 1.0 * (attempt + 1))
+    raise last
+
+
+class SolanaRPC:
+    """Public Solana RPC: the chain itself as fallback safety source.
+    When RugCheck is down/unindexed, we verify R1 (authorities) and R5 (top holders)
+    straight from the blockchain. No keys, stdlib only. Multi-endpoint failover."""
+
+    URLS = ["https://solana-rpc.publicnode.com",
+            "https://api.mainnet-beta.solana.com"]
+    T = Throttle(1.6)
+    _good = 0
+
+    def _call(self, method, params):
+        self.T.wait()
+        last = None
+        # try the endpoint that worked last time first, then the rest
+        order = [self._good] + [i for i in range(len(self.URLS)) if i != self._good]
+        for i in order:
+            try:
+                d = http_post_json(self.URLS[i], {"jsonrpc": "2.0", "id": 1,
+                                                  "method": method, "params": params},
+                                   retries=2)
+                if d.get("error"):
+                    raise RuntimeError(str(d.get("error"))[:100])
+                SolanaRPC._good = i
+                return d.get("result")
+            except Exception as e:  # noqa: BLE001 - rotate to next endpoint
+                last = e
+        raise last
+
+    def authorities(self, mint):
+        """Parse the SPL mint account (layout: mintAuthOpt u32 @0, mintAuth @4:36,
+        supply u64 @36:44, decimals u8 @44, freezeAuthOpt u32 @46, freezeAuth @50:82)."""
+        import base64
+        r = self._call("getAccountInfo", [mint, {"encoding": "base64"}])
+        v = (r or {}).get("value")
+        if not v or not v.get("data"):
+            raise RuntimeError("mint account not found on chain")
+        data = base64.b64decode(v["data"][0])
+        if len(data) < 82:
+            raise RuntimeError("short mint account")
+        mint_auth = b58encode(data[4:36]) if int.from_bytes(data[0:4], "little") == 1 else None
+        freeze_auth = b58encode(data[50:82]) if int.from_bytes(data[46:50], "little") == 1 else None
+        supply = int.from_bytes(data[36:44], "little")
+        decimals = data[44]
+        return {"mintAuthority": mint_auth, "freezeAuthority": freeze_auth,
+                "supply_ui": supply / (10 ** decimals) if decimals < 40 else float(supply)}
+
+    def top10_sum(self, mint):
+        r = self._call("getTokenLargestAccounts", [mint])
+        vals = [num(a.get("uiAmount")) for a in ((r or {}).get("value") or [])]
+        if len(vals) < 10:
+            raise RuntimeError("only %d holder accounts returned" % len(vals))
+        return sum(vals[:10])
 
 # ==================================================================
 # from agents.py
@@ -265,6 +358,10 @@ class Scout:
         self.gecko = gecko
 
     def raw_seen(self):
+        """TWO telescopes, always on:
+        1. GeckoTerminal new_pools (GT_PAGES pages)
+        2. DexScreener latest token-profiles (fast, no cap - catches what GT's
+           lagging/degraded new-pools index misses; proven gap 2026-10-31)"""
         mints = []
         for page in range(1, GT_PAGES + 1):
             try:
@@ -280,13 +377,12 @@ class Scout:
                         mints.append(mint)
                 except Exception:
                     continue
-        if len(mints) < 5:  # GT degraded -> fallback freshness feed
-            try:
-                for e in self.dex.token_profiles() or []:
-                    if e.get("chainId") == "solana" and e.get("tokenAddress"):
-                        mints.append(e["tokenAddress"])
-            except Exception:
-                pass
+        try:
+            for e in self.dex.token_profiles() or []:
+                if e.get("chainId") == "solana" and e.get("tokenAddress"):
+                    mints.append(e["tokenAddress"])
+        except Exception:
+            pass
         out = []
         for m in mints:
             if m and m not in out:
@@ -382,10 +478,11 @@ class Filter:
     """8 kill rules, evaluated in order. One hit = dead, no exceptions.
     If safety data is unavailable after retries -> fail-closed (kill), balance first."""
 
-    def __init__(self, rugcheck, logger, state):
+    def __init__(self, rugcheck, logger, state, rpc=None):
         self.rug = rugcheck
         self.log = logger
         self.state = state
+        self.rpc = rpc
 
     def _kill(self, s, rule, detail):
         st = self.state
@@ -393,29 +490,81 @@ class Filter:
         st["kills_cache"][s["mint"]] = rule
         self.log.kill(s, rule, detail)
 
+    def _defer(self, s, reason):
+        """Unverifiable, not guilty: quarantine with strikes (retry next cycles)."""
+        q = self.state.setdefault("quarantine", {})
+        rec = q.get(s["mint"]) or {"strikes": 0, "symbol": s["symbol"]}
+        rec["strikes"] += 1
+        rec["symbol"] = s["symbol"]
+        q[s["mint"]] = rec
+        if rec["strikes"] >= FAILCLOSED_STRIKES:
+            self._kill(s, "FAILCLOSED",
+                       "safety data unreachable %d cycles straight - dead" % rec["strikes"])
+            q.pop(s["mint"], None)
+        else:
+            self.state["hatchery"][s["mint"]] = {"symbol": s["symbol"], "added": time.time(),
+                                                 "missing": 0}
+            self.log.event("DEFER", "%s: %s (strike %d/%d) - retrying next cycle"
+                           % (s["symbol"], reason, rec["strikes"], FAILCLOSED_STRIKES))
+
+    def _rpc_fallback(self, s):
+        """RugCheck down -> verify what the chain itself can prove.
+        R1 (authorities) always attempted - light RPC methods that work even when
+        rate-limits bite. R5 (holders) attempted opportunistically: free public RPCs
+        throttle getTokenLargestAccounts from datacenter IPs, so its absence defers
+        instead of pretending."""
+        try:
+            info = self.rpc.authorities(s["mint"])
+        except Exception as e:  # noqa: BLE001
+            return ("defer", None, None,
+                    ["chain RPC also unreachable (%s)" % e.__class__.__name__])
+        if info["mintAuthority"] or info["freezeAuthority"]:
+            return ("kill", "R1", "%s authority still active (RPC-verified)"
+                    % ("mint" if info["mintAuthority"] else "freeze"))
+        notes = ["R1 revoked (RPC-verified)"]
+        try:
+            top10 = self.rpc.top10_sum(s["mint"])
+            pct = (top10 / info["supply_ui"] * 100) if info["supply_ui"] > 0 else 999.0
+            if pct > TOP10_MAX_PCT:
+                return ("kill", "R5", "top 10 holders own %.1f%% (RPC-verified)" % pct)
+            notes.append("R5 top10 %.1f%% (RPC)" % pct)
+        except Exception:  # noqa: BLE001
+            notes.append("R5 holders rate-limited this cycle")
+            return ("defer", None, None, notes)
+        return ("pass", None, None, notes)
+
     def evaluate(self, s):
         """Returns True only if the pair survives all 8 rules."""
         mint, sym = s["mint"], s["symbol"]
         try:
             rep = self.rug.report(mint)
-        except Exception as e:
-            # safety data unreachable: DEFER first (RugCheck lags/404s on brand-new tokens
-            # and rate-limits datacenter IPs). Dead only after FAILCLOSED_STRIKES straight misses.
-            q = self.state.setdefault("quarantine", {})
-            rec = q.get(mint) or {"strikes": 0, "symbol": s["symbol"]}
-            rec["strikes"] += 1
-            rec["symbol"] = s["symbol"]
-            q[mint] = rec
-            if rec["strikes"] >= FAILCLOSED_STRIKES:
-                self._kill(s, "FAILCLOSED",
-                           "safety data unreachable %d cycles straight - dead (%s)"
-                           % (rec["strikes"], e.__class__.__name__))
-                q.pop(mint, None)
-            else:
-                self.state["hatchery"][mint] = {"symbol": s["symbol"], "added": time.time(),
-                                                "missing": 0}
-                self.log.event("DEFER", "%s: safety data unreachable (strike %d/%d, %s) - retrying next cycle"
-                               % (s["symbol"], rec["strikes"], FAILCLOSED_STRIKES, e.__class__.__name__))
+        except Exception:
+            # RugCheck down/unindexed -> the chain itself gets a vote (public RPC).
+            verdict, rule, detail, rpc_notes = (self._rpc_fallback(s) if self.rpc
+                                                else ("defer", None, None, ["no RPC configured"]))
+            if verdict == "kill":
+                self._kill(s, rule, detail)
+                return False
+            if verdict == "pass":
+                # RPC proved R1+R5 on-chain. LP (R2) only provable for protocol venues;
+                # R6/R7 unverifiable without RugCheck -> only trade protocol-venue coins.
+                if s["dex_id"] not in NO_LP_DEXES_PASS:
+                    self._defer(s, "RPC ok but LP unverified on %s" % s["dex_id"])
+                    return False
+                if s["liquidity_usd"] < MIN_LIQUIDITY_USD:
+                    self._kill(s, "R3", "liquidity $%.0f < $%d" % (s["liquidity_usd"], MIN_LIQUIDITY_USD))
+                    return False
+                if s["vol_h1"] < MIN_VOL_1H_USD:
+                    self._kill(s, "R4", "1h volume $%.0f < $%d" % (s["vol_h1"], MIN_VOL_1H_USD))
+                    return False
+                if s["pc_h1"] >= H1_PUMP_MAX_PCT:
+                    self._kill(s, "R8", "+%.0f%% in the last hour" % s["pc_h1"])
+                    return False
+                self.state["rug_cache"][s["mint"]] = {"top10": [], "ts": time.time()}
+                self.log.event("FILTER_PASS", "%s (%s..) passed via RPC fallback | %s | R6/R7 unverified (RugCheck down)"
+                               % (s["symbol"], mint[:6], "; ".join(rpc_notes)))
+                return True
+            self._defer(s, rpc_notes[0] if rpc_notes else "safety data unreachable")
             return False
 
         t = rep.get("token") or {}
@@ -1061,8 +1210,8 @@ def rollover_if_needed(state, log):
                              for p in state["positions"].values())
     state["start_balance"] = eq
     state["cash"] = eq
+    # kills_cache / rug_book / smart_book persist: dead is dead, memory is permanent
     state["kills_by_rule"] = {}
-    state["kills_cache"] = {}
     state["survivors"] = {}
     state["quarantine"] = {}
     state["rug_cache"] = {}
@@ -1083,9 +1232,9 @@ def main():
     signal.signal(signal.SIGINT, _sig)
 
     log = Logger()
-    dex, gecko, rug = DexScreener(), Gecko(), RugCheck()
+    dex, gecko, rug, rpc = DexScreener(), Gecko(), RugCheck(), SolanaRPC()
     scout = Scout(dex, gecko)
-    flt = Filter(rug, log, state=None)  # state wired below
+    flt = Filter(rug, log, state=None, rpc=rpc)  # state wired below
     analyst = Analyst()
     executor = Executor(log)
     risk = Risk(log)
