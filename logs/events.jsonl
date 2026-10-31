@@ -661,3 +661,6 @@
 {"ts": "2026-10-31 20:49:01 WAT", "kind": "CYCLE", "msg": "cycle 66 done, equity $1000.00"}
 {"ts": "2026-10-31 20:53:11 WAT", "kind": "SESSION", "msg": "desk online, 66 prior cycles in state"}
 {"ts": "2026-10-31 20:55:48 WAT", "kind": "CYCLE", "msg": "cycle 67 done, equity $1000.00"}
+{"ts": "2026-10-31 20:59:58 WAT", "kind": "SESSION", "msg": "desk online, 67 prior cycles in state"}
+{"ts": "2026-10-31 21:02:26 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: Bitty (mcap $133.7M > $20M); KIM (mcap $42.9M > $20M); Jcurtn (mcap $22.3M > $20M)"}
+{"ts": "2026-10-31 21:02:26 WAT", "kind": "CYCLE", "msg": "cycle 68 done, equity $1000.00"}
