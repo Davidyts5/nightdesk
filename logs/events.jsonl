@@ -421,3 +421,6 @@
 {"ts": "2026-10-31 08:45:14 WAT", "kind": "SESSION", "msg": "desk online, 8 prior cycles in state"}
 {"ts": "2026-10-31 08:45:51 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: HI (mcap $112.8M > $20M); DEBIT (mcap $79.6M > $20M)"}
 {"ts": "2026-10-31 08:45:51 WAT", "kind": "CYCLE", "msg": "cycle 9 done, equity $1000.00"}
+{"ts": "2026-10-31 08:57:07 WAT", "kind": "SESSION", "msg": "desk online, 9 prior cycles in state"}
+{"ts": "2026-10-31 08:57:44 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: LOGS (no pair birth time); SAFU (mcap $678.2M > $20M); iCoin (mcap $183.0M > $20M)"}
+{"ts": "2026-10-31 08:57:44 WAT", "kind": "CYCLE", "msg": "cycle 10 done, equity $1000.00"}
