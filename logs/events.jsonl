@@ -519,3 +519,7 @@
 {"ts": "2026-10-31 12:17:06 WAT", "kind": "DEFER", "msg": "NEX Ai: safety data unreachable (strike 1/3, HTTPError) - retrying next cycle"}
 {"ts": "2026-10-31 12:17:53 WAT", "kind": "DEFER", "msg": "Halloween: safety data unreachable (strike 2/3, HTTPError) - retrying next cycle"}
 {"ts": "2026-10-31 12:17:53 WAT", "kind": "CYCLE", "msg": "cycle 35 done, equity $1000.00"}
+{"ts": "2026-10-31 12:23:04 WAT", "kind": "SESSION", "msg": "desk online, 35 prior cycles in state"}
+{"ts": "2026-10-31 12:24:25 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Candy (mcap $359.1M > $20M)"}
+{"ts": "2026-10-31 12:25:10 WAT", "kind": "DEFER", "msg": "NEX Ai: safety data unreachable (strike 2/3, HTTPError) - retrying next cycle"}
+{"ts": "2026-10-31 12:25:10 WAT", "kind": "CYCLE", "msg": "cycle 36 done, equity $1000.00"}
