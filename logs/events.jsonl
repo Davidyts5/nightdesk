@@ -684,3 +684,6 @@
 {"ts": "2026-10-31 21:42:43 WAT", "kind": "SESSION", "msg": "desk online, 73 prior cycles in state"}
 {"ts": "2026-10-31 21:45:12 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: KOT (no pair birth time); RUSSIANCAT (no pair birth time); BOObies (mcap $65.6M > $20M)"}
 {"ts": "2026-10-31 21:46:32 WAT", "kind": "CYCLE", "msg": "cycle 74 done, equity $1000.00"}
+{"ts": "2026-10-31 21:50:44 WAT", "kind": "SESSION", "msg": "desk online, 74 prior cycles in state"}
+{"ts": "2026-10-31 21:53:12 WAT", "kind": "SCOUT_DROP", "msg": "5 outside scope: ZHDUN (no pair birth time); slavakot (no pair birth time); RUSPEPE (no pair birth time) ..."}
+{"ts": "2026-10-31 21:53:12 WAT", "kind": "CYCLE", "msg": "cycle 75 done, equity $1000.00"}
