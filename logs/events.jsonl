@@ -696,3 +696,7 @@
 {"ts": "2026-10-31 22:10:34 WAT", "kind": "SESSION", "msg": "desk online, 77 prior cycles in state"}
 {"ts": "2026-10-31 22:13:01 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: BSTC (mcap $518.8M > $20M); CREDIT (mcap $672.2M > $20M); HUSS (mcap $162.9M > $20M) ..."}
 {"ts": "2026-10-31 22:13:01 WAT", "kind": "CYCLE", "msg": "cycle 78 done, equity $1000.00"}
+{"ts": "2026-10-31 22:17:13 WAT", "kind": "SESSION", "msg": "desk online, 78 prior cycles in state"}
+{"ts": "2026-10-31 22:19:48 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: CHICKLE (no pair birth time); CHICKLE (no pair birth time); CHICKLE (no pair birth time) ..."}
+{"ts": "2026-10-31 22:21:09 WAT", "kind": "DEFER", "msg": "BARRON: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-10-31 22:21:09 WAT", "kind": "CYCLE", "msg": "cycle 79 done, equity $1000.00"}
