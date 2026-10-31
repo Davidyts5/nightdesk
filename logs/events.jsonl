@@ -415,3 +415,6 @@
 {"ts": "2026-10-31 08:21:20 WAT", "kind": "SESSION", "msg": "desk online, 6 prior cycles in state"}
 {"ts": "2026-10-31 08:21:57 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Candy (mcap $310.5M > $20M)"}
 {"ts": "2026-10-31 08:22:12 WAT", "kind": "CYCLE", "msg": "cycle 7 done, equity $1000.00"}
+{"ts": "2026-10-31 08:33:28 WAT", "kind": "SESSION", "msg": "desk online, 7 prior cycles in state"}
+{"ts": "2026-10-31 08:34:06 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: LUMI (mcap $6853.1M > $20M); PICVOY (mcap $89.5M > $20M); Ape (mcap $126.2M > $20M)"}
+{"ts": "2026-10-31 08:34:06 WAT", "kind": "CYCLE", "msg": "cycle 8 done, equity $1000.00"}
