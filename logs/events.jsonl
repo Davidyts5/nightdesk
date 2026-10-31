@@ -406,3 +406,6 @@
 {"ts": "2026-10-31 07:34:13 WAT", "kind": "CYCLE", "msg": "cycle 3 done, equity $1000.00"}
 {"ts": "2026-10-31 07:45:12 WAT", "kind": "SESSION", "msg": "desk online, 3 prior cycles in state"}
 {"ts": "2026-10-31 07:46:04 WAT", "kind": "CYCLE", "msg": "cycle 4 done, equity $1000.00"}
+{"ts": "2026-10-31 07:57:02 WAT", "kind": "SESSION", "msg": "desk online, 4 prior cycles in state"}
+{"ts": "2026-10-31 07:57:40 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: NEX Ai (mcap $336.4M > $20M)"}
+{"ts": "2026-10-31 07:57:40 WAT", "kind": "CYCLE", "msg": "cycle 5 done, equity $1000.00"}
