@@ -338,3 +338,5 @@
 {"ts": "2026-10-31 03:03:02 WAT", "kind": "SESSION", "msg": "desk online, 0 prior cycles in state"}
 {"ts": "2026-10-31 03:03:40 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: GROYPER (no pair birth time)"}
 {"ts": "2026-10-31 03:03:40 WAT", "kind": "CYCLE", "msg": "cycle 1 done, equity $1000.00"}
+{"ts": "2026-10-31 03:14:30 WAT", "kind": "SESSION", "msg": "desk online, 1 prior cycles in state"}
+{"ts": "2026-10-31 03:15:07 WAT", "kind": "CYCLE", "msg": "cycle 2 done, equity $1000.00"}
