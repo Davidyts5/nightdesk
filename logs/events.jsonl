@@ -412,3 +412,6 @@
 {"ts": "2026-10-31 08:08:48 WAT", "kind": "SESSION", "msg": "desk online, 5 prior cycles in state"}
 {"ts": "2026-10-31 08:09:21 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: LOCKIN (no pair birth time); iCoin (mcap $334.1M > $20M); TELEMETRY (mcap $293.6M > $20M)"}
 {"ts": "2026-10-31 08:09:36 WAT", "kind": "CYCLE", "msg": "cycle 6 done, equity $1000.00"}
+{"ts": "2026-10-31 08:21:20 WAT", "kind": "SESSION", "msg": "desk online, 6 prior cycles in state"}
+{"ts": "2026-10-31 08:21:57 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Candy (mcap $310.5M > $20M)"}
+{"ts": "2026-10-31 08:22:12 WAT", "kind": "CYCLE", "msg": "cycle 7 done, equity $1000.00"}
