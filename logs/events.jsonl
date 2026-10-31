@@ -681,3 +681,6 @@
 {"ts": "2026-10-31 21:37:13 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: HOWARD (no pair birth time)"}
 {"ts": "2026-10-31 21:38:34 WAT", "kind": "DEFER", "msg": "PAWCAT: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-10-31 21:38:34 WAT", "kind": "CYCLE", "msg": "cycle 73 done, equity $1000.00"}
+{"ts": "2026-10-31 21:42:43 WAT", "kind": "SESSION", "msg": "desk online, 73 prior cycles in state"}
+{"ts": "2026-10-31 21:45:12 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: KOT (no pair birth time); RUSSIANCAT (no pair birth time); BOObies (mcap $65.6M > $20M)"}
+{"ts": "2026-10-31 21:46:32 WAT", "kind": "CYCLE", "msg": "cycle 74 done, equity $1000.00"}
