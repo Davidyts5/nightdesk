@@ -717,3 +717,6 @@
 {"ts": "2026-10-31 22:54:53 WAT", "kind": "SESSION", "msg": "desk online, 82 prior cycles in state"}
 {"ts": "2026-10-31 22:57:13 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: KUM (no pair birth time); GRAINDK (mcap $42.8M > $20M); AE (mcap $80.6M > $20M)"}
 {"ts": "2026-10-31 22:58:34 WAT", "kind": "CYCLE", "msg": "cycle 83 done, equity $1000.00"}
+{"ts": "2026-10-31 23:02:46 WAT", "kind": "SESSION", "msg": "desk online, 83 prior cycles in state"}
+{"ts": "2026-10-31 23:05:13 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: $tkin (no pair birth time); KIM (mcap $127.8M > $20M)"}
+{"ts": "2026-10-31 23:05:13 WAT", "kind": "CYCLE", "msg": "cycle 84 done, equity $1000.00"}
