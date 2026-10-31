@@ -409,3 +409,6 @@
 {"ts": "2026-10-31 07:57:02 WAT", "kind": "SESSION", "msg": "desk online, 4 prior cycles in state"}
 {"ts": "2026-10-31 07:57:40 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: NEX Ai (mcap $336.4M > $20M)"}
 {"ts": "2026-10-31 07:57:40 WAT", "kind": "CYCLE", "msg": "cycle 5 done, equity $1000.00"}
+{"ts": "2026-10-31 08:08:48 WAT", "kind": "SESSION", "msg": "desk online, 5 prior cycles in state"}
+{"ts": "2026-10-31 08:09:21 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: LOCKIN (no pair birth time); iCoin (mcap $334.1M > $20M); TELEMETRY (mcap $293.6M > $20M)"}
+{"ts": "2026-10-31 08:09:36 WAT", "kind": "CYCLE", "msg": "cycle 6 done, equity $1000.00"}
