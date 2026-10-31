@@ -362,3 +362,6 @@
 {"ts": "2026-10-31 04:47:50 WAT", "kind": "SESSION", "msg": "desk online, 9 prior cycles in state"}
 {"ts": "2026-10-31 04:48:20 WAT", "kind": "SCOUT_DROP", "msg": "5 outside scope: Halloween (mcap $381.8M > $20M); XTO (mcap $210.3M > $20M); 4CHN (mcap $134.8M > $20M) ..."}
 {"ts": "2026-10-31 04:48:20 WAT", "kind": "CYCLE", "msg": "cycle 10 done, equity $1000.00"}
+{"ts": "2026-10-31 04:59:19 WAT", "kind": "SESSION", "msg": "desk online, 10 prior cycles in state"}
+{"ts": "2026-10-31 04:59:56 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: KYC (no pair birth time); Vampinu (mcap $86.7M > $20M); Halloweenu (mcap $64.1M > $20M)"}
+{"ts": "2026-10-31 04:59:56 WAT", "kind": "CYCLE", "msg": "cycle 11 done, equity $1000.00"}
