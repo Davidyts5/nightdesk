@@ -579,3 +579,7 @@
 {"ts": "2026-10-31 14:07:02 WAT", "kind": "SESSION", "msg": "desk online, 48 prior cycles in state"}
 {"ts": "2026-10-31 14:08:23 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: BOO (no pair birth time); VAMPCAT (mcap $94.8M > $20M); INDORB (mcap $88.0M > $20M)"}
 {"ts": "2026-10-31 14:08:23 WAT", "kind": "CYCLE", "msg": "cycle 49 done, equity $1000.00"}
+{"ts": "2026-10-31 14:13:34 WAT", "kind": "SESSION", "msg": "desk online, 49 prior cycles in state"}
+{"ts": "2026-10-31 14:14:48 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: $WIKI (no pair birth time); \ud83e\udd16 (no pair birth time); OnGod (no pair birth time)"}
+{"ts": "2026-10-31 14:15:34 WAT", "kind": "DEFER", "msg": "vampire\ud83d\udc7b: safety data unreachable (strike 1/3, HTTPError) - retrying next cycle"}
+{"ts": "2026-10-31 14:15:34 WAT", "kind": "CYCLE", "msg": "cycle 50 done, equity $1000.00"}
