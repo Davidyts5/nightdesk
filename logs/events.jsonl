@@ -705,3 +705,8 @@
 {"ts": "2026-10-31 22:29:11 WAT", "kind": "DEFER", "msg": "Halloween: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
 {"ts": "2026-10-31 22:30:32 WAT", "kind": "DEFER", "msg": "BARRON: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-10-31 22:30:32 WAT", "kind": "CYCLE", "msg": "cycle 80 done, equity $1000.00"}
+{"ts": "2026-10-31 22:34:43 WAT", "kind": "SESSION", "msg": "desk online, 80 prior cycles in state"}
+{"ts": "2026-10-31 22:37:12 WAT", "kind": "SCOUT_DROP", "msg": "5 outside scope: XTO (mcap $69.7M > $20M); ANSEM (mcap $126.9M > $20M); G20cam (mcap $45.4M > $20M) ..."}
+{"ts": "2026-10-31 22:38:33 WAT", "kind": "DEFER", "msg": "KIM: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-10-31 22:39:55 WAT", "kind": "DEFER", "msg": "Halloween: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-10-31 22:41:16 WAT", "kind": "CYCLE", "msg": "cycle 81 done, equity $1000.00"}
