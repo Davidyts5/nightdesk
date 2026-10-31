@@ -572,3 +572,7 @@
 {"ts": "2026-10-31 13:53:27 WAT", "kind": "SESSION", "msg": "desk online, 46 prior cycles in state"}
 {"ts": "2026-10-31 13:54:47 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: poge (no pair birth time); ween (no pair birth time); Halloween (mcap $362.4M > $20M)"}
 {"ts": "2026-10-31 13:54:47 WAT", "kind": "CYCLE", "msg": "cycle 47 done, equity $1000.00"}
+{"ts": "2026-10-31 13:59:58 WAT", "kind": "SESSION", "msg": "desk online, 47 prior cycles in state"}
+{"ts": "2026-10-31 14:01:12 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: $peer (no pair birth time); USPD (mcap $1002.7M > $20M)"}
+{"ts": "2026-10-31 14:01:51 WAT", "kind": "DEFER", "msg": "1: safety data unreachable (strike 1/3, HTTPError) - retrying next cycle"}
+{"ts": "2026-10-31 14:01:51 WAT", "kind": "CYCLE", "msg": "cycle 48 done, equity $1000.00"}
