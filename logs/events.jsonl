@@ -656,3 +656,6 @@
 {"ts": "2026-10-31 20:34:23 WAT", "kind": "CYCLE", "msg": "cycle 64 done, equity $1000.00"}
 {"ts": "2026-10-31 20:38:34 WAT", "kind": "SESSION", "msg": "desk online, 64 prior cycles in state"}
 {"ts": "2026-10-31 20:42:23 WAT", "kind": "CYCLE", "msg": "cycle 65 done, equity $1000.00"}
+{"ts": "2026-10-31 20:46:33 WAT", "kind": "SESSION", "msg": "desk online, 65 prior cycles in state"}
+{"ts": "2026-10-31 20:49:01 WAT", "kind": "SCOUT_DROP", "msg": "5 outside scope: \u76d8\u53e4\u5e01 (mcap $494.5M > $20M); SPAM (mcap $85.6M > $20M); HALLOWEEN (mcap $164.2M > $20M) ..."}
+{"ts": "2026-10-31 20:49:01 WAT", "kind": "CYCLE", "msg": "cycle 66 done, equity $1000.00"}
