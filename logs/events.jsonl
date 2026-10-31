@@ -514,3 +514,8 @@
 {"ts": "2026-10-31 12:09:11 WAT", "kind": "DEFER", "msg": "Halloween: safety data unreachable (strike 1/3, HTTPError) - retrying next cycle"}
 {"ts": "2026-10-31 12:09:54 WAT", "kind": "DEFER", "msg": "LUMI: safety data unreachable (strike 1/3, HTTPError) - retrying next cycle"}
 {"ts": "2026-10-31 12:09:54 WAT", "kind": "CYCLE", "msg": "cycle 34 done, equity $1000.00"}
+{"ts": "2026-10-31 12:15:04 WAT", "kind": "SESSION", "msg": "desk online, 34 prior cycles in state"}
+{"ts": "2026-10-31 12:16:24 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: AKDT (mcap $100.0M > $20M); Afduck (mcap $28.7M > $20M)"}
+{"ts": "2026-10-31 12:17:06 WAT", "kind": "DEFER", "msg": "NEX Ai: safety data unreachable (strike 1/3, HTTPError) - retrying next cycle"}
+{"ts": "2026-10-31 12:17:53 WAT", "kind": "DEFER", "msg": "Halloween: safety data unreachable (strike 2/3, HTTPError) - retrying next cycle"}
+{"ts": "2026-10-31 12:17:53 WAT", "kind": "CYCLE", "msg": "cycle 35 done, equity $1000.00"}
