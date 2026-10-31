@@ -41,6 +41,9 @@ H1_PUMP_MAX_PCT = 80.0            # R8: +80% in last hour = dead
 # R2 interpretation: bonding-curve / protocol-owned venues have no dev-withdrawable LP.
 # They pass R2 with an explicit note in the log. Flip to False to kill them instead.
 NO_LP_DEXES_PASS = {"pumpfun", "pumpswap", "launchlab"}
+# Safety data unavailable: defer & retry (RugCheck lags on brand-new tokens, and
+# rate-limits datacenter IPs). Dead only after N cycles straight of no answer.
+FAILCLOSED_STRIKES = 3
 
 # ---------------- ANALYST ----------------
 SCORE_MIN = 70                    # only 70+ goes to Executor
@@ -91,9 +94,11 @@ def http_get_json(url, timeout=20, retries=2):
             req = urllib.request.Request(url, headers=UA)
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return json.loads(r.read().decode("utf-8"))
-        except Exception as e:  # noqa: BLE001 - network layer, log and retry
+        except Exception as e:  # noqa: BLE001 - network layer, back off and retry
             last = e
-            time.sleep(0.8 * (attempt + 1))
+            code = getattr(e, "code", None)
+            pause = 6.0 if code in (429, 403, 503) else 1.2 * (2 ** attempt)
+            time.sleep(pause)
     raise last
 
 
@@ -394,7 +399,23 @@ class Filter:
         try:
             rep = self.rug.report(mint)
         except Exception as e:
-            self._kill(s, "FAILCLOSED", "RugCheck unreachable (%s) - fail-closed" % e.__class__.__name__)
+            # safety data unreachable: DEFER first (RugCheck lags/404s on brand-new tokens
+            # and rate-limits datacenter IPs). Dead only after FAILCLOSED_STRIKES straight misses.
+            q = self.state.setdefault("quarantine", {})
+            rec = q.get(mint) or {"strikes": 0, "symbol": s["symbol"]}
+            rec["strikes"] += 1
+            rec["symbol"] = s["symbol"]
+            q[mint] = rec
+            if rec["strikes"] >= FAILCLOSED_STRIKES:
+                self._kill(s, "FAILCLOSED",
+                           "safety data unreachable %d cycles straight - dead (%s)"
+                           % (rec["strikes"], e.__class__.__name__))
+                q.pop(mint, None)
+            else:
+                self.state["hatchery"][mint] = {"symbol": s["symbol"], "added": time.time(),
+                                                "missing": 0}
+                self.log.event("DEFER", "%s: safety data unreachable (strike %d/%d, %s) - retrying next cycle"
+                               % (s["symbol"], rec["strikes"], FAILCLOSED_STRIKES, e.__class__.__name__))
             return False
 
         t = rep.get("token") or {}
@@ -890,6 +911,7 @@ def new_state():
         "trade_seq": 1,
         "positions": {},
         "survivors": {},      # mint -> {symbol, first_seen, last_score, rejected_logged, missing}
+        "quarantine": {},     # mint -> {strikes, symbol} (safety data unreachable, retrying)
         "hatchery": {},       # mint -> {symbol, added, missing} (sub-30-min pools, per Scout scope)
         "kills_cache": {},    # mint -> rule (dead is dead, permanent)
         "rug_cache": {},      # mint -> {top10, ts} (purged >36h)
@@ -1042,6 +1064,7 @@ def rollover_if_needed(state, log):
     state["kills_by_rule"] = {}
     state["kills_cache"] = {}
     state["survivors"] = {}
+    state["quarantine"] = {}
     state["rug_cache"] = {}
     state["counters"] = new_state()["counters"]
     state["trade_seq"] = 1
@@ -1121,19 +1144,20 @@ def main():
 
 # ================================================================
 # telegram push mode:  python3 desk_bot.py push   (GitHub Actions)
+# Idempotent: kill reports and the morning recap carry fingerprints,
+# so overlapping/duplicate runs can NEVER resend the same message.
 # ================================================================
 def tg_push_main():
+    import hashlib as _hashlib
+    import html as _h
     import json as _json
     import os as _os
-    from datetime import datetime as _dt
 
     token = _os.environ.get("TELEGRAM_TOKEN")
     chat = _os.environ.get("CHAT_ID")
     if not token or not chat:
         print("telegram secrets missing - push skipped")
         return
-
-    import html as _h
 
     def _esc(x):
         return _h.escape(str(x))
@@ -1170,16 +1194,25 @@ def tg_push_main():
         with open(OFF) as f:
             off = _json.load(f)
     except Exception:
-        off = {"trades": 0, "events": 0, "kills": 0, "recap": 0.0}
+        off = {"trades": 0, "events": 0, "kills": 0, "kill_seen": [], "recap_hash": ""}
+
+    def _remember(fp):
+        seen = off.setdefault("kill_seen", [])
+        if fp in seen:
+            return False
+        seen.append(fp)
+        if len(seen) > 400:
+            del seen[:len(seen) - 400]
+        return True
 
     def _fmt(t):
         ev = t.get("event")
         if ev == "ENTRY":
             return ("\U0001F7E2 <b>BUY %s</b>\n$%.2f (8%%) | score %d/100\nstop -6%% set | %s"
-                    % (_esc(t.get("symbol")), t.get("size_usd", 0), t.get("score", 0), _esc(t.get("ts", ""))))
+                    % (_esc(t.get("symbol")), t.get("size_usd", 0), t.get("score", 0),
+                       _esc(t.get("ts", ""))))
         if ev == "EXIT":
-            win = t.get("pnl_usd", 0) >= 0
-            emo = "\U0001F53D" if not win else "\U00002705"
+            emo = "\U0001F53D" if t.get("pnl_usd", 0) < 0 else "\U00002705"
             return ("%s <b>SELL %s</b>\n%+.1f%% ($%+.2f)\n%s | %s"
                     % (emo, _esc(t.get("symbol")), t.get("pnl_pct", 0), t.get("pnl_usd", 0),
                        _esc(t.get("reason", "")), _esc(t.get("ts", ""))))
@@ -1188,35 +1221,52 @@ def tg_push_main():
                 _esc(t.get("symbol")), t.get("pnl_pct", 0))
         return None
 
+    # ---- trades (entries/exits/trails), fingerprinted ----
     trades, off["trades"] = _tail("logs/trades.jsonl", off["trades"])
     for t in trades:
+        fp = "T|%s|%s|%s" % (t.get("ts"), t.get("event"), t.get("symbol"))
+        if not _remember(fp):
+            continue
         m = _fmt(t)
         if m:
             _send(m)
 
+    # ---- risk halts / errors ----
     events, off["events"] = _tail("logs/events.jsonl", off["events"])
     for e in events:
         if e.get("kind") in ("RISK_HALT", "ERROR"):
-            _send(_esc("\u26A0\uFE0F %s: %s" % (e.get("kind"), e.get("msg", "")))[:500])
+            fp = "E|%s|%s" % (e.get("ts"), str(e.get("msg", ""))[:60])
+            if _remember(fp):
+                _send(_esc("\u26A0\uFE0F %s: %s" % (e.get("kind"), e.get("msg", "")))[:500])
 
+    # ---- kills: fingerprinted, so dupes and replays stay silent ----
     kills, off["kills"] = _tail("logs/kills.jsonl", off["kills"])
-    if len(kills) > 5:
+    fresh = []
+    for k in kills:
+        fp = "K|%s|%s|%s" % (k.get("ts"), k.get("symbol"), k.get("rule"))
+        if _remember(fp):
+            fresh.append(k)
+    if len(fresh) > 5:
         by = {}
-        for k in kills:
+        for k in fresh:
             by[k.get("rule", "?")] = by.get(k.get("rule", "?"), 0) + 1
-        _send("🗑 <b>Kill digest: %d scams rejected</b>\n%s"
-              % (len(kills), _esc(", ".join("%sx%d" % kv for kv in sorted(by.items(), key=lambda x: -x[1])))))
+        _send("\U0001F5D1 <b>Kill digest: %d scams rejected</b>\n%s"
+              % (len(fresh), _esc(", ".join("%sx%d" % kv
+                                            for kv in sorted(by.items(), key=lambda x: -x[1])))))
     else:
-        for k in kills:
-            _send("🗑 <b>KILL %s - %s</b>\n<i>%s</i>"
-                  % (_esc(k.get("rule")), _esc(k.get("symbol")), _esc(str(k.get("detail", ""))[:90])))
+        for k in fresh:
+            _send("\U0001F5D1 <b>KILL %s - %s</b>\n<i>%s</i>"
+                  % (_esc(k.get("rule")), _esc(k.get("symbol")),
+                     _esc(str(k.get("detail", ""))[:90])))
 
-    if os.path.exists("reports/morning_recap.md"):
-        mtime = os.path.getmtime("reports/morning_recap.md")
-        if mtime > off.get("recap", 0.0):
-            off["recap"] = mtime
-            with open("reports/morning_recap.md") as f:
-                _send("\U0001F305 <b>Morning report</b>\n\n" + f.read()[:3200])
+    # ---- morning recap: keyed by CONTENT hash, not file mtime ----
+    if _os.path.exists("reports/morning_recap.md"):
+        with open("reports/morning_recap.md") as f:
+            body = f.read()
+        digest = _hashlib.md5(body[:400].encode()).hexdigest()
+        if digest != off.get("recap_hash"):
+            off["recap_hash"] = digest
+            _send("\U0001F305 <b>Morning report</b>\n\n" + _h.escape(body[:3200]))
 
     with open(OFF, "w") as f:
         _json.dump(off, f)
