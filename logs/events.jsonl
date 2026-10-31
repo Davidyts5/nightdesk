@@ -565,3 +565,7 @@
 {"ts": "2026-10-31 13:39:42 WAT", "kind": "DEFER", "msg": "VAMPCAT: safety data unreachable (strike 1/3, HTTPError) - retrying next cycle"}
 {"ts": "2026-10-31 13:40:23 WAT", "kind": "DEFER", "msg": "SUPERELON: safety data unreachable (strike 1/3, HTTPError) - retrying next cycle"}
 {"ts": "2026-10-31 13:41:07 WAT", "kind": "CYCLE", "msg": "cycle 45 done, equity $1000.00"}
+{"ts": "2026-10-31 13:46:19 WAT", "kind": "SESSION", "msg": "desk online, 45 prior cycles in state"}
+{"ts": "2026-10-31 13:47:34 WAT", "kind": "SCOUT_DROP", "msg": "6 outside scope: FURSTAPPEN (no pair birth time); FURSTAPPEN (no pair birth time); \u5927A\u80a1 (mcap $231.4M > $20M) ..."}
+{"ts": "2026-10-31 13:48:14 WAT", "kind": "DEFER", "msg": "VAMPCAT: safety data unreachable (strike 2/3, HTTPError) - retrying next cycle"}
+{"ts": "2026-10-31 13:48:14 WAT", "kind": "CYCLE", "msg": "cycle 46 done, equity $1000.00"}
