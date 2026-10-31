@@ -738,3 +738,6 @@
 {"ts": "2026-10-31 23:38:32 WAT", "kind": "CYCLE", "msg": "cycle 88 done, equity $1000.00"}
 {"ts": "2026-10-31 23:42:45 WAT", "kind": "SESSION", "msg": "desk online, 88 prior cycles in state"}
 {"ts": "2026-10-31 23:46:34 WAT", "kind": "CYCLE", "msg": "cycle 89 done, equity $1000.00"}
+{"ts": "2026-10-31 23:50:47 WAT", "kind": "SESSION", "msg": "desk online, 89 prior cycles in state"}
+{"ts": "2026-10-31 23:53:12 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: $WMM (no pair birth time); Halloween (mcap $417.8M > $20M)"}
+{"ts": "2026-10-31 23:53:12 WAT", "kind": "CYCLE", "msg": "cycle 90 done, equity $1000.00"}
