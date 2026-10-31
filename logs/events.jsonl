@@ -762,3 +762,6 @@
 {"ts": "2026-11-01 00:34:47 WAT", "kind": "DEFER", "msg": "NEX Ai: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-01 00:36:08 WAT", "kind": "DEFER", "msg": "I\u200aO\u200aF: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-01 00:36:08 WAT", "kind": "CYCLE", "msg": "cycle 95 done, equity $1000.00"}
+{"ts": "2026-11-01 00:40:19 WAT", "kind": "SESSION", "msg": "desk online, 95 prior cycles in state"}
+{"ts": "2026-11-01 00:42:47 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: Halloween (mcap $3139.1M > $20M); ORIGO (mcap $99.3M > $20M); Scooby (mcap $74.6M > $20M)"}
+{"ts": "2026-11-01 00:45:29 WAT", "kind": "CYCLE", "msg": "cycle 96 done, equity $1000.00"}
