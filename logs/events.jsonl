@@ -331,3 +331,6 @@
 {"ts": "2026-10-31 02:39:14 WAT", "kind": "SESSION", "msg": "desk online, 97 prior cycles in state"}
 {"ts": "2026-10-31 02:39:51 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: yabbi (mcap $139.0M > $20M); yabbi (mcap $48.2M > $20M); LUMI (mcap $227.6M > $20M)"}
 {"ts": "2026-10-31 02:40:07 WAT", "kind": "CYCLE", "msg": "cycle 98 done, equity $1000.00"}
+{"ts": "2026-10-31 02:51:43 WAT", "kind": "SESSION", "msg": "desk online, 98 prior cycles in state"}
+{"ts": "2026-10-31 02:52:03 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: HackCoin (no pair birth time); VURR (mcap $80.2M > $20M)"}
+{"ts": "2026-10-31 02:52:03 WAT", "kind": "CYCLE", "msg": "cycle 99 done, equity $1000.00"}
