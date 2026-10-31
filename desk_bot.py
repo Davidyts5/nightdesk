@@ -44,6 +44,10 @@ NO_LP_DEXES_PASS = {"pumpfun", "pumpswap", "launchlab"}
 # Safety data unavailable: defer & retry (RugCheck lags on brand-new tokens, and
 # rate-limits datacenter IPs). Dead only after N cycles straight of no answer.
 FAILCLOSED_STRIKES = 3
+# Cycle-time protection: cap safety evaluations per cycle (queued tokens wait without
+# a strike). Keeps every cycle comfortably under GitHub's run ceiling.
+SAFETY_BUDGET = 18
+RUGCHECK_RETRIES = 2
 
 # ---------------- ANALYST ----------------
 SCORE_MIN = 70                    # only 70+ goes to Executor
@@ -158,7 +162,8 @@ class RugCheck:
         if mint in self.cache:
             return self.cache[mint]
         self.T.wait()
-        rep = http_get_json("https://api.rugcheck.xyz/v1/tokens/%s/report" % mint, retries=5)
+        rep = http_get_json("https://api.rugcheck.xyz/v1/tokens/%s/report" % mint,
+                            retries=RUGCHECK_RETRIES, max_pause=2.5)
         self.cache[mint] = rep
         return rep
 
@@ -536,6 +541,15 @@ class Filter:
     def evaluate(self, s):
         """Returns True only if the pair survives all 8 rules."""
         mint, sym = s["mint"], s["symbol"]
+        # cycle-time protection: oldest tokens get first claim on the safety budget
+        spent = self.state.get("_safety_spent", 0)
+        if spent >= SAFETY_BUDGET:
+            q = self.state.setdefault("quarantine", {})
+            rec = q.get(mint) or {"strikes": 0, "symbol": s["symbol"]}
+            q[mint] = rec  # queued, no strike
+            self.log.event("DEFER", "%s: safety budget spent this cycle - queued" % s["symbol"])
+            return False
+        self.state["_safety_spent"] = spent + 1
         try:
             rep = self.rug.report(mint)
         except Exception:
@@ -1123,8 +1137,9 @@ def do_cycle(state, scout, flt, analyst, executor, risk, log):
         log.event("SCOUT_DROP", "%d outside scope: %s%s" % (len(dropped), sample, " ..." if len(dropped) > 3 else ""))
 
     # 2) FILTER - 8 kill rules, one hit = dead
+    state["_safety_spent"] = 0  # per-cycle safety budget; oldest tokens first
     passed = 0
-    for s in cands:
+    for s in sorted(cands, key=lambda x: state["hatchery"].get(x["mint"], {}).get("added", 0)):
         c["handed"] += 1
         if flt.evaluate(s):
             state["survivors"][s["mint"]] = {
