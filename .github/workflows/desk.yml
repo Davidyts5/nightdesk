@@ -1,7 +1,7 @@
 name: desk
 on:
   schedule:
-    - cron: "7-59/20 * * * *"
+    - cron: "9-59/20 * * * *"
   workflow_dispatch: {}
 permissions:
   contents: write
@@ -12,6 +12,7 @@ concurrency:
 jobs:
   desk:
     runs-on: ubuntu-latest
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
       - run: python3 desk_bot.py --once
@@ -19,6 +20,14 @@ jobs:
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
+      - name: save state BEFORE chaining the next run
+        run: |
+          git config user.name desk-bot
+          git config user.email desk-bot@users.noreply.github.com
+          git add -A
+          git commit -m "desk cycle" || true
+          git pull --rebase || true
+          git push
       - name: heartbeat
         run: |
           KILLS=$(wc -l < logs/kills.jsonl 2>/dev/null || echo 0)
@@ -35,9 +44,3 @@ jobs:
             -H "Accept: application/vnd.github+json" \
             "https://api.github.com/repos/${{ github.repository }}/actions/workflows/desk.yml/dispatches" \
             -d '{"ref":"main"}'
-      - run: |
-          git config user.name desk-bot
-          git config user.email desk-bot@users.noreply.github.com
-          git add -A
-          git commit -m "desk cycle" || true
-          git push
