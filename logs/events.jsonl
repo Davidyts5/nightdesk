@@ -453,3 +453,6 @@
 {"ts": "2026-10-31 10:14:34 WAT", "kind": "SESSION", "msg": "desk online, 18 prior cycles in state"}
 {"ts": "2026-10-31 10:16:34 WAT", "kind": "DEFER", "msg": "Polymarket: safety data unreachable (strike 2/3, HTTPError) - retrying next cycle"}
 {"ts": "2026-10-31 10:16:34 WAT", "kind": "CYCLE", "msg": "cycle 19 done, equity $1000.00"}
+{"ts": "2026-10-31 10:21:44 WAT", "kind": "SESSION", "msg": "desk online, 19 prior cycles in state"}
+{"ts": "2026-10-31 10:22:58 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: PAWS (mcap $79.1M > $20M); Halloween (mcap $482.6M > $20M); NEX Ai (mcap $475950.0M > $20M) ..."}
+{"ts": "2026-10-31 10:23:39 WAT", "kind": "CYCLE", "msg": "cycle 20 done, equity $1000.00"}
