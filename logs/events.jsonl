@@ -654,3 +654,5 @@
 {"ts": "2026-10-31 20:33:02 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Puffen (mcap $63.7M > $20M)"}
 {"ts": "2026-10-31 20:34:23 WAT", "kind": "DEFER", "msg": "AAPLCAT: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-10-31 20:34:23 WAT", "kind": "CYCLE", "msg": "cycle 64 done, equity $1000.00"}
+{"ts": "2026-10-31 20:38:34 WAT", "kind": "SESSION", "msg": "desk online, 64 prior cycles in state"}
+{"ts": "2026-10-31 20:42:23 WAT", "kind": "CYCLE", "msg": "cycle 65 done, equity $1000.00"}
