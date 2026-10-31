@@ -549,3 +549,6 @@
 {"ts": "2026-10-31 13:07:48 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Wojak (mcap $94.7M > $20M)"}
 {"ts": "2026-10-31 13:08:30 WAT", "kind": "DEFER", "msg": "NVIDIA: safety data unreachable (strike 2/3, HTTPError) - retrying next cycle"}
 {"ts": "2026-10-31 13:10:46 WAT", "kind": "CYCLE", "msg": "cycle 41 done, equity $1000.00"}
+{"ts": "2026-10-31 13:16:00 WAT", "kind": "SESSION", "msg": "desk online, 41 prior cycles in state"}
+{"ts": "2026-10-31 13:17:26 WAT", "kind": "SCOUT_DROP", "msg": "6 outside scope: VAMPCAT (mcap $1570.3M > $20M); FOMO (mcap $84.2M > $20M); LUMI (mcap $126.2M > $20M) ..."}
+{"ts": "2026-10-31 13:18:08 WAT", "kind": "CYCLE", "msg": "cycle 42 done, equity $1000.00"}
