@@ -370,3 +370,6 @@
 {"ts": "2026-10-31 05:11:40 WAT", "kind": "CYCLE", "msg": "cycle 12 done, equity $1000.00"}
 {"ts": "2026-10-31 05:22:46 WAT", "kind": "SESSION", "msg": "desk online, 12 prior cycles in state"}
 {"ts": "2026-10-31 05:23:20 WAT", "kind": "CYCLE", "msg": "cycle 13 done, equity $1000.00"}
+{"ts": "2026-10-31 05:34:17 WAT", "kind": "SESSION", "msg": "desk online, 13 prior cycles in state"}
+{"ts": "2026-10-31 05:34:54 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: Hustler (mcap $240.7M > $20M); ChillGivin (mcap $63.4M > $20M); Kim (mcap $83.1M > $20M)"}
+{"ts": "2026-10-31 05:34:54 WAT", "kind": "CYCLE", "msg": "cycle 14 done, equity $1000.00"}
