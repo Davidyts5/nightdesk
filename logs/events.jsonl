@@ -537,3 +537,11 @@
 {"ts": "2026-10-31 12:48:44 WAT", "kind": "DEFER", "msg": "PQCJAK: safety data unreachable (strike 2/3, HTTPError) - retrying next cycle"}
 {"ts": "2026-10-31 12:49:29 WAT", "kind": "DEFER", "msg": "Whitepaper: safety data unreachable (strike 2/3, HTTPError) - retrying next cycle"}
 {"ts": "2026-10-31 12:49:29 WAT", "kind": "CYCLE", "msg": "cycle 39 done, equity $1000.00"}
+{"ts": "2026-10-31 12:54:38 WAT", "kind": "SESSION", "msg": "desk online, 39 prior cycles in state"}
+{"ts": "2026-10-31 12:55:47 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: CRIME (mcap $425.4M > $20M); VAMPCAT (mcap $455.9M > $20M); ANTFUN (mcap $16104.2M > $20M)"}
+{"ts": "2026-10-31 12:56:30 WAT", "kind": "DEFER", "msg": "NVIDIA: safety data unreachable (strike 1/3, HTTPError) - retrying next cycle"}
+{"ts": "2026-10-31 12:57:14 WAT", "kind": "DEFER", "msg": "SAFU: safety data unreachable (strike 1/3, HTTPError) - retrying next cycle"}
+{"ts": "2026-10-31 12:58:03 WAT", "kind": "DEFER", "msg": "\u53d1\u53d1: safety data unreachable (strike 2/3, HTTPError) - retrying next cycle"}
+{"ts": "2026-10-31 12:58:51 WAT", "kind": "DEFER", "msg": "GANGZCAT: safety data unreachable (strike 2/3, HTTPError) - retrying next cycle"}
+{"ts": "2026-10-31 12:59:40 WAT", "kind": "DEFER", "msg": "\u3164\u3164\u3164: safety data unreachable (strike 2/3, HTTPError) - retrying next cycle"}
+{"ts": "2026-10-31 13:01:15 WAT", "kind": "CYCLE", "msg": "cycle 40 done, equity $1000.00"}
