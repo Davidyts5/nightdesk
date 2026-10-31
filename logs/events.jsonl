@@ -328,3 +328,6 @@
 {"ts": "2026-10-31 02:14:06 WAT", "kind": "CYCLE", "msg": "cycle 96 done, equity $1000.00"}
 {"ts": "2026-10-31 02:25:15 WAT", "kind": "SESSION", "msg": "desk online, 96 prior cycles in state"}
 {"ts": "2026-10-31 02:25:51 WAT", "kind": "CYCLE", "msg": "cycle 97 done, equity $1000.00"}
+{"ts": "2026-10-31 02:39:14 WAT", "kind": "SESSION", "msg": "desk online, 97 prior cycles in state"}
+{"ts": "2026-10-31 02:39:51 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: yabbi (mcap $139.0M > $20M); yabbi (mcap $48.2M > $20M); LUMI (mcap $227.6M > $20M)"}
+{"ts": "2026-10-31 02:40:07 WAT", "kind": "CYCLE", "msg": "cycle 98 done, equity $1000.00"}
