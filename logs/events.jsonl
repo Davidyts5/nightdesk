@@ -523,3 +523,6 @@
 {"ts": "2026-10-31 12:24:25 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Candy (mcap $359.1M > $20M)"}
 {"ts": "2026-10-31 12:25:10 WAT", "kind": "DEFER", "msg": "NEX Ai: safety data unreachable (strike 2/3, HTTPError) - retrying next cycle"}
 {"ts": "2026-10-31 12:25:10 WAT", "kind": "CYCLE", "msg": "cycle 36 done, equity $1000.00"}
+{"ts": "2026-10-31 12:30:21 WAT", "kind": "SESSION", "msg": "desk online, 36 prior cycles in state"}
+{"ts": "2026-10-31 12:31:36 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: LBS (no pair birth time); ATOMBRG (mcap $98.1M > $20M)"}
+{"ts": "2026-10-31 12:31:36 WAT", "kind": "CYCLE", "msg": "cycle 37 done, equity $1000.00"}
