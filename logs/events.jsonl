@@ -556,3 +556,7 @@
 {"ts": "2026-10-31 13:24:34 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: Wojak (mcap $245.4M > $20M); TENURE (mcap $63.1M > $20M); Wojak (mcap $104.6M > $20M)"}
 {"ts": "2026-10-31 13:25:14 WAT", "kind": "DEFER", "msg": "NEX Ai: safety data unreachable (strike 1/3, HTTPError) - retrying next cycle"}
 {"ts": "2026-10-31 13:25:14 WAT", "kind": "CYCLE", "msg": "cycle 43 done, equity $1000.00"}
+{"ts": "2026-10-31 13:30:26 WAT", "kind": "SESSION", "msg": "desk online, 43 prior cycles in state"}
+{"ts": "2026-10-31 13:31:46 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: NEX Ai (mcap $361.5M > $20M)"}
+{"ts": "2026-10-31 13:32:34 WAT", "kind": "DEFER", "msg": "NEX Ai: safety data unreachable (strike 2/3, HTTPError) - retrying next cycle"}
+{"ts": "2026-10-31 13:32:34 WAT", "kind": "CYCLE", "msg": "cycle 44 done, equity $1000.00"}
