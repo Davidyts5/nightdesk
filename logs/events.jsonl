@@ -752,3 +752,8 @@
 {"ts": "2026-11-01 00:16:09 WAT", "kind": "DEFER", "msg": "BTC: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
 {"ts": "2026-11-01 00:17:30 WAT", "kind": "DEFER", "msg": "BEAST: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-01 00:17:30 WAT", "kind": "CYCLE", "msg": "cycle 93 done, equity $1000.00"}
+{"ts": "2026-11-01 00:21:41 WAT", "kind": "SESSION", "msg": "desk online, 93 prior cycles in state"}
+{"ts": "2026-11-01 00:24:02 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: MYSTERY (no pair birth time); Anubis (mcap $93.3M > $20M)"}
+{"ts": "2026-11-01 00:25:23 WAT", "kind": "DEFER", "msg": "NEX Ai: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-01 00:26:44 WAT", "kind": "DEFER", "msg": "I\u200aO\u200aF: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-01 00:26:44 WAT", "kind": "CYCLE", "msg": "cycle 94 done, equity $1000.00"}
