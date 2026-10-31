@@ -489,3 +489,6 @@
 {"ts": "2026-10-31 11:19:37 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: XTO (mcap $147.5M > $20M); STFALC (mcap $87.5M > $20M); AOP (mcap $143.1M > $20M)"}
 {"ts": "2026-10-31 11:20:15 WAT", "kind": "DEFER", "msg": "AOTF: safety data unreachable (strike 2/3, HTTPError) - retrying next cycle"}
 {"ts": "2026-10-31 11:20:59 WAT", "kind": "CYCLE", "msg": "cycle 27 done, equity $1000.00"}
+{"ts": "2026-10-31 11:26:09 WAT", "kind": "SESSION", "msg": "desk online, 27 prior cycles in state"}
+{"ts": "2026-10-31 11:27:35 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Candy (mcap $346.8M > $20M)"}
+{"ts": "2026-10-31 11:28:14 WAT", "kind": "CYCLE", "msg": "cycle 28 done, equity $1000.00"}
