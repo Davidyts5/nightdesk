@@ -560,3 +560,8 @@
 {"ts": "2026-10-31 13:31:46 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: NEX Ai (mcap $361.5M > $20M)"}
 {"ts": "2026-10-31 13:32:34 WAT", "kind": "DEFER", "msg": "NEX Ai: safety data unreachable (strike 2/3, HTTPError) - retrying next cycle"}
 {"ts": "2026-10-31 13:32:34 WAT", "kind": "CYCLE", "msg": "cycle 44 done, equity $1000.00"}
+{"ts": "2026-10-31 13:37:46 WAT", "kind": "SESSION", "msg": "desk online, 44 prior cycles in state"}
+{"ts": "2026-10-31 13:39:00 WAT", "kind": "SCOUT_DROP", "msg": "5 outside scope: HOLIDAY (no pair birth time); COMPUTE (mcap $169.8M > $20M); Wojak (mcap $103.5M > $20M) ..."}
+{"ts": "2026-10-31 13:39:42 WAT", "kind": "DEFER", "msg": "VAMPCAT: safety data unreachable (strike 1/3, HTTPError) - retrying next cycle"}
+{"ts": "2026-10-31 13:40:23 WAT", "kind": "DEFER", "msg": "SUPERELON: safety data unreachable (strike 1/3, HTTPError) - retrying next cycle"}
+{"ts": "2026-10-31 13:41:07 WAT", "kind": "CYCLE", "msg": "cycle 45 done, equity $1000.00"}
