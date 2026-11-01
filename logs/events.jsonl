@@ -1351,3 +1351,6 @@
 {"ts": "2026-11-01 21:47:22 WAT", "kind": "SESSION", "msg": "desk online, 99 prior cycles in state"}
 {"ts": "2026-11-01 21:49:49 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: FOREVER (mcap $165.9M > $20M); AODF (mcap $138.0M > $20M)"}
 {"ts": "2026-11-01 21:49:49 WAT", "kind": "CYCLE", "msg": "cycle 100 done, equity $1000.00"}
+{"ts": "2026-11-01 21:54:01 WAT", "kind": "SESSION", "msg": "desk online, 100 prior cycles in state"}
+{"ts": "2026-11-01 21:56:36 WAT", "kind": "SCOUT_DROP", "msg": "8 outside scope: FANS (no pair birth time); TUSSY (no pair birth time); TMD (no pair birth time) ..."}
+{"ts": "2026-11-01 21:56:36 WAT", "kind": "CYCLE", "msg": "cycle 101 done, equity $1000.00"}
