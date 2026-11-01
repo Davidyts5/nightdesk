@@ -827,3 +827,6 @@
 {"ts": "2026-11-01 02:57:00 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Brilliant (mcap $672.3M > $20M)"}
 {"ts": "2026-11-01 02:58:21 WAT", "kind": "DEFER", "msg": "buni: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-01 02:58:21 WAT", "kind": "CYCLE", "msg": "cycle 112 done, equity $1000.00"}
+{"ts": "2026-11-01 03:02:32 WAT", "kind": "SESSION", "msg": "desk online, 112 prior cycles in state"}
+{"ts": "2026-11-01 03:05:00 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: NUT (mcap $95.4M > $20M); FOTF (mcap $42.0M > $20M)"}
+{"ts": "2026-11-01 03:06:21 WAT", "kind": "CYCLE", "msg": "cycle 113 done, equity $1000.00"}
