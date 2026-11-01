@@ -1377,3 +1377,6 @@
 {"ts": "2026-11-01 22:41:36 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Anakin (mcap $23.7M > $20M)"}
 {"ts": "2026-11-01 22:42:58 WAT", "kind": "DEFER", "msg": "Donald: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-01 22:42:58 WAT", "kind": "CYCLE", "msg": "cycle 106 done, equity $1000.00"}
+{"ts": "2026-11-01 22:47:10 WAT", "kind": "SESSION", "msg": "desk online, 106 prior cycles in state"}
+{"ts": "2026-11-01 22:49:49 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: NEX Ai (mcap $481.5M > $20M); FAGENT (mcap $413.8M > $20M)"}
+{"ts": "2026-11-01 22:51:11 WAT", "kind": "CYCLE", "msg": "cycle 107 done, equity $1000.00"}
