@@ -1322,3 +1322,6 @@
 {"ts": "2026-11-01 20:37:07 WAT", "kind": "SESSION", "msg": "desk online, 91 prior cycles in state"}
 {"ts": "2026-11-01 20:41:09 WAT", "kind": "DEFER", "msg": "RDUST: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-01 20:41:09 WAT", "kind": "CYCLE", "msg": "cycle 92 done, equity $1000.00"}
+{"ts": "2026-11-01 20:45:22 WAT", "kind": "SESSION", "msg": "desk online, 92 prior cycles in state"}
+{"ts": "2026-11-01 20:47:50 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: WICKGRO (mcap $38.9M > $20M)"}
+{"ts": "2026-11-01 20:49:11 WAT", "kind": "CYCLE", "msg": "cycle 93 done, equity $1000.00"}
