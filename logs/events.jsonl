@@ -1285,3 +1285,6 @@
 {"ts": "2026-11-01 19:22:12 WAT", "kind": "SESSION", "msg": "desk online, 83 prior cycles in state"}
 {"ts": "2026-11-01 19:24:47 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: BTB (no pair birth time); EDGE (mcap $102.1M > $20M)"}
 {"ts": "2026-11-01 19:24:47 WAT", "kind": "CYCLE", "msg": "cycle 84 done, equity $1000.00"}
+{"ts": "2026-11-01 19:28:58 WAT", "kind": "SESSION", "msg": "desk online, 84 prior cycles in state"}
+{"ts": "2026-11-01 19:31:25 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: DON (no pair birth time)"}
+{"ts": "2026-11-01 19:31:25 WAT", "kind": "CYCLE", "msg": "cycle 85 done, equity $1000.00"}
