@@ -1380,3 +1380,6 @@
 {"ts": "2026-11-01 22:47:10 WAT", "kind": "SESSION", "msg": "desk online, 106 prior cycles in state"}
 {"ts": "2026-11-01 22:49:49 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: NEX Ai (mcap $481.5M > $20M); FAGENT (mcap $413.8M > $20M)"}
 {"ts": "2026-11-01 22:51:11 WAT", "kind": "CYCLE", "msg": "cycle 107 done, equity $1000.00"}
+{"ts": "2026-11-01 22:55:23 WAT", "kind": "SESSION", "msg": "desk online, 107 prior cycles in state"}
+{"ts": "2026-11-01 22:57:49 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: UNI (mcap $119.8M > $20M)"}
+{"ts": "2026-11-01 22:57:49 WAT", "kind": "CYCLE", "msg": "cycle 108 done, equity $1000.00"}
