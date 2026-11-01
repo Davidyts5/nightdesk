@@ -890,3 +890,8 @@
 {"ts": "2026-11-01 05:07:22 WAT", "kind": "DEFER", "msg": "BLUE: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-01 05:08:43 WAT", "kind": "DEFER", "msg": "DEPIXY: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-01 05:08:43 WAT", "kind": "CYCLE", "msg": "cycle 12 done, equity $1000.00"}
+{"ts": "2026-11-01 05:12:54 WAT", "kind": "SESSION", "msg": "desk online, 12 prior cycles in state"}
+{"ts": "2026-11-01 05:15:12 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: HALOCAT (no pair birth time); FAGENT (mcap $368.3M > $20M); Curchef (mcap $92.0M > $20M) ..."}
+{"ts": "2026-11-01 05:16:35 WAT", "kind": "DEFER", "msg": "USOE: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-01 05:17:56 WAT", "kind": "DEFER", "msg": "NEX Ai: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-01 05:20:39 WAT", "kind": "CYCLE", "msg": "cycle 13 done, equity $1000.00"}
