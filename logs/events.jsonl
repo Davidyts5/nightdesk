@@ -979,3 +979,6 @@
 {"ts": "2026-11-01 08:13:21 WAT", "kind": "SESSION", "msg": "desk online, 8 prior cycles in state"}
 {"ts": "2026-11-01 08:17:09 WAT", "kind": "DEFER", "msg": "MrBeast: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-01 08:17:09 WAT", "kind": "CYCLE", "msg": "cycle 9 done, equity $1000.00"}
+{"ts": "2026-11-01 08:21:21 WAT", "kind": "SESSION", "msg": "desk online, 9 prior cycles in state"}
+{"ts": "2026-11-01 08:23:49 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: niketyson (mcap $80.6M > $20M); Goobatt (mcap $22.5M > $20M)"}
+{"ts": "2026-11-01 08:23:49 WAT", "kind": "CYCLE", "msg": "cycle 10 done, equity $1000.00"}
