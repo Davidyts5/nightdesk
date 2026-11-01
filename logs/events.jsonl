@@ -1114,3 +1114,6 @@
 {"ts": "2026-11-01 13:03:30 WAT", "kind": "SESSION", "msg": "desk online, 39 prior cycles in state"}
 {"ts": "2026-11-01 13:06:00 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: nut (mcap $203.2M > $20M); SA (mcap $82.5M > $20M)"}
 {"ts": "2026-11-01 13:07:21 WAT", "kind": "CYCLE", "msg": "cycle 40 done, equity $1000.00"}
+{"ts": "2026-11-01 13:11:34 WAT", "kind": "SESSION", "msg": "desk online, 40 prior cycles in state"}
+{"ts": "2026-11-01 13:14:01 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: KIM (mcap $74.4M > $20M); GBDP (mcap $130.0M > $20M)"}
+{"ts": "2026-11-01 13:14:01 WAT", "kind": "CYCLE", "msg": "cycle 41 done, equity $1000.00"}
