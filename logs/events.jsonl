@@ -1117,3 +1117,6 @@
 {"ts": "2026-11-01 13:11:34 WAT", "kind": "SESSION", "msg": "desk online, 40 prior cycles in state"}
 {"ts": "2026-11-01 13:14:01 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: KIM (mcap $74.4M > $20M); GBDP (mcap $130.0M > $20M)"}
 {"ts": "2026-11-01 13:14:01 WAT", "kind": "CYCLE", "msg": "cycle 41 done, equity $1000.00"}
+{"ts": "2026-11-01 13:18:12 WAT", "kind": "SESSION", "msg": "desk online, 41 prior cycles in state"}
+{"ts": "2026-11-01 13:20:49 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: LUCKY99 (mcap $258.1M > $20M); BLUE (mcap $127.0M > $20M)"}
+{"ts": "2026-11-01 13:20:49 WAT", "kind": "CYCLE", "msg": "cycle 42 done, equity $1000.00"}
