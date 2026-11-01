@@ -840,3 +840,10 @@
 {"ts": "2026-11-01 03:22:19 WAT", "kind": "DEFER", "msg": "BLUE: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
 {"ts": "2026-11-01 03:23:41 WAT", "kind": "DEFER", "msg": "USOE: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-01 03:23:41 WAT", "kind": "CYCLE", "msg": "cycle 2 done, equity $1000.00"}
+{"ts": "2026-11-01 03:27:51 WAT", "kind": "SESSION", "msg": "desk online, 2 prior cycles in state"}
+{"ts": "2026-11-01 03:30:13 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: SI (mcap $99.4M > $20M); Numole (mcap $21.9M > $20M)"}
+{"ts": "2026-11-01 03:31:34 WAT", "kind": "DEFER", "msg": "BLEP: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-01 03:32:56 WAT", "kind": "DEFER", "msg": "NUT: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-01 03:34:17 WAT", "kind": "DEFER", "msg": "Kongo: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-01 03:35:38 WAT", "kind": "DEFER", "msg": "BLUE: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-01 03:36:59 WAT", "kind": "CYCLE", "msg": "cycle 3 done, equity $1000.00"}
