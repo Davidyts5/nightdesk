@@ -788,3 +788,6 @@
 {"ts": "2026-11-01 01:32:00 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Darkness (mcap $341.8M > $20M)"}
 {"ts": "2026-11-01 01:33:21 WAT", "kind": "DEFER", "msg": "JEW: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-01 01:33:21 WAT", "kind": "CYCLE", "msg": "cycle 102 done, equity $1000.00"}
+{"ts": "2026-11-01 01:37:31 WAT", "kind": "SESSION", "msg": "desk online, 102 prior cycles in state"}
+{"ts": "2026-11-01 01:40:00 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: NIGGARACKET (mcap $93.4M > $20M)"}
+{"ts": "2026-11-01 01:41:20 WAT", "kind": "CYCLE", "msg": "cycle 103 done, equity $1000.00"}
