@@ -802,3 +802,6 @@
 {"ts": "2026-11-01 02:02:47 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: TRADERS (mcap $143.0M > $20M)"}
 {"ts": "2026-11-01 02:04:08 WAT", "kind": "DEFER", "msg": "SPCX90K: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-01 02:04:08 WAT", "kind": "CYCLE", "msg": "cycle 106 done, equity $1000.00"}
+{"ts": "2026-11-01 02:08:18 WAT", "kind": "SESSION", "msg": "desk online, 106 prior cycles in state"}
+{"ts": "2026-11-01 02:10:49 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: SantaKlaus (no pair birth time); NNN (mcap $93.3M > $20M)"}
+{"ts": "2026-11-01 02:12:10 WAT", "kind": "CYCLE", "msg": "cycle 107 done, equity $1000.00"}
