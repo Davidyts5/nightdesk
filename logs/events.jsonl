@@ -993,3 +993,6 @@
 {"ts": "2026-11-01 08:42:42 WAT", "kind": "DEFER", "msg": "INCOGNITO: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-01 08:44:03 WAT", "kind": "DEFER", "msg": "GTA6: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-01 08:44:03 WAT", "kind": "CYCLE", "msg": "cycle 12 done, equity $1000.00"}
+{"ts": "2026-11-01 08:48:14 WAT", "kind": "SESSION", "msg": "desk online, 12 prior cycles in state"}
+{"ts": "2026-11-01 08:50:49 WAT", "kind": "SCOUT_DROP", "msg": "5 outside scope: \u5927A\u80a1 (mcap $317266.7M > $20M); SHIMAQ (mcap $21.3M > $20M); WOFL (mcap $481.3M > $20M) ..."}
+{"ts": "2026-11-01 08:53:31 WAT", "kind": "CYCLE", "msg": "cycle 13 done, equity $1000.00"}
