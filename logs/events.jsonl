@@ -1062,3 +1062,8 @@
 {"ts": "2026-11-01 11:06:50 WAT", "kind": "ERROR", "msg": "s/report\" % mint,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: http_get_json() got an unexpected keyword argument 'max_pause'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/nightdesk/nightdesk/desk_bot.py\", line 1288, in main\n    do_cycle(state, scout, flt, analyst, executor, risk, log)\n  File \"/home/runner/work/nightdesk/nightdesk/desk_bot.py\", line 1144, in do_cycle\n    if flt.evaluate(s):\n       ^^^^^^^^^^^^^^^\n  File \"/home/runner/work/nightdesk/nightdesk/desk_bot.py\", line 557, in evaluate\n    verdict, rule, detail, rpc_notes = (self._rpc_fallback(s) if self.rpc\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: not enough values to unpack (expected 4, got 3)\n"}
 {"ts": "2026-11-01 11:11:02 WAT", "kind": "SESSION", "msg": "desk online, 27 prior cycles in state"}
 {"ts": "2026-11-01 11:13:36 WAT", "kind": "CYCLE", "msg": "cycle 28 done, equity $1000.00"}
+{"ts": "2026-11-01 11:17:46 WAT", "kind": "SESSION", "msg": "desk online, 28 prior cycles in state"}
+{"ts": "2026-11-01 11:21:34 WAT", "kind": "DEFER", "msg": "fomo: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-01 11:22:55 WAT", "kind": "DEFER", "msg": "BLACKED: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-01 11:24:16 WAT", "kind": "DEFER", "msg": "TRUMP: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-01 11:24:16 WAT", "kind": "CYCLE", "msg": "cycle 29 done, equity $1000.00"}
