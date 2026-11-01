@@ -1191,3 +1191,6 @@
 {"ts": "2026-11-01 15:51:28 WAT", "kind": "SESSION", "msg": "desk online, 59 prior cycles in state"}
 {"ts": "2026-11-01 15:54:01 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: NEX Ai (mcap $950000.0M > $20M); Candy (mcap $474750.0M > $20M)"}
 {"ts": "2026-11-01 15:54:01 WAT", "kind": "CYCLE", "msg": "cycle 60 done, equity $1000.00"}
+{"ts": "2026-11-01 15:58:13 WAT", "kind": "SESSION", "msg": "desk online, 60 prior cycles in state"}
+{"ts": "2026-11-01 16:00:48 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: BALLS (mcap $78.9M > $20M); BALLS (mcap $189.5M > $20M)"}
+{"ts": "2026-11-01 16:00:48 WAT", "kind": "CYCLE", "msg": "cycle 61 done, equity $1000.00"}
