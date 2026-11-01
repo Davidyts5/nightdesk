@@ -966,3 +966,6 @@
 {"ts": "2026-11-01 07:42:16 WAT", "kind": "SESSION", "msg": "desk online, 4 prior cycles in state"}
 {"ts": "2026-11-01 07:44:49 WAT", "kind": "SCOUT_DROP", "msg": "6 outside scope: NoNut (no pair birth time); Gold (mcap $391.1M > $20M); Atlmeth (mcap $21.0M > $20M) ..."}
 {"ts": "2026-11-01 07:47:31 WAT", "kind": "CYCLE", "msg": "cycle 5 done, equity $1000.00"}
+{"ts": "2026-11-01 07:51:43 WAT", "kind": "SESSION", "msg": "desk online, 5 prior cycles in state"}
+{"ts": "2026-11-01 07:54:13 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: Guinefort (no pair birth time); TABY (no pair birth time); SGNL (mcap $94.4M > $20M) ..."}
+{"ts": "2026-11-01 07:54:13 WAT", "kind": "CYCLE", "msg": "cycle 6 done, equity $1000.00"}
