@@ -1404,3 +1404,6 @@
 {"ts": "2026-11-01 23:43:37 WAT", "kind": "CYCLE", "msg": "cycle 114 done, equity $1000.00"}
 {"ts": "2026-11-01 23:47:54 WAT", "kind": "SESSION", "msg": "desk online, 114 prior cycles in state"}
 {"ts": "2026-11-01 23:50:13 WAT", "kind": "CYCLE", "msg": "cycle 115 done, equity $1000.00"}
+{"ts": "2026-11-01 23:54:23 WAT", "kind": "SESSION", "msg": "desk online, 115 prior cycles in state"}
+{"ts": "2026-11-01 23:56:44 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: NEX Ai (mcap $424.9M > $20M); uni (mcap $125.1M > $20M); WIMOK (mcap $107.7M > $20M)"}
+{"ts": "2026-11-01 23:56:44 WAT", "kind": "CYCLE", "msg": "cycle 116 done, equity $1000.00"}
