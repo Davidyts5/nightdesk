@@ -1348,3 +1348,6 @@
 {"ts": "2026-11-01 21:36:33 WAT", "kind": "CYCLE", "msg": "cycle 98 done, equity $1000.00"}
 {"ts": "2026-11-01 21:40:45 WAT", "kind": "SESSION", "msg": "desk online, 98 prior cycles in state"}
 {"ts": "2026-11-01 21:43:11 WAT", "kind": "CYCLE", "msg": "cycle 99 done, equity $1000.00"}
+{"ts": "2026-11-01 21:47:22 WAT", "kind": "SESSION", "msg": "desk online, 99 prior cycles in state"}
+{"ts": "2026-11-01 21:49:49 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: FOREVER (mcap $165.9M > $20M); AODF (mcap $138.0M > $20M)"}
+{"ts": "2026-11-01 21:49:49 WAT", "kind": "CYCLE", "msg": "cycle 100 done, equity $1000.00"}
