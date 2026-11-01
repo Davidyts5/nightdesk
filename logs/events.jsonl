@@ -1146,3 +1146,6 @@
 {"ts": "2026-11-01 14:14:13 WAT", "kind": "SESSION", "msg": "desk online, 49 prior cycles in state"}
 {"ts": "2026-11-01 14:16:48 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: TROLLYE (no pair birth time); TOPGA (no pair birth time)"}
 {"ts": "2026-11-01 14:16:48 WAT", "kind": "CYCLE", "msg": "cycle 50 done, equity $1000.00"}
+{"ts": "2026-11-01 14:20:59 WAT", "kind": "SESSION", "msg": "desk online, 50 prior cycles in state"}
+{"ts": "2026-11-01 14:23:26 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: USELESS (mcap $195.3M > $20M); PIRATE (mcap $78.7M > $20M)"}
+{"ts": "2026-11-01 14:23:26 WAT", "kind": "CYCLE", "msg": "cycle 51 done, equity $1000.00"}
