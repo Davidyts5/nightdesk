@@ -1041,3 +1041,10 @@
 {"ts": "2026-11-01 10:31:58 WAT", "kind": "DEFER", "msg": "Rockstar: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
 {"ts": "2026-11-01 10:33:19 WAT", "kind": "DEFER", "msg": "Grok: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
 {"ts": "2026-11-01 10:33:19 WAT", "kind": "CYCLE", "msg": "cycle 24 done, equity $1000.00"}
+{"ts": "2026-11-01 10:37:30 WAT", "kind": "SESSION", "msg": "desk online, 24 prior cycles in state"}
+{"ts": "2026-11-01 10:40:01 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: nut (mcap $133.3M > $20M); PAWS (mcap $94.3M > $20M)"}
+{"ts": "2026-11-01 10:41:22 WAT", "kind": "DEFER", "msg": "niketyson: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-01 10:42:43 WAT", "kind": "DEFER", "msg": "nut: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-01 10:44:04 WAT", "kind": "DEFER", "msg": "WOFL: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-01 10:45:25 WAT", "kind": "DEFER", "msg": "Grok: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-01 10:45:25 WAT", "kind": "CYCLE", "msg": "cycle 25 done, equity $1000.00"}
