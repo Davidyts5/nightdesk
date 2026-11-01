@@ -1018,3 +1018,8 @@
 {"ts": "2026-11-01 09:39:20 WAT", "kind": "DEFER", "msg": "KIM: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
 {"ts": "2026-11-01 09:40:41 WAT", "kind": "DEFER", "msg": "KIM: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
 {"ts": "2026-11-01 09:42:02 WAT", "kind": "CYCLE", "msg": "cycle 18 done, equity $1000.00"}
+{"ts": "2026-11-01 09:46:14 WAT", "kind": "SESSION", "msg": "desk online, 18 prior cycles in state"}
+{"ts": "2026-11-01 09:48:48 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: Polymarket (mcap $80.3M > $20M); NAFF (mcap $142.2M > $20M)"}
+{"ts": "2026-11-01 09:50:09 WAT", "kind": "DEFER", "msg": "KIM: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-01 09:51:30 WAT", "kind": "DEFER", "msg": "KIM: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-01 09:51:30 WAT", "kind": "CYCLE", "msg": "cycle 19 done, equity $1000.00"}
