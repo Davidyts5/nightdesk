@@ -1344,3 +1344,5 @@
 {"ts": "2026-11-01 21:26:04 WAT", "kind": "DEFER", "msg": "SI: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-01 21:27:25 WAT", "kind": "DEFER", "msg": "REGRETAMINE: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-01 21:27:25 WAT", "kind": "CYCLE", "msg": "cycle 97 done, equity $1000.00"}
+{"ts": "2026-11-01 21:31:36 WAT", "kind": "SESSION", "msg": "desk online, 97 prior cycles in state"}
+{"ts": "2026-11-01 21:36:33 WAT", "kind": "CYCLE", "msg": "cycle 98 done, equity $1000.00"}
