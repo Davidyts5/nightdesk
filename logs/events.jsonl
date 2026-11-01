@@ -969,3 +969,6 @@
 {"ts": "2026-11-01 07:51:43 WAT", "kind": "SESSION", "msg": "desk online, 5 prior cycles in state"}
 {"ts": "2026-11-01 07:54:13 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: Guinefort (no pair birth time); TABY (no pair birth time); SGNL (mcap $94.4M > $20M) ..."}
 {"ts": "2026-11-01 07:54:13 WAT", "kind": "CYCLE", "msg": "cycle 6 done, equity $1000.00"}
+{"ts": "2026-11-01 07:58:25 WAT", "kind": "SESSION", "msg": "desk online, 6 prior cycles in state"}
+{"ts": "2026-11-01 08:00:59 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: Candy (mcap $442.0M > $20M); STARPUM (mcap $23.6M > $20M)"}
+{"ts": "2026-11-01 08:00:59 WAT", "kind": "CYCLE", "msg": "cycle 7 done, equity $1000.00"}
