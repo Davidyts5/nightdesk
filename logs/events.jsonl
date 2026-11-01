@@ -867,3 +867,5 @@
 {"ts": "2026-11-01 04:17:41 WAT", "kind": "SESSION", "msg": "desk online, 6 prior cycles in state"}
 {"ts": "2026-11-01 04:20:00 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: NUT (mcap $193.6M > $20M)"}
 {"ts": "2026-11-01 04:20:00 WAT", "kind": "CYCLE", "msg": "cycle 7 done, equity $1000.00"}
+{"ts": "2026-11-01 04:24:11 WAT", "kind": "SESSION", "msg": "desk online, 7 prior cycles in state"}
+{"ts": "2026-11-01 04:26:48 WAT", "kind": "CYCLE", "msg": "cycle 8 done, equity $1000.00"}
