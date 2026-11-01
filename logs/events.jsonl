@@ -1101,3 +1101,7 @@
 {"ts": "2026-11-01 12:34:01 WAT", "kind": "DEFER", "msg": "HKLTU: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-01 12:35:22 WAT", "kind": "DEFER", "msg": "newL1: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-01 12:35:22 WAT", "kind": "CYCLE", "msg": "cycle 36 done, equity $1000.00"}
+{"ts": "2026-11-01 12:39:32 WAT", "kind": "SESSION", "msg": "desk online, 36 prior cycles in state"}
+{"ts": "2026-11-01 12:42:00 WAT", "kind": "SCOUT_DROP", "msg": "5 outside scope: VAMPE (no pair birth time); VAMPELON (no pair birth time); Vampelon (no pair birth time) ..."}
+{"ts": "2026-11-01 12:43:21 WAT", "kind": "DEFER", "msg": "NVIDIA: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-01 12:44:43 WAT", "kind": "CYCLE", "msg": "cycle 37 done, equity $1000.00"}
