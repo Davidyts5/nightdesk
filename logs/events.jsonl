@@ -957,3 +957,9 @@
 {"ts": "2026-11-01 07:24:42 WAT", "kind": "DEFER", "msg": "FOTF: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
 {"ts": "2026-11-01 07:26:03 WAT", "kind": "DEFER", "msg": "Rockstar: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
 {"ts": "2026-11-01 07:27:24 WAT", "kind": "CYCLE", "msg": "cycle 3 done, equity $1000.00"}
+{"ts": "2026-11-01 07:31:36 WAT", "kind": "SESSION", "msg": "desk online, 3 prior cycles in state"}
+{"ts": "2026-11-01 07:34:01 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: PREDICT (mcap $407.5M > $20M); YUME (mcap $63.1M > $20M)"}
+{"ts": "2026-11-01 07:35:22 WAT", "kind": "DEFER", "msg": "otc: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-01 07:36:44 WAT", "kind": "DEFER", "msg": "YUME: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-01 07:38:05 WAT", "kind": "DEFER", "msg": "FOTF: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-01 07:38:05 WAT", "kind": "CYCLE", "msg": "cycle 4 done, equity $1000.00"}
