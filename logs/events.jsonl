@@ -963,3 +963,6 @@
 {"ts": "2026-11-01 07:36:44 WAT", "kind": "DEFER", "msg": "YUME: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-01 07:38:05 WAT", "kind": "DEFER", "msg": "FOTF: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-01 07:38:05 WAT", "kind": "CYCLE", "msg": "cycle 4 done, equity $1000.00"}
+{"ts": "2026-11-01 07:42:16 WAT", "kind": "SESSION", "msg": "desk online, 4 prior cycles in state"}
+{"ts": "2026-11-01 07:44:49 WAT", "kind": "SCOUT_DROP", "msg": "6 outside scope: NoNut (no pair birth time); Gold (mcap $391.1M > $20M); Atlmeth (mcap $21.0M > $20M) ..."}
+{"ts": "2026-11-01 07:47:31 WAT", "kind": "CYCLE", "msg": "cycle 5 done, equity $1000.00"}
