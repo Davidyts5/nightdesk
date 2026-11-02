@@ -1785,3 +1785,6 @@
 {"ts": "2026-11-02 13:25:49 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: SUKO (no pair birth time); VIXOP (mcap $110.6M > $20M)"}
 {"ts": "2026-11-02 13:27:10 WAT", "kind": "DEFER", "msg": "MAMESUKE: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-02 13:28:31 WAT", "kind": "CYCLE", "msg": "cycle 43 done, equity $1000.00"}
+{"ts": "2026-11-02 13:32:43 WAT", "kind": "SESSION", "msg": "desk online, 43 prior cycles in state"}
+{"ts": "2026-11-02 13:35:13 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: \ud83d\udcb0 (no pair birth time); KABOSU (mcap $86.7M > $20M)"}
+{"ts": "2026-11-02 13:36:34 WAT", "kind": "CYCLE", "msg": "cycle 44 done, equity $1000.00"}
