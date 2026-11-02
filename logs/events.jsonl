@@ -1956,3 +1956,6 @@
 {"ts": "2026-11-02 19:41:11 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Polycrisis (mcap $154.5M > $20M)"}
 {"ts": "2026-11-02 19:42:32 WAT", "kind": "DEFER", "msg": "SODOGE: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-02 19:42:32 WAT", "kind": "CYCLE", "msg": "cycle 86 done, equity $1000.00"}
+{"ts": "2026-11-02 19:46:54 WAT", "kind": "SESSION", "msg": "desk online, 86 prior cycles in state"}
+{"ts": "2026-11-02 19:49:13 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: NEX Ai (mcap $445.6M > $20M); XTO (mcap $51.0M > $20M); Horse (mcap $77.7M > $20M) ..."}
+{"ts": "2026-11-02 19:50:34 WAT", "kind": "CYCLE", "msg": "cycle 87 done, equity $1000.00"}
