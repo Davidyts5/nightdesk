@@ -1634,3 +1634,6 @@
 {"ts": "2026-11-02 07:59:50 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: uwunald (no pair birth time); JIODUCK (mcap $21.5M > $20M); RARI (mcap $92.2M > $20M)"}
 {"ts": "2026-11-02 08:01:11 WAT", "kind": "DEFER", "msg": "Polymarket: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-02 08:01:11 WAT", "kind": "CYCLE", "msg": "cycle 7 done, equity $1000.00"}
+{"ts": "2026-11-02 08:05:24 WAT", "kind": "SESSION", "msg": "desk online, 7 prior cycles in state"}
+{"ts": "2026-11-02 08:07:48 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: Musk (mcap $416.5M > $20M); HXTD (mcap $10001.0M > $20M)"}
+{"ts": "2026-11-02 08:09:09 WAT", "kind": "CYCLE", "msg": "cycle 8 done, equity $1000.00"}
