@@ -2082,3 +2082,6 @@
 {"ts": "2026-11-03 00:21:14 WAT", "kind": "SESSION", "msg": "desk online, 122 prior cycles in state"}
 {"ts": "2026-11-03 00:23:16 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: TRUMP (no pair birth time); CPU (mcap $229.1M > $20M); BIJU (mcap $109.3M > $20M)"}
 {"ts": "2026-11-03 00:24:36 WAT", "kind": "CYCLE", "msg": "cycle 123 done, equity $1000.00"}
+{"ts": "2026-11-03 00:28:48 WAT", "kind": "SESSION", "msg": "desk online, 123 prior cycles in state"}
+{"ts": "2026-11-03 00:31:12 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: Crime (mcap $60.6M > $20M); VUB (mcap $116.1M > $20M)"}
+{"ts": "2026-11-03 00:31:12 WAT", "kind": "CYCLE", "msg": "cycle 124 done, equity $1000.00"}
