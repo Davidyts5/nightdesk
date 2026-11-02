@@ -2079,3 +2079,6 @@
 {"ts": "2026-11-03 00:15:37 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: TRISTAN  (no pair birth time)"}
 {"ts": "2026-11-03 00:16:59 WAT", "kind": "DEFER", "msg": "\u1453\u0b39\ua6a1\u0908: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-03 00:16:59 WAT", "kind": "CYCLE", "msg": "cycle 122 done, equity $1000.00"}
+{"ts": "2026-11-03 00:21:14 WAT", "kind": "SESSION", "msg": "desk online, 122 prior cycles in state"}
+{"ts": "2026-11-03 00:23:16 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: TRUMP (no pair birth time); CPU (mcap $229.1M > $20M); BIJU (mcap $109.3M > $20M)"}
+{"ts": "2026-11-03 00:24:36 WAT", "kind": "CYCLE", "msg": "cycle 123 done, equity $1000.00"}
