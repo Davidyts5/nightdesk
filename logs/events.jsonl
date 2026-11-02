@@ -1745,3 +1745,5 @@
 {"ts": "2026-11-02 12:01:49 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: ANAKIN (mcap $514.3M > $20M); JIL (mcap $112.6M > $20M)"}
 {"ts": "2026-11-02 12:03:10 WAT", "kind": "DEFER", "msg": "Rockstar: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-02 12:03:10 WAT", "kind": "CYCLE", "msg": "cycle 34 done, equity $1000.00"}
+{"ts": "2026-11-02 12:07:21 WAT", "kind": "SESSION", "msg": "desk online, 34 prior cycles in state"}
+{"ts": "2026-11-02 12:11:12 WAT", "kind": "CYCLE", "msg": "cycle 35 done, equity $1000.00"}
