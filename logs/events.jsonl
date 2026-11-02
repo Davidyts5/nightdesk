@@ -1747,3 +1747,6 @@
 {"ts": "2026-11-02 12:03:10 WAT", "kind": "CYCLE", "msg": "cycle 34 done, equity $1000.00"}
 {"ts": "2026-11-02 12:07:21 WAT", "kind": "SESSION", "msg": "desk online, 34 prior cycles in state"}
 {"ts": "2026-11-02 12:11:12 WAT", "kind": "CYCLE", "msg": "cycle 35 done, equity $1000.00"}
+{"ts": "2026-11-02 12:15:25 WAT", "kind": "SESSION", "msg": "desk online, 35 prior cycles in state"}
+{"ts": "2026-11-02 12:18:01 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: ZORO (mcap $110.9M > $20M)"}
+{"ts": "2026-11-02 12:18:01 WAT", "kind": "CYCLE", "msg": "cycle 36 done, equity $1000.00"}
