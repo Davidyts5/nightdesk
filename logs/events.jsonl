@@ -2015,3 +2015,7 @@
 {"ts": "2026-11-02 21:50:48 WAT", "kind": "SESSION", "msg": "desk online, 102 prior cycles in state"}
 {"ts": "2026-11-02 21:53:13 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: $CAMPARI (no pair birth time); LLEW (mcap $243.2M > $20M)"}
 {"ts": "2026-11-02 21:54:34 WAT", "kind": "CYCLE", "msg": "cycle 103 done, equity $1000.00"}
+{"ts": "2026-11-02 21:58:47 WAT", "kind": "SESSION", "msg": "desk online, 103 prior cycles in state"}
+{"ts": "2026-11-02 22:01:14 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Dune (no pair birth time)"}
+{"ts": "2026-11-02 22:02:35 WAT", "kind": "DEFER", "msg": "LPS: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-02 22:02:35 WAT", "kind": "CYCLE", "msg": "cycle 104 done, equity $1000.00"}
