@@ -1781,3 +1781,7 @@
 {"ts": "2026-11-02 13:17:44 WAT", "kind": "DEFER", "msg": "BEAST: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-02 13:19:05 WAT", "kind": "DEFER", "msg": "CATO: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-02 13:19:05 WAT", "kind": "CYCLE", "msg": "cycle 42 done, equity $1000.00"}
+{"ts": "2026-11-02 13:23:17 WAT", "kind": "SESSION", "msg": "desk online, 42 prior cycles in state"}
+{"ts": "2026-11-02 13:25:49 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: SUKO (no pair birth time); VIXOP (mcap $110.6M > $20M)"}
+{"ts": "2026-11-02 13:27:10 WAT", "kind": "DEFER", "msg": "MAMESUKE: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-02 13:28:31 WAT", "kind": "CYCLE", "msg": "cycle 43 done, equity $1000.00"}
