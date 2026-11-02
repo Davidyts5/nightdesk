@@ -2012,3 +2012,6 @@
 {"ts": "2026-11-02 21:45:13 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: USOE (mcap $540.6M > $20M)"}
 {"ts": "2026-11-02 21:46:34 WAT", "kind": "DEFER", "msg": "\u8c46\u52a9: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-02 21:46:34 WAT", "kind": "CYCLE", "msg": "cycle 102 done, equity $1000.00"}
+{"ts": "2026-11-02 21:50:48 WAT", "kind": "SESSION", "msg": "desk online, 102 prior cycles in state"}
+{"ts": "2026-11-02 21:53:13 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: $CAMPARI (no pair birth time); LLEW (mcap $243.2M > $20M)"}
+{"ts": "2026-11-02 21:54:34 WAT", "kind": "CYCLE", "msg": "cycle 103 done, equity $1000.00"}
