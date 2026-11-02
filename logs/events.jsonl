@@ -1526,3 +1526,6 @@
 {"ts": "2026-11-02 04:14:38 WAT", "kind": "SCOUT_DROP", "msg": "5 outside scope: COVID-19\ud83d\ude37 (mcap $313.0M > $20M); XTO (mcap $543.7M > $20M); STEALTH (mcap $211.0M > $20M) ..."}
 {"ts": "2026-11-02 04:15:59 WAT", "kind": "DEFER", "msg": "FOMO: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-02 04:15:59 WAT", "kind": "CYCLE", "msg": "cycle 10 done, equity $1000.00"}
+{"ts": "2026-11-02 04:20:09 WAT", "kind": "SESSION", "msg": "desk online, 10 prior cycles in state"}
+{"ts": "2026-11-02 04:22:49 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: TENO (mcap $114.1M > $20M)"}
+{"ts": "2026-11-02 04:24:10 WAT", "kind": "CYCLE", "msg": "cycle 11 done, equity $1000.00"}
