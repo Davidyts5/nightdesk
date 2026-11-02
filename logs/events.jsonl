@@ -1503,3 +1503,6 @@
 {"ts": "2026-11-02 03:22:02 WAT", "kind": "CYCLE", "msg": "cycle 3 done, equity $1000.00"}
 {"ts": "2026-11-02 03:26:14 WAT", "kind": "SESSION", "msg": "desk online, 3 prior cycles in state"}
 {"ts": "2026-11-02 03:28:48 WAT", "kind": "CYCLE", "msg": "cycle 4 done, equity $1000.00"}
+{"ts": "2026-11-02 03:32:59 WAT", "kind": "SESSION", "msg": "desk online, 4 prior cycles in state"}
+{"ts": "2026-11-02 03:35:37 WAT", "kind": "SCOUT_DROP", "msg": "5 outside scope: \ubc15\uc9c4\ud601 (mcap $88.2M > $20M); \ubc15\uc9c4\ud601 (mcap $62.6M > $20M); Mark Selby (mcap $417.6M > $20M) ..."}
+{"ts": "2026-11-02 03:35:37 WAT", "kind": "CYCLE", "msg": "cycle 5 done, equity $1000.00"}
