@@ -2008,3 +2008,7 @@
 {"ts": "2026-11-02 21:35:31 WAT", "kind": "SESSION", "msg": "desk online, 100 prior cycles in state"}
 {"ts": "2026-11-02 21:38:01 WAT", "kind": "SCOUT_DROP", "msg": "8 outside scope: Victory (no pair birth time); dwf (no pair birth time); META (no pair birth time) ..."}
 {"ts": "2026-11-02 21:39:22 WAT", "kind": "CYCLE", "msg": "cycle 101 done, equity $1000.00"}
+{"ts": "2026-11-02 21:43:35 WAT", "kind": "SESSION", "msg": "desk online, 101 prior cycles in state"}
+{"ts": "2026-11-02 21:45:13 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: USOE (mcap $540.6M > $20M)"}
+{"ts": "2026-11-02 21:46:34 WAT", "kind": "DEFER", "msg": "\u8c46\u52a9: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-02 21:46:34 WAT", "kind": "CYCLE", "msg": "cycle 102 done, equity $1000.00"}
