@@ -1660,3 +1660,6 @@
 {"ts": "2026-11-02 08:53:38 WAT", "kind": "CYCLE", "msg": "cycle 14 done, equity $1000.00"}
 {"ts": "2026-11-02 08:57:50 WAT", "kind": "SESSION", "msg": "desk online, 14 prior cycles in state"}
 {"ts": "2026-11-02 09:00:12 WAT", "kind": "CYCLE", "msg": "cycle 15 done, equity $1000.00"}
+{"ts": "2026-11-02 09:04:22 WAT", "kind": "SESSION", "msg": "desk online, 15 prior cycles in state"}
+{"ts": "2026-11-02 09:06:49 WAT", "kind": "SCOUT_DROP", "msg": "5 outside scope: FOTF (mcap $642.2M > $20M); UDTF (mcap $216.5M > $20M); VINE (mcap $731.4M > $20M) ..."}
+{"ts": "2026-11-02 09:06:49 WAT", "kind": "CYCLE", "msg": "cycle 16 done, equity $1000.00"}
