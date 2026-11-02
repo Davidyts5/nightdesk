@@ -1548,3 +1548,6 @@
 {"ts": "2026-11-02 05:03:12 WAT", "kind": "SESSION", "msg": "desk online, 16 prior cycles in state"}
 {"ts": "2026-11-02 05:05:49 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: OKCAT (no pair birth time); Rmcrown (mcap $87.7M > $20M)"}
 {"ts": "2026-11-02 05:05:49 WAT", "kind": "CYCLE", "msg": "cycle 17 done, equity $1000.00"}
+{"ts": "2026-11-02 05:09:59 WAT", "kind": "SESSION", "msg": "desk online, 17 prior cycles in state"}
+{"ts": "2026-11-02 05:12:24 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: OKCAT (no pair birth time); Falshld (mcap $88.1M > $20M); DOGE (mcap $137.3M > $20M)"}
+{"ts": "2026-11-02 05:12:24 WAT", "kind": "CYCLE", "msg": "cycle 18 done, equity $1000.00"}
