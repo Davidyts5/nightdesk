@@ -2005,3 +2005,6 @@
 {"ts": "2026-11-02 21:29:53 WAT", "kind": "DEFER", "msg": "CAPY: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-02 21:31:15 WAT", "kind": "DEFER", "msg": "CAPY: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-02 21:31:15 WAT", "kind": "CYCLE", "msg": "cycle 100 done, equity $1000.00"}
+{"ts": "2026-11-02 21:35:31 WAT", "kind": "SESSION", "msg": "desk online, 100 prior cycles in state"}
+{"ts": "2026-11-02 21:38:01 WAT", "kind": "SCOUT_DROP", "msg": "8 outside scope: Victory (no pair birth time); dwf (no pair birth time); META (no pair birth time) ..."}
+{"ts": "2026-11-02 21:39:22 WAT", "kind": "CYCLE", "msg": "cycle 101 done, equity $1000.00"}
