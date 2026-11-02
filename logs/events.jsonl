@@ -2037,3 +2037,6 @@
 {"ts": "2026-11-02 22:38:08 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: TIMO (no pair birth time); BIXI (mcap $106.0M > $20M)"}
 {"ts": "2026-11-02 22:39:29 WAT", "kind": "DEFER", "msg": "FLOAT: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-02 22:39:29 WAT", "kind": "CYCLE", "msg": "cycle 108 done, equity $1000.00"}
+{"ts": "2026-11-02 22:43:42 WAT", "kind": "SESSION", "msg": "desk online, 108 prior cycles in state"}
+{"ts": "2026-11-02 22:46:00 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: vote trump (no pair birth time); NTOT (no pair birth time); AODF (mcap $225.3M > $20M)"}
+{"ts": "2026-11-02 22:47:21 WAT", "kind": "CYCLE", "msg": "cycle 109 done, equity $1000.00"}
