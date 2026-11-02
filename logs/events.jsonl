@@ -1616,3 +1616,6 @@
 {"ts": "2026-11-02 07:19:35 WAT", "kind": "DEFER", "msg": "OKCAT: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-02 07:20:56 WAT", "kind": "DEFER", "msg": "Grok: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-02 07:20:56 WAT", "kind": "CYCLE", "msg": "cycle 2 done, equity $1000.00"}
+{"ts": "2026-11-02 07:25:07 WAT", "kind": "SESSION", "msg": "desk online, 2 prior cycles in state"}
+{"ts": "2026-11-02 07:27:48 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: PEACE (mcap $68.7M > $20M)"}
+{"ts": "2026-11-02 07:30:31 WAT", "kind": "CYCLE", "msg": "cycle 3 done, equity $1000.00"}
