@@ -2063,3 +2063,6 @@
 {"ts": "2026-11-02 23:39:08 WAT", "kind": "SESSION", "msg": "desk online, 116 prior cycles in state"}
 {"ts": "2026-11-02 23:41:48 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: KARPROCK (mcap $25.8M > $20M)"}
 {"ts": "2026-11-02 23:41:48 WAT", "kind": "CYCLE", "msg": "cycle 117 done, equity $1000.00"}
+{"ts": "2026-11-02 23:46:02 WAT", "kind": "SESSION", "msg": "desk online, 117 prior cycles in state"}
+{"ts": "2026-11-02 23:48:24 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: XTX (mcap $819.7M > $20M); campus (mcap $66.6M > $20M)"}
+{"ts": "2026-11-02 23:48:24 WAT", "kind": "CYCLE", "msg": "cycle 118 done, equity $1000.00"}
