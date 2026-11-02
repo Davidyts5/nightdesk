@@ -2088,3 +2088,6 @@
 {"ts": "2026-11-03 00:35:24 WAT", "kind": "SESSION", "msg": "desk online, 124 prior cycles in state"}
 {"ts": "2026-11-03 00:37:48 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: TELECAT (no pair birth time); XTX (mcap $928.2M > $20M); FUN (mcap $66.4M > $20M)"}
 {"ts": "2026-11-03 00:37:48 WAT", "kind": "CYCLE", "msg": "cycle 125 done, equity $1000.00"}
+{"ts": "2026-11-03 00:42:04 WAT", "kind": "SESSION", "msg": "desk online, 125 prior cycles in state"}
+{"ts": "2026-11-03 00:44:38 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: SWC (no pair birth time); PI (mcap $173.2M > $20M)"}
+{"ts": "2026-11-03 00:44:38 WAT", "kind": "CYCLE", "msg": "cycle 126 done, equity $1000.00"}
