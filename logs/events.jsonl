@@ -1886,3 +1886,6 @@
 {"ts": "2026-11-02 17:01:07 WAT", "kind": "CYCLE", "msg": "cycle 66 done, equity $1000.00"}
 {"ts": "2026-11-02 17:05:28 WAT", "kind": "SESSION", "msg": "desk online, 66 prior cycles in state"}
 {"ts": "2026-11-02 17:08:20 WAT", "kind": "CYCLE", "msg": "cycle 67 done, equity $1000.00"}
+{"ts": "2026-11-02 17:12:38 WAT", "kind": "SESSION", "msg": "desk online, 67 prior cycles in state"}
+{"ts": "2026-11-02 17:15:00 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: SOKA (mcap $117.8M > $20M)"}
+{"ts": "2026-11-02 17:15:00 WAT", "kind": "CYCLE", "msg": "cycle 68 done, equity $1000.00"}
