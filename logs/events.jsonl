@@ -1889,3 +1889,6 @@
 {"ts": "2026-11-02 17:12:38 WAT", "kind": "SESSION", "msg": "desk online, 67 prior cycles in state"}
 {"ts": "2026-11-02 17:15:00 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: SOKA (mcap $117.8M > $20M)"}
 {"ts": "2026-11-02 17:15:00 WAT", "kind": "CYCLE", "msg": "cycle 68 done, equity $1000.00"}
+{"ts": "2026-11-02 17:19:14 WAT", "kind": "SESSION", "msg": "desk online, 68 prior cycles in state"}
+{"ts": "2026-11-02 17:21:55 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: \u7709\u7709 (mcap $357.7M > $20M); BNBU (mcap $10001.1M > $20M); SPX7900 (mcap $79.1M > $20M)"}
+{"ts": "2026-11-02 17:21:55 WAT", "kind": "CYCLE", "msg": "cycle 69 done, equity $1000.00"}
