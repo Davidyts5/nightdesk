@@ -2380,3 +2380,6 @@
 {"ts": "2026-11-03 11:04:33 WAT", "kind": "CYCLE", "msg": "cycle 28 done, equity $1000.00"}
 {"ts": "2026-11-03 11:08:45 WAT", "kind": "SESSION", "msg": "desk online, 28 prior cycles in state"}
 {"ts": "2026-11-03 11:12:32 WAT", "kind": "CYCLE", "msg": "cycle 29 done, equity $1000.00"}
+{"ts": "2026-11-03 11:16:43 WAT", "kind": "SESSION", "msg": "desk online, 29 prior cycles in state"}
+{"ts": "2026-11-03 11:19:12 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: OMBRO (mcap $132.6M > $20M); RIGO (mcap $105.3M > $20M)"}
+{"ts": "2026-11-03 11:19:12 WAT", "kind": "CYCLE", "msg": "cycle 30 done, equity $1000.00"}
