@@ -2230,3 +2230,5 @@
 {"ts": "2026-11-03 05:35:13 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: RNSM (no pair birth time); CIKUV (mcap $112.7M > $20M); ETC (mcap $698.1M > $20M) ..."}
 {"ts": "2026-11-03 05:36:34 WAT", "kind": "DEFER", "msg": "fomo: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-03 05:39:16 WAT", "kind": "CYCLE", "msg": "cycle 16 done, equity $1000.00"}
+{"ts": "2026-11-03 05:43:28 WAT", "kind": "SESSION", "msg": "desk online, 16 prior cycles in state"}
+{"ts": "2026-11-03 05:47:22 WAT", "kind": "CYCLE", "msg": "cycle 17 done, equity $1000.00"}
