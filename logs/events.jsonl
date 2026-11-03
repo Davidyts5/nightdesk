@@ -2714,3 +2714,6 @@
 {"ts": "2026-11-03 23:25:34 WAT", "kind": "SESSION", "msg": "desk online, 110 prior cycles in state"}
 {"ts": "2026-11-03 23:28:02 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: JMC (no pair birth time); Sexbot (mcap $80.6M > $20M)"}
 {"ts": "2026-11-03 23:29:23 WAT", "kind": "CYCLE", "msg": "cycle 111 done, equity $1000.00"}
+{"ts": "2026-11-03 23:33:36 WAT", "kind": "SESSION", "msg": "desk online, 111 prior cycles in state"}
+{"ts": "2026-11-03 23:35:27 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: AMDOG (no pair birth time)"}
+{"ts": "2026-11-03 23:35:27 WAT", "kind": "CYCLE", "msg": "cycle 112 done, equity $1000.00"}
