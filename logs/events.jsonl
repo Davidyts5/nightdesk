@@ -2358,3 +2358,6 @@
 {"ts": "2026-11-03 10:17:57 WAT", "kind": "SESSION", "msg": "desk online, 21 prior cycles in state"}
 {"ts": "2026-11-03 10:20:25 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: POJUK (mcap $106.7M > $20M)"}
 {"ts": "2026-11-03 10:21:46 WAT", "kind": "CYCLE", "msg": "cycle 22 done, equity $1000.00"}
+{"ts": "2026-11-03 10:25:59 WAT", "kind": "SESSION", "msg": "desk online, 22 prior cycles in state"}
+{"ts": "2026-11-03 10:28:25 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: OMBRO (mcap $739.2M > $20M)"}
+{"ts": "2026-11-03 10:28:25 WAT", "kind": "CYCLE", "msg": "cycle 23 done, equity $1000.00"}
