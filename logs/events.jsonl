@@ -2621,3 +2621,6 @@
 {"ts": "2026-11-03 19:59:47 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: ZADI (mcap $113.4M > $20M)"}
 {"ts": "2026-11-03 20:01:09 WAT", "kind": "DEFER", "msg": "BEAST: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-03 20:01:09 WAT", "kind": "CYCLE", "msg": "cycle 88 done, equity $1000.00"}
+{"ts": "2026-11-03 20:05:39 WAT", "kind": "SESSION", "msg": "desk online, 88 prior cycles in state"}
+{"ts": "2026-11-03 20:06:54 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: FLOAT (mcap $216.2M > $20M); WIHEH (mcap $111.2M > $20M)"}
+{"ts": "2026-11-03 20:08:15 WAT", "kind": "CYCLE", "msg": "cycle 89 done, equity $1000.00"}
