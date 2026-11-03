@@ -2598,3 +2598,6 @@
 {"ts": "2026-11-03 19:00:27 WAT", "kind": "DEFER", "msg": "XTO: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-03 19:01:48 WAT", "kind": "DEFER", "msg": "KOTANOSUKE: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-03 19:01:48 WAT", "kind": "CYCLE", "msg": "cycle 82 done, equity $1000.00"}
+{"ts": "2026-11-03 19:06:22 WAT", "kind": "SESSION", "msg": "desk online, 82 prior cycles in state"}
+{"ts": "2026-11-03 19:08:49 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: LOOT (no pair birth time); WALL !  (no pair birth time); HIGH (mcap $321468.1M > $20M)"}
+{"ts": "2026-11-03 19:11:31 WAT", "kind": "CYCLE", "msg": "cycle 83 done, equity $1000.00"}
