@@ -2484,3 +2484,6 @@
 {"ts": "2026-11-03 14:57:12 WAT", "kind": "CYCLE", "msg": "cycle 56 done, equity $1000.00"}
 {"ts": "2026-11-03 15:01:24 WAT", "kind": "SESSION", "msg": "desk online, 56 prior cycles in state"}
 {"ts": "2026-11-03 15:03:47 WAT", "kind": "CYCLE", "msg": "cycle 57 done, equity $1000.00"}
+{"ts": "2026-11-03 15:07:58 WAT", "kind": "SESSION", "msg": "desk online, 57 prior cycles in state"}
+{"ts": "2026-11-03 15:10:25 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: Dzombie (mcap $87.7M > $20M); underdog (mcap $61.6M > $20M)"}
+{"ts": "2026-11-03 15:10:25 WAT", "kind": "CYCLE", "msg": "cycle 58 done, equity $1000.00"}
