@@ -2143,3 +2143,6 @@
 {"ts": "2026-11-03 02:33:58 WAT", "kind": "DEFER", "msg": "PREDICT: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-03 02:35:19 WAT", "kind": "DEFER", "msg": "XTEN: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-03 02:36:40 WAT", "kind": "CYCLE", "msg": "cycle 139 done, equity $1000.00"}
+{"ts": "2026-11-03 02:40:52 WAT", "kind": "SESSION", "msg": "desk online, 139 prior cycles in state"}
+{"ts": "2026-11-03 02:43:13 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: Doppler (no pair birth time); ZIM (mcap $110.6M > $20M)"}
+{"ts": "2026-11-03 02:45:55 WAT", "kind": "CYCLE", "msg": "cycle 140 done, equity $1000.00"}
