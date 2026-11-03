@@ -2673,3 +2673,7 @@
 {"ts": "2026-11-03 21:53:37 WAT", "kind": "SESSION", "msg": "desk online, 99 prior cycles in state"}
 {"ts": "2026-11-03 21:55:59 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: KING (mcap $164.4M > $20M); SEXBOT (mcap $84.9M > $20M)"}
 {"ts": "2026-11-03 21:55:59 WAT", "kind": "CYCLE", "msg": "cycle 100 done, equity $1000.00"}
+{"ts": "2026-11-03 22:00:26 WAT", "kind": "SESSION", "msg": "desk online, 100 prior cycles in state"}
+{"ts": "2026-11-03 22:02:49 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: NMD (no pair birth time)"}
+{"ts": "2026-11-03 22:04:10 WAT", "kind": "DEFER", "msg": "PARSPY: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-03 22:04:10 WAT", "kind": "CYCLE", "msg": "cycle 101 done, equity $1000.00"}
