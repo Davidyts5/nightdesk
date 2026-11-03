@@ -2378,3 +2378,5 @@
 {"ts": "2026-11-03 11:03:12 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: TUZI (mcap $108.6M > $20M)"}
 {"ts": "2026-11-03 11:04:33 WAT", "kind": "DEFER", "msg": "HYPE: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-03 11:04:33 WAT", "kind": "CYCLE", "msg": "cycle 28 done, equity $1000.00"}
+{"ts": "2026-11-03 11:08:45 WAT", "kind": "SESSION", "msg": "desk online, 28 prior cycles in state"}
+{"ts": "2026-11-03 11:12:32 WAT", "kind": "CYCLE", "msg": "cycle 29 done, equity $1000.00"}
