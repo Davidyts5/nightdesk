@@ -2169,3 +2169,6 @@
 {"ts": "2026-11-03 03:28:13 WAT", "kind": "DEFER", "msg": "HOTS: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-03 03:29:35 WAT", "kind": "DEFER", "msg": "MONERO: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-03 03:29:35 WAT", "kind": "CYCLE", "msg": "cycle 2 done, equity $1000.00"}
+{"ts": "2026-11-03 03:33:45 WAT", "kind": "SESSION", "msg": "desk online, 2 prior cycles in state"}
+{"ts": "2026-11-03 03:35:10 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: REPE (no pair birth time); ascend (mcap $275.3M > $20M)"}
+{"ts": "2026-11-03 03:37:52 WAT", "kind": "CYCLE", "msg": "cycle 3 done, equity $1000.00"}
