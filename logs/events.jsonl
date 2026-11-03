@@ -2647,3 +2647,7 @@
 {"ts": "2026-11-03 20:54:13 WAT", "kind": "DEFER", "msg": "IQD: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-03 20:55:34 WAT", "kind": "DEFER", "msg": "PLUGWIZ: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-03 20:55:34 WAT", "kind": "CYCLE", "msg": "cycle 94 done, equity $1000.00"}
+{"ts": "2026-11-03 20:59:57 WAT", "kind": "SESSION", "msg": "desk online, 94 prior cycles in state"}
+{"ts": "2026-11-03 21:02:02 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: FLOAT (mcap $191.6M > $20M); Plonk (mcap $2330.5M > $20M); $DCYC (mcap $167.3M > $20M) ..."}
+{"ts": "2026-11-03 21:03:03 WAT", "kind": "DEFER", "msg": "GLDYLD: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-03 21:06:10 WAT", "kind": "CYCLE", "msg": "cycle 95 done, equity $1000.00"}
