@@ -2132,3 +2132,9 @@
 {"ts": "2026-11-03 02:13:46 WAT", "kind": "DEFER", "msg": "Ansum: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
 {"ts": "2026-11-03 02:15:08 WAT", "kind": "DEFER", "msg": "CAPY: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
 {"ts": "2026-11-03 02:15:08 WAT", "kind": "CYCLE", "msg": "cycle 137 done, equity $1000.00"}
+{"ts": "2026-11-03 02:19:19 WAT", "kind": "SESSION", "msg": "desk online, 137 prior cycles in state"}
+{"ts": "2026-11-03 02:21:47 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: F7931A (no pair birth time); UODF (mcap $136.3M > $20M)"}
+{"ts": "2026-11-03 02:23:08 WAT", "kind": "DEFER", "msg": "PREDICT: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-03 02:24:29 WAT", "kind": "DEFER", "msg": "XTEN: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-03 02:25:50 WAT", "kind": "DEFER", "msg": "CAPY: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-03 02:25:50 WAT", "kind": "CYCLE", "msg": "cycle 138 done, equity $1000.00"}
