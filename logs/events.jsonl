@@ -2315,3 +2315,5 @@
 {"ts": "2026-11-03 08:38:03 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: BULE (mcap $108.4M > $20M); UNPOOLED (mcap $126.6M > $20M); MAMESUKE (mcap $132.7M > $20M)"}
 {"ts": "2026-11-03 08:39:24 WAT", "kind": "DEFER", "msg": "LEGO: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-03 08:39:24 WAT", "kind": "CYCLE", "msg": "cycle 11 done, equity $1000.00"}
+{"ts": "2026-11-03 08:43:37 WAT", "kind": "SESSION", "msg": "desk online, 11 prior cycles in state"}
+{"ts": "2026-11-03 08:47:21 WAT", "kind": "CYCLE", "msg": "cycle 12 done, equity $1000.00"}
