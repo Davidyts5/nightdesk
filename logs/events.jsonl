@@ -2534,3 +2534,10 @@
 {"ts": "2026-11-03 16:42:02 WAT", "kind": "DEFER", "msg": "RAMBO: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-03 16:43:23 WAT", "kind": "DEFER", "msg": "BINGUS: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-03 16:44:45 WAT", "kind": "CYCLE", "msg": "cycle 68 done, equity $1000.00"}
+{"ts": "2026-11-03 16:49:00 WAT", "kind": "SESSION", "msg": "desk online, 68 prior cycles in state"}
+{"ts": "2026-11-03 16:51:36 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: FAHU (mcap $113.3M > $20M); LUCIA (mcap $60.7M > $20M); TPHZ\ud83d\udc12 (mcap $465500.0M > $20M)"}
+{"ts": "2026-11-03 16:52:57 WAT", "kind": "DEFER", "msg": "ZCART: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-03 16:54:18 WAT", "kind": "DEFER", "msg": "LYRA: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-03 16:55:39 WAT", "kind": "DEFER", "msg": "MAMESUKE: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-03 16:57:00 WAT", "kind": "DEFER", "msg": "\u0410n\u0430knis: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-03 16:58:21 WAT", "kind": "CYCLE", "msg": "cycle 69 done, equity $1000.00"}
