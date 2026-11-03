@@ -2565,3 +2565,6 @@
 {"ts": "2026-11-03 17:48:10 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: MAMESUKE (mcap $193.0M > $20M); HUGO (mcap $122.8M > $20M)"}
 {"ts": "2026-11-03 17:49:32 WAT", "kind": "DEFER", "msg": "\u5e01\u5b89\u9b42: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-03 17:49:32 WAT", "kind": "CYCLE", "msg": "cycle 74 done, equity $1000.00"}
+{"ts": "2026-11-03 17:53:46 WAT", "kind": "SESSION", "msg": "desk online, 74 prior cycles in state"}
+{"ts": "2026-11-03 17:55:15 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: SHRUB (no pair birth time); TAFEG (mcap $110.0M > $20M); USOE (mcap $300.7M > $20M)"}
+{"ts": "2026-11-03 17:56:39 WAT", "kind": "CYCLE", "msg": "cycle 75 done, equity $1000.00"}
