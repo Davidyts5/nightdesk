@@ -2146,3 +2146,6 @@
 {"ts": "2026-11-03 02:40:52 WAT", "kind": "SESSION", "msg": "desk online, 139 prior cycles in state"}
 {"ts": "2026-11-03 02:43:13 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: Doppler (no pair birth time); ZIM (mcap $110.6M > $20M)"}
 {"ts": "2026-11-03 02:45:55 WAT", "kind": "CYCLE", "msg": "cycle 140 done, equity $1000.00"}
+{"ts": "2026-11-03 02:50:09 WAT", "kind": "SESSION", "msg": "desk online, 140 prior cycles in state"}
+{"ts": "2026-11-03 02:52:50 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: \u1453\u0b39\ua6a1\u0908 (mcap $204.0M > $20M)"}
+{"ts": "2026-11-03 02:52:50 WAT", "kind": "CYCLE", "msg": "cycle 141 done, equity $1000.00"}
