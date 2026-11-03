@@ -2503,3 +2503,6 @@
 {"ts": "2026-11-03 15:38:30 WAT", "kind": "DEFER", "msg": "OMBRO: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
 {"ts": "2026-11-03 15:39:51 WAT", "kind": "DEFER", "msg": "MONSTER: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-03 15:42:33 WAT", "kind": "CYCLE", "msg": "cycle 61 done, equity $1000.00"}
+{"ts": "2026-11-03 15:46:45 WAT", "kind": "SESSION", "msg": "desk online, 61 prior cycles in state"}
+{"ts": "2026-11-03 15:48:31 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: ED (no pair birth time); RED (no pair birth time); FOGO (mcap $127.5M > $20M)"}
+{"ts": "2026-11-03 15:49:52 WAT", "kind": "CYCLE", "msg": "cycle 62 done, equity $1000.00"}
