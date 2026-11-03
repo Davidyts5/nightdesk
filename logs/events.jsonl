@@ -2298,3 +2298,6 @@
 {"ts": "2026-11-03 07:59:09 WAT", "kind": "DEFER", "msg": "Coca-Cola: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
 {"ts": "2026-11-03 08:00:30 WAT", "kind": "DEFER", "msg": "SPX: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-03 08:01:51 WAT", "kind": "CYCLE", "msg": "cycle 6 done, equity $1000.00"}
+{"ts": "2026-11-03 08:06:03 WAT", "kind": "SESSION", "msg": "desk online, 6 prior cycles in state"}
+{"ts": "2026-11-03 08:08:37 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: XMR (mcap $91.2M > $20M); RIP (mcap $99.1M > $20M); Prmcan (mcap $78.6M > $20M) ..."}
+{"ts": "2026-11-03 08:09:59 WAT", "kind": "CYCLE", "msg": "cycle 7 done, equity $1000.00"}
