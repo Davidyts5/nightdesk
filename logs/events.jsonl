@@ -2520,3 +2520,9 @@
 {"ts": "2026-11-03 16:17:29 WAT", "kind": "DEFER", "msg": "WASTED: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
 {"ts": "2026-11-03 16:18:51 WAT", "kind": "DEFER", "msg": "Pascal: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
 {"ts": "2026-11-03 16:18:51 WAT", "kind": "CYCLE", "msg": "cycle 66 done, equity $1000.00"}
+{"ts": "2026-11-03 16:23:08 WAT", "kind": "SESSION", "msg": "desk online, 66 prior cycles in state"}
+{"ts": "2026-11-03 16:25:14 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: BZERO (mcap $42.1M > $20M)"}
+{"ts": "2026-11-03 16:26:35 WAT", "kind": "DEFER", "msg": "RAMBO: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-03 16:27:56 WAT", "kind": "DEFER", "msg": "BINGUS: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-03 16:29:17 WAT", "kind": "DEFER", "msg": "WASTED: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-03 16:29:17 WAT", "kind": "CYCLE", "msg": "cycle 67 done, equity $1000.00"}
