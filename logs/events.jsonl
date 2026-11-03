@@ -2355,3 +2355,6 @@
 {"ts": "2026-11-03 10:08:38 WAT", "kind": "SESSION", "msg": "desk online, 20 prior cycles in state"}
 {"ts": "2026-11-03 10:12:23 WAT", "kind": "DEFER", "msg": "SARP: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-03 10:13:44 WAT", "kind": "CYCLE", "msg": "cycle 21 done, equity $1000.00"}
+{"ts": "2026-11-03 10:17:57 WAT", "kind": "SESSION", "msg": "desk online, 21 prior cycles in state"}
+{"ts": "2026-11-03 10:20:25 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: POJUK (mcap $106.7M > $20M)"}
+{"ts": "2026-11-03 10:21:46 WAT", "kind": "CYCLE", "msg": "cycle 22 done, equity $1000.00"}
