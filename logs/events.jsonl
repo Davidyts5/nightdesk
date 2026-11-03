@@ -2405,3 +2405,6 @@
 {"ts": "2026-11-03 12:02:32 WAT", "kind": "SESSION", "msg": "desk online, 34 prior cycles in state"}
 {"ts": "2026-11-03 12:05:00 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: zANT (mcap $77.9M > $20M)"}
 {"ts": "2026-11-03 12:06:21 WAT", "kind": "CYCLE", "msg": "cycle 35 done, equity $1000.00"}
+{"ts": "2026-11-03 12:10:33 WAT", "kind": "SESSION", "msg": "desk online, 35 prior cycles in state"}
+{"ts": "2026-11-03 12:13:00 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: MOPHY (no pair birth time); \u30e2\u30d5\u30a3\u30fc (no pair birth time); MOFFY (no pair birth time) ..."}
+{"ts": "2026-11-03 12:13:00 WAT", "kind": "CYCLE", "msg": "cycle 36 done, equity $1000.00"}
