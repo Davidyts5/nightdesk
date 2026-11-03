@@ -2320,3 +2320,6 @@
 {"ts": "2026-11-03 08:51:34 WAT", "kind": "SESSION", "msg": "desk online, 12 prior cycles in state"}
 {"ts": "2026-11-03 08:54:01 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: ZOLAX (mcap $107.5M > $20M)"}
 {"ts": "2026-11-03 08:54:01 WAT", "kind": "CYCLE", "msg": "cycle 13 done, equity $1000.00"}
+{"ts": "2026-11-03 08:58:14 WAT", "kind": "SESSION", "msg": "desk online, 13 prior cycles in state"}
+{"ts": "2026-11-03 09:00:47 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: RODTANG (no pair birth time); CAPY (mcap $399.9M > $20M); RATIO (mcap $72.0M > $20M) ..."}
+{"ts": "2026-11-03 09:00:47 WAT", "kind": "CYCLE", "msg": "cycle 14 done, equity $1000.00"}
