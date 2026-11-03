@@ -2515,3 +2515,8 @@
 {"ts": "2026-11-03 16:07:51 WAT", "kind": "SESSION", "msg": "desk online, 64 prior cycles in state"}
 {"ts": "2026-11-03 16:10:12 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: MINECAT (no pair birth time)"}
 {"ts": "2026-11-03 16:10:12 WAT", "kind": "CYCLE", "msg": "cycle 65 done, equity $1000.00"}
+{"ts": "2026-11-03 16:14:28 WAT", "kind": "SESSION", "msg": "desk online, 65 prior cycles in state"}
+{"ts": "2026-11-03 16:16:08 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: CIMO (mcap $110.9M > $20M); LEDGER (mcap $74813.0M > $20M); Green Cat (mcap $380.8M > $20M)"}
+{"ts": "2026-11-03 16:17:29 WAT", "kind": "DEFER", "msg": "WASTED: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-03 16:18:51 WAT", "kind": "DEFER", "msg": "Pascal: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-03 16:18:51 WAT", "kind": "CYCLE", "msg": "cycle 66 done, equity $1000.00"}
