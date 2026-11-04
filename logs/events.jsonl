@@ -2998,3 +2998,6 @@
 {"ts": "2026-11-04 22:45:20 WAT", "kind": "CYCLE", "msg": "cycle 25 done, equity $1000.00"}
 {"ts": "2026-11-04 22:49:32 WAT", "kind": "SESSION", "msg": "desk online, 25 prior cycles in state"}
 {"ts": "2026-11-04 22:51:59 WAT", "kind": "CYCLE", "msg": "cycle 26 done, equity $1000.00"}
+{"ts": "2026-11-04 22:56:09 WAT", "kind": "SESSION", "msg": "desk online, 26 prior cycles in state"}
+{"ts": "2026-11-04 22:58:16 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: ABTC (mcap $82.2M > $20M)"}
+{"ts": "2026-11-04 22:58:16 WAT", "kind": "CYCLE", "msg": "cycle 27 done, equity $1000.00"}
