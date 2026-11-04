@@ -2801,3 +2801,7 @@
 {"ts": "2026-11-04 02:39:31 WAT", "kind": "SESSION", "msg": "desk online, 133 prior cycles in state"}
 {"ts": "2026-11-04 02:42:00 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: WUBI (mcap $106.8M > $20M)"}
 {"ts": "2026-11-04 02:43:22 WAT", "kind": "CYCLE", "msg": "cycle 134 done, equity $1000.00"}
+{"ts": "2026-11-04 02:47:35 WAT", "kind": "SESSION", "msg": "desk online, 134 prior cycles in state"}
+{"ts": "2026-11-04 02:51:24 WAT", "kind": "DEFER", "msg": "Other: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-04 02:52:46 WAT", "kind": "DEFER", "msg": "SAMSARA: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-04 02:52:46 WAT", "kind": "CYCLE", "msg": "cycle 135 done, equity $1000.00"}
