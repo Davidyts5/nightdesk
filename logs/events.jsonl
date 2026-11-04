@@ -2890,3 +2890,6 @@
 {"ts": "2026-11-04 05:45:11 WAT", "kind": "DEFER", "msg": "USDF: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-04 05:46:32 WAT", "kind": "DEFER", "msg": "AMC: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-04 05:50:37 WAT", "kind": "CYCLE", "msg": "cycle 18 done, equity $1000.00"}
+{"ts": "2026-11-04 05:54:51 WAT", "kind": "SESSION", "msg": "desk online, 18 prior cycles in state"}
+{"ts": "2026-11-04 05:57:12 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: VEE (no pair birth time); LIBBING (mcap $375.3M > $20M); DEM (mcap $23.5M > $20M)"}
+{"ts": "2026-11-04 05:59:55 WAT", "kind": "CYCLE", "msg": "cycle 19 done, equity $1000.00"}
