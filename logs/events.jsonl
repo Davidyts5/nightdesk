@@ -3026,3 +3026,6 @@
 {"ts": "2026-11-04 23:52:16 WAT", "kind": "SESSION", "msg": "desk online, 33 prior cycles in state"}
 {"ts": "2026-11-04 23:54:49 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: superbowl (mcap $542.6M > $20M); \u7709\u7709 (mcap $359.6M > $20M)"}
 {"ts": "2026-11-04 23:58:11 WAT", "kind": "CYCLE", "msg": "cycle 34 done, equity $1000.00"}
+{"ts": "2026-11-05 00:02:23 WAT", "kind": "SESSION", "msg": "desk online, 34 prior cycles in state"}
+{"ts": "2026-11-05 00:04:48 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: FTSEBD (mcap $45.9M > $20M); Bingus (mcap $454.1M > $20M); BINGUS (mcap $148.2M > $20M)"}
+{"ts": "2026-11-05 00:04:48 WAT", "kind": "CYCLE", "msg": "cycle 35 done, equity $1000.00"}
