@@ -3051,3 +3051,5 @@
 {"ts": "2026-11-05 00:48:33 WAT", "kind": "SESSION", "msg": "desk online, 40 prior cycles in state"}
 {"ts": "2026-11-05 00:50:17 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: Blackhat (no pair birth time); ABTC (mcap $90707.1M > $20M)"}
 {"ts": "2026-11-05 00:50:17 WAT", "kind": "CYCLE", "msg": "cycle 41 done, equity $1000.00"}
+{"ts": "2026-11-05 00:54:30 WAT", "kind": "SESSION", "msg": "desk online, 41 prior cycles in state"}
+{"ts": "2026-11-05 00:57:01 WAT", "kind": "CYCLE", "msg": "cycle 42 done, equity $1000.00"}
