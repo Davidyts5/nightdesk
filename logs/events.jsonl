@@ -2839,3 +2839,6 @@
 {"ts": "2026-11-04 04:02:26 WAT", "kind": "SESSION", "msg": "desk online, 7 prior cycles in state"}
 {"ts": "2026-11-04 04:04:51 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: MAGA (no pair birth time); CUHE (mcap $102.4M > $20M)"}
 {"ts": "2026-11-04 04:04:51 WAT", "kind": "CYCLE", "msg": "cycle 8 done, equity $1000.00"}
+{"ts": "2026-11-04 04:09:04 WAT", "kind": "SESSION", "msg": "desk online, 8 prior cycles in state"}
+{"ts": "2026-11-04 04:11:37 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: MAGA (no pair birth time); USPR (mcap $138.2M > $20M)"}
+{"ts": "2026-11-04 04:11:37 WAT", "kind": "CYCLE", "msg": "cycle 9 done, equity $1000.00"}
