@@ -2980,3 +2980,6 @@
 {"ts": "2026-11-04 22:02:50 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: GTA (no pair birth time); ABTC (mcap $181.6M > $20M); BARINA (mcap $62.6M > $20M)"}
 {"ts": "2026-11-04 22:04:41 WAT", "kind": "DEFER", "msg": "GTA: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-04 22:04:41 WAT", "kind": "CYCLE", "msg": "cycle 19 done, equity $1000.00"}
+{"ts": "2026-11-04 22:08:55 WAT", "kind": "SESSION", "msg": "desk online, 19 prior cycles in state"}
+{"ts": "2026-11-04 22:11:09 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: BACK (no pair birth time)"}
+{"ts": "2026-11-04 22:12:30 WAT", "kind": "CYCLE", "msg": "cycle 20 done, equity $1000.00"}
