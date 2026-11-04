@@ -3001,3 +3001,6 @@
 {"ts": "2026-11-04 22:56:09 WAT", "kind": "SESSION", "msg": "desk online, 26 prior cycles in state"}
 {"ts": "2026-11-04 22:58:16 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: ABTC (mcap $82.2M > $20M)"}
 {"ts": "2026-11-04 22:58:16 WAT", "kind": "CYCLE", "msg": "cycle 27 done, equity $1000.00"}
+{"ts": "2026-11-04 23:02:27 WAT", "kind": "SESSION", "msg": "desk online, 27 prior cycles in state"}
+{"ts": "2026-11-04 23:05:01 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: U\u200aS\u200aO\u200aE (mcap $51.7M > $20M); STAFIGHT (mcap $82.5M > $20M)"}
+{"ts": "2026-11-04 23:05:01 WAT", "kind": "CYCLE", "msg": "cycle 28 done, equity $1000.00"}
