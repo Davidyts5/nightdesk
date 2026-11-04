@@ -2767,3 +2767,6 @@
 {"ts": "2026-11-04 01:25:15 WAT", "kind": "SESSION", "msg": "desk online, 124 prior cycles in state"}
 {"ts": "2026-11-04 01:27:48 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: HARRIET (mcap $92.3M > $20M); PREDICTINU (mcap $107.5M > $20M)"}
 {"ts": "2026-11-04 01:27:48 WAT", "kind": "CYCLE", "msg": "cycle 125 done, equity $1000.00"}
+{"ts": "2026-11-04 01:32:07 WAT", "kind": "SESSION", "msg": "desk online, 125 prior cycles in state"}
+{"ts": "2026-11-04 01:36:10 WAT", "kind": "DEFER", "msg": "LEGO: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-04 01:36:10 WAT", "kind": "CYCLE", "msg": "cycle 126 done, equity $1000.00"}
