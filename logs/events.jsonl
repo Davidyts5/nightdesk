@@ -3010,3 +3010,6 @@
 {"ts": "2026-11-04 23:16:03 WAT", "kind": "SESSION", "msg": "desk online, 29 prior cycles in state"}
 {"ts": "2026-11-04 23:18:37 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: george (mcap $80.8M > $20M); BLUECROWN (mcap $86.1M > $20M)"}
 {"ts": "2026-11-04 23:18:37 WAT", "kind": "CYCLE", "msg": "cycle 30 done, equity $1000.00"}
+{"ts": "2026-11-04 23:22:50 WAT", "kind": "SESSION", "msg": "desk online, 30 prior cycles in state"}
+{"ts": "2026-11-04 23:26:33 WAT", "kind": "DEFER", "msg": "Democat: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-04 23:26:33 WAT", "kind": "CYCLE", "msg": "cycle 31 done, equity $1000.00"}
