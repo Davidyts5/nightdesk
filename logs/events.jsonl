@@ -3045,3 +3045,6 @@
 {"ts": "2026-11-05 00:33:31 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Leeroy (no pair birth time)"}
 {"ts": "2026-11-05 00:34:53 WAT", "kind": "DEFER", "msg": "ABTC: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-05 00:36:14 WAT", "kind": "CYCLE", "msg": "cycle 39 done, equity $1000.00"}
+{"ts": "2026-11-05 00:40:26 WAT", "kind": "SESSION", "msg": "desk online, 39 prior cycles in state"}
+{"ts": "2026-11-05 00:42:59 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: TAILOR (mcap $80.5M > $20M); TAILOR (mcap $159.5M > $20M)"}
+{"ts": "2026-11-05 00:44:21 WAT", "kind": "CYCLE", "msg": "cycle 40 done, equity $1000.00"}
