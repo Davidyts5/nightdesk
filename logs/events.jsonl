@@ -2921,3 +2921,6 @@
 {"ts": "2026-11-04 19:43:52 WAT", "kind": "SESSION", "msg": "desk online, 2 prior cycles in state"}
 {"ts": "2026-11-04 19:46:10 WAT", "kind": "SCOUT_DROP", "msg": "20 outside scope: BLOBBY (no pair birth time); GTA6 (hatchery TTL 6h, never qualified); LIB (hatchery TTL 6h, never qualified) ..."}
 {"ts": "2026-11-04 19:46:10 WAT", "kind": "CYCLE", "msg": "cycle 3 done, equity $1000.00"}
+{"ts": "2026-11-04 19:50:23 WAT", "kind": "SESSION", "msg": "desk online, 3 prior cycles in state"}
+{"ts": "2026-11-04 19:51:57 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: CAN (hatchery TTL 6h, never qualified); Magatard (hatchery TTL 6h, never qualified)"}
+{"ts": "2026-11-04 19:51:57 WAT", "kind": "CYCLE", "msg": "cycle 4 done, equity $1000.00"}
