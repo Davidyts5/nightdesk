@@ -2918,3 +2918,6 @@
 {"ts": "2026-11-04 19:37:03 WAT", "kind": "SESSION", "msg": "desk online, 1 prior cycles in state"}
 {"ts": "2026-11-04 19:39:36 WAT", "kind": "SCOUT_DROP", "msg": "481 outside scope: GrenCAT (hatchery TTL 6h, never qualified); kingBird (hatchery TTL 6h, never qualified); RAM (hatchery TTL 6h, never qualified) ..."}
 {"ts": "2026-11-04 19:39:36 WAT", "kind": "CYCLE", "msg": "cycle 2 done, equity $1000.00"}
+{"ts": "2026-11-04 19:43:52 WAT", "kind": "SESSION", "msg": "desk online, 2 prior cycles in state"}
+{"ts": "2026-11-04 19:46:10 WAT", "kind": "SCOUT_DROP", "msg": "20 outside scope: BLOBBY (no pair birth time); GTA6 (hatchery TTL 6h, never qualified); LIB (hatchery TTL 6h, never qualified) ..."}
+{"ts": "2026-11-04 19:46:10 WAT", "kind": "CYCLE", "msg": "cycle 3 done, equity $1000.00"}
