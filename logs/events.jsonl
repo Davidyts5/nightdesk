@@ -2983,3 +2983,6 @@
 {"ts": "2026-11-04 22:08:55 WAT", "kind": "SESSION", "msg": "desk online, 19 prior cycles in state"}
 {"ts": "2026-11-04 22:11:09 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: BACK (no pair birth time)"}
 {"ts": "2026-11-04 22:12:30 WAT", "kind": "CYCLE", "msg": "cycle 20 done, equity $1000.00"}
+{"ts": "2026-11-04 22:16:43 WAT", "kind": "SESSION", "msg": "desk online, 20 prior cycles in state"}
+{"ts": "2026-11-04 22:19:12 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: SAFU (mcap $9413.0M > $20M)"}
+{"ts": "2026-11-04 22:19:12 WAT", "kind": "CYCLE", "msg": "cycle 21 done, equity $1000.00"}
