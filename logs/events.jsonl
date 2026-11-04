@@ -3007,3 +3007,6 @@
 {"ts": "2026-11-04 23:09:14 WAT", "kind": "SESSION", "msg": "desk online, 28 prior cycles in state"}
 {"ts": "2026-11-04 23:11:49 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: froggy (mcap $77.4M > $20M)"}
 {"ts": "2026-11-04 23:11:49 WAT", "kind": "CYCLE", "msg": "cycle 29 done, equity $1000.00"}
+{"ts": "2026-11-04 23:16:03 WAT", "kind": "SESSION", "msg": "desk online, 29 prior cycles in state"}
+{"ts": "2026-11-04 23:18:37 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: george (mcap $80.8M > $20M); BLUECROWN (mcap $86.1M > $20M)"}
+{"ts": "2026-11-04 23:18:37 WAT", "kind": "CYCLE", "msg": "cycle 30 done, equity $1000.00"}
