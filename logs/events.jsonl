@@ -2994,3 +2994,5 @@
 {"ts": "2026-11-04 22:32:34 WAT", "kind": "CYCLE", "msg": "cycle 23 done, equity $1000.00"}
 {"ts": "2026-11-04 22:36:48 WAT", "kind": "SESSION", "msg": "desk online, 23 prior cycles in state"}
 {"ts": "2026-11-04 22:39:13 WAT", "kind": "CYCLE", "msg": "cycle 24 done, equity $1000.00"}
+{"ts": "2026-11-04 22:43:25 WAT", "kind": "SESSION", "msg": "desk online, 24 prior cycles in state"}
+{"ts": "2026-11-04 22:45:20 WAT", "kind": "CYCLE", "msg": "cycle 25 done, equity $1000.00"}
