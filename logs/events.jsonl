@@ -3048,3 +3048,6 @@
 {"ts": "2026-11-05 00:40:26 WAT", "kind": "SESSION", "msg": "desk online, 39 prior cycles in state"}
 {"ts": "2026-11-05 00:42:59 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: TAILOR (mcap $80.5M > $20M); TAILOR (mcap $159.5M > $20M)"}
 {"ts": "2026-11-05 00:44:21 WAT", "kind": "CYCLE", "msg": "cycle 40 done, equity $1000.00"}
+{"ts": "2026-11-05 00:48:33 WAT", "kind": "SESSION", "msg": "desk online, 40 prior cycles in state"}
+{"ts": "2026-11-05 00:50:17 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: Blackhat (no pair birth time); ABTC (mcap $90707.1M > $20M)"}
+{"ts": "2026-11-05 00:50:17 WAT", "kind": "CYCLE", "msg": "cycle 41 done, equity $1000.00"}
