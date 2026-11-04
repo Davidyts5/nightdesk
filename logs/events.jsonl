@@ -2761,3 +2761,6 @@
 {"ts": "2026-11-04 01:10:27 WAT", "kind": "SESSION", "msg": "desk online, 122 prior cycles in state"}
 {"ts": "2026-11-04 01:14:20 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: BISI (mcap $111.6M > $20M)"}
 {"ts": "2026-11-04 01:14:20 WAT", "kind": "CYCLE", "msg": "cycle 123 done, equity $1000.00"}
+{"ts": "2026-11-04 01:18:30 WAT", "kind": "SESSION", "msg": "desk online, 123 prior cycles in state"}
+{"ts": "2026-11-04 01:21:04 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: RATS (no pair birth time)"}
+{"ts": "2026-11-04 01:21:04 WAT", "kind": "CYCLE", "msg": "cycle 124 done, equity $1000.00"}
