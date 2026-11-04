@@ -2924,3 +2924,8 @@
 {"ts": "2026-11-04 19:50:23 WAT", "kind": "SESSION", "msg": "desk online, 3 prior cycles in state"}
 {"ts": "2026-11-04 19:51:57 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: CAN (hatchery TTL 6h, never qualified); Magatard (hatchery TTL 6h, never qualified)"}
 {"ts": "2026-11-04 19:51:57 WAT", "kind": "CYCLE", "msg": "cycle 4 done, equity $1000.00"}
+{"ts": "2026-11-04 19:56:08 WAT", "kind": "SESSION", "msg": "desk online, 4 prior cycles in state"}
+{"ts": "2026-11-04 19:58:45 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Dillon (no pair birth time)"}
+{"ts": "2026-11-04 20:00:06 WAT", "kind": "DEFER", "msg": "george: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-04 20:01:28 WAT", "kind": "DEFER", "msg": "VETO: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-04 20:01:28 WAT", "kind": "CYCLE", "msg": "cycle 5 done, equity $1000.00"}
