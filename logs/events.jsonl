@@ -3157,3 +3157,6 @@
 {"ts": "2026-11-05 04:46:34 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: ZO (mcap $1321.2M > $20M); ELON (mcap $797.0M > $20M)"}
 {"ts": "2026-11-05 04:47:56 WAT", "kind": "DEFER", "msg": "CALLINU: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-05 04:47:56 WAT", "kind": "CYCLE", "msg": "cycle 69 done, equity $1000.00"}
+{"ts": "2026-11-05 04:52:07 WAT", "kind": "SESSION", "msg": "desk online, 69 prior cycles in state"}
+{"ts": "2026-11-05 04:54:48 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Yeaztec (mcap $23.2M > $20M)"}
+{"ts": "2026-11-05 04:56:09 WAT", "kind": "CYCLE", "msg": "cycle 70 done, equity $1000.00"}
