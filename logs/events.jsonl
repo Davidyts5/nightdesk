@@ -3407,3 +3407,6 @@
 {"ts": "2026-11-05 13:42:35 WAT", "kind": "DEFER", "msg": "d/acc: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
 {"ts": "2026-11-05 13:43:56 WAT", "kind": "DEFER", "msg": "AMD: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-05 13:43:56 WAT", "kind": "CYCLE", "msg": "cycle 43 done, equity $1000.00"}
+{"ts": "2026-11-05 13:48:08 WAT", "kind": "SESSION", "msg": "desk online, 43 prior cycles in state"}
+{"ts": "2026-11-05 13:52:09 WAT", "kind": "DEFER", "msg": "d/acc: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-05 13:52:09 WAT", "kind": "CYCLE", "msg": "cycle 44 done, equity $1000.00"}
