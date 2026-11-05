@@ -3394,3 +3394,7 @@
 {"ts": "2026-11-05 13:13:08 WAT", "kind": "DEFER", "msg": "LEEROY: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-05 13:14:29 WAT", "kind": "DEFER", "msg": "LEVCRAB: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-05 13:14:29 WAT", "kind": "CYCLE", "msg": "cycle 40 done, equity $1000.00"}
+{"ts": "2026-11-05 13:18:42 WAT", "kind": "SESSION", "msg": "desk online, 40 prior cycles in state"}
+{"ts": "2026-11-05 13:21:00 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: MOOHUN (mcap $84.8M > $20M); XAUT (mcap $411.5M > $20M)"}
+{"ts": "2026-11-05 13:22:22 WAT", "kind": "DEFER", "msg": "Impeach: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-05 13:25:07 WAT", "kind": "CYCLE", "msg": "cycle 41 done, equity $1000.00"}
