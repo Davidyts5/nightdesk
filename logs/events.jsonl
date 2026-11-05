@@ -3280,3 +3280,6 @@
 {"ts": "2026-11-05 09:05:36 WAT", "kind": "SESSION", "msg": "desk online, 10 prior cycles in state"}
 {"ts": "2026-11-05 09:08:01 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: NEX Ai (mcap $410.2M > $20M); POKEXS (mcap $63.2M > $20M)"}
 {"ts": "2026-11-05 09:08:01 WAT", "kind": "CYCLE", "msg": "cycle 11 done, equity $1000.00"}
+{"ts": "2026-11-05 09:12:13 WAT", "kind": "SESSION", "msg": "desk online, 11 prior cycles in state"}
+{"ts": "2026-11-05 09:14:48 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: BTC (mcap $86.0M > $20M)"}
+{"ts": "2026-11-05 09:14:48 WAT", "kind": "CYCLE", "msg": "cycle 12 done, equity $1000.00"}
