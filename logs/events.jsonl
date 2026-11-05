@@ -3349,3 +3349,6 @@
 {"ts": "2026-11-05 11:34:35 WAT", "kind": "SESSION", "msg": "desk online, 29 prior cycles in state"}
 {"ts": "2026-11-05 11:37:02 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: BLUGAVL (mcap $23.8M > $20M); INDEX (mcap $81.6M > $20M)"}
 {"ts": "2026-11-05 11:37:02 WAT", "kind": "CYCLE", "msg": "cycle 30 done, equity $1000.00"}
+{"ts": "2026-11-05 11:41:13 WAT", "kind": "SESSION", "msg": "desk online, 30 prior cycles in state"}
+{"ts": "2026-11-05 11:43:48 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: BTX (mcap $24.3M > $20M)"}
+{"ts": "2026-11-05 11:43:48 WAT", "kind": "CYCLE", "msg": "cycle 31 done, equity $1000.00"}
