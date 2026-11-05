@@ -3256,3 +3256,8 @@
 {"ts": "2026-11-05 08:07:48 WAT", "kind": "DEFER", "msg": "AMD: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-05 08:09:09 WAT", "kind": "DEFER", "msg": "SONIC: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-05 08:10:30 WAT", "kind": "CYCLE", "msg": "cycle 5 done, equity $1000.00"}
+{"ts": "2026-11-05 08:14:43 WAT", "kind": "SESSION", "msg": "desk online, 5 prior cycles in state"}
+{"ts": "2026-11-05 08:17:12 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: PIRATE (mcap $410.9M > $20M); RIP (mcap $75.1M > $20M); ZELDA (mcap $49.5M > $20M) ..."}
+{"ts": "2026-11-05 08:18:33 WAT", "kind": "DEFER", "msg": "NEX Ai: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-05 08:19:55 WAT", "kind": "DEFER", "msg": "AODT: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-05 08:23:59 WAT", "kind": "CYCLE", "msg": "cycle 6 done, equity $1000.00"}
