@@ -3146,3 +3146,6 @@
 {"ts": "2026-11-05 04:21:25 WAT", "kind": "DEFER", "msg": "ASOL: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-05 04:22:47 WAT", "kind": "DEFER", "msg": "APUMP: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-05 04:22:47 WAT", "kind": "CYCLE", "msg": "cycle 66 done, equity $1000.00"}
+{"ts": "2026-11-05 04:27:01 WAT", "kind": "SESSION", "msg": "desk online, 66 prior cycles in state"}
+{"ts": "2026-11-05 04:29:36 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: UODF (mcap $174.0M > $20M); ABTC (mcap $791.2M > $20M)"}
+{"ts": "2026-11-05 04:32:19 WAT", "kind": "CYCLE", "msg": "cycle 67 done, equity $1000.00"}
