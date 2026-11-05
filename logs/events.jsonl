@@ -3433,3 +3433,6 @@
 {"ts": "2026-11-05 14:42:13 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: Apple \ud83c\udf4e (mcap $418.3M > $20M); PILLHEADS (mcap $122.9M > $20M)"}
 {"ts": "2026-11-05 14:43:34 WAT", "kind": "DEFER", "msg": "CATE: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-05 14:43:34 WAT", "kind": "CYCLE", "msg": "cycle 49 done, equity $1000.00"}
+{"ts": "2026-11-05 14:47:47 WAT", "kind": "SESSION", "msg": "desk online, 49 prior cycles in state"}
+{"ts": "2026-11-05 14:50:21 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Deadpool (mcap $62.9M > $20M)"}
+{"ts": "2026-11-05 14:51:44 WAT", "kind": "CYCLE", "msg": "cycle 50 done, equity $1000.00"}
