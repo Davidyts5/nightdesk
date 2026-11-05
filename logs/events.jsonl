@@ -3528,3 +3528,6 @@
 {"ts": "2026-11-05 23:41:33 WAT", "kind": "SESSION", "msg": "desk online, 72 prior cycles in state"}
 {"ts": "2026-11-05 23:43:36 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: XTO (mcap $22.0M > $20M)"}
 {"ts": "2026-11-05 23:43:36 WAT", "kind": "CYCLE", "msg": "cycle 73 done, equity $1000.00"}
+{"ts": "2026-11-05 23:47:47 WAT", "kind": "SESSION", "msg": "desk online, 73 prior cycles in state"}
+{"ts": "2026-11-05 23:50:15 WAT", "kind": "SCOUT_DROP", "msg": "6 outside scope: 420 (no pair birth time); ANON (no pair birth time); giddy (no pair birth time) ..."}
+{"ts": "2026-11-05 23:50:15 WAT", "kind": "CYCLE", "msg": "cycle 74 done, equity $1000.00"}
