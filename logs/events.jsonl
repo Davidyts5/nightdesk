@@ -3332,3 +3332,6 @@
 {"ts": "2026-11-05 10:57:02 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: NEX Ai (mcap $536.3M > $20M); \u5389\u5a1c \u8bb8\u98de (mcap $397.5M > $20M); CALL (mcap $304.5M > $20M) ..."}
 {"ts": "2026-11-05 10:58:23 WAT", "kind": "DEFER", "msg": "MONERO: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-05 10:58:23 WAT", "kind": "CYCLE", "msg": "cycle 25 done, equity $1000.00"}
+{"ts": "2026-11-05 11:02:36 WAT", "kind": "SESSION", "msg": "desk online, 25 prior cycles in state"}
+{"ts": "2026-11-05 11:05:00 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: KIRA (no pair birth time); mike (no pair birth time); GATO (mcap $107.1M > $20M)"}
+{"ts": "2026-11-05 11:06:21 WAT", "kind": "CYCLE", "msg": "cycle 26 done, equity $1000.00"}
