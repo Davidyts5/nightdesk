@@ -3531,3 +3531,6 @@
 {"ts": "2026-11-05 23:47:47 WAT", "kind": "SESSION", "msg": "desk online, 73 prior cycles in state"}
 {"ts": "2026-11-05 23:50:15 WAT", "kind": "SCOUT_DROP", "msg": "6 outside scope: 420 (no pair birth time); ANON (no pair birth time); giddy (no pair birth time) ..."}
 {"ts": "2026-11-05 23:50:15 WAT", "kind": "CYCLE", "msg": "cycle 74 done, equity $1000.00"}
+{"ts": "2026-11-05 23:54:27 WAT", "kind": "SESSION", "msg": "desk online, 74 prior cycles in state"}
+{"ts": "2026-11-05 23:57:00 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: ClaudiaGI (mcap $82.0M > $20M); JEANPHIL (mcap $166.1M > $20M); ClaudiaGI (mcap $102.3M > $20M)"}
+{"ts": "2026-11-05 23:57:00 WAT", "kind": "CYCLE", "msg": "cycle 75 done, equity $1000.00"}
