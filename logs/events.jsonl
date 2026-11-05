@@ -3277,3 +3277,6 @@
 {"ts": "2026-11-05 08:57:55 WAT", "kind": "SESSION", "msg": "desk online, 9 prior cycles in state"}
 {"ts": "2026-11-05 09:00:05 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: CORLA (mcap $299.4M > $20M)"}
 {"ts": "2026-11-05 09:01:26 WAT", "kind": "CYCLE", "msg": "cycle 10 done, equity $1000.00"}
+{"ts": "2026-11-05 09:05:36 WAT", "kind": "SESSION", "msg": "desk online, 10 prior cycles in state"}
+{"ts": "2026-11-05 09:08:01 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: NEX Ai (mcap $410.2M > $20M); POKEXS (mcap $63.2M > $20M)"}
+{"ts": "2026-11-05 09:08:01 WAT", "kind": "CYCLE", "msg": "cycle 11 done, equity $1000.00"}
