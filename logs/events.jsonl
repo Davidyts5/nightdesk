@@ -3318,3 +3318,6 @@
 {"ts": "2026-11-05 10:26:11 WAT", "kind": "SESSION", "msg": "desk online, 20 prior cycles in state"}
 {"ts": "2026-11-05 10:28:49 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: JAIL (no pair birth time); LEEROY (mcap $68.9M > $20M)"}
 {"ts": "2026-11-05 10:28:49 WAT", "kind": "CYCLE", "msg": "cycle 21 done, equity $1000.00"}
+{"ts": "2026-11-05 10:33:01 WAT", "kind": "SESSION", "msg": "desk online, 21 prior cycles in state"}
+{"ts": "2026-11-05 10:35:35 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: UODF (mcap $36.6M > $20M)"}
+{"ts": "2026-11-05 10:35:35 WAT", "kind": "CYCLE", "msg": "cycle 22 done, equity $1000.00"}
