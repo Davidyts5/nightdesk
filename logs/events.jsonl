@@ -3525,3 +3525,6 @@
 {"ts": "2026-11-05 23:33:29 WAT", "kind": "SESSION", "msg": "desk online, 71 prior cycles in state"}
 {"ts": "2026-11-05 23:36:01 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: LIZZY (mcap $125.3M > $20M); TBH (mcap $30.0M > $20M)"}
 {"ts": "2026-11-05 23:37:23 WAT", "kind": "CYCLE", "msg": "cycle 72 done, equity $1000.00"}
+{"ts": "2026-11-05 23:41:33 WAT", "kind": "SESSION", "msg": "desk online, 72 prior cycles in state"}
+{"ts": "2026-11-05 23:43:36 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: XTO (mcap $22.0M > $20M)"}
+{"ts": "2026-11-05 23:43:36 WAT", "kind": "CYCLE", "msg": "cycle 73 done, equity $1000.00"}
