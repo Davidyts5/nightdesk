@@ -3074,3 +3074,6 @@
 {"ts": "2026-11-05 01:43:35 WAT", "kind": "SESSION", "msg": "desk online, 48 prior cycles in state"}
 {"ts": "2026-11-05 01:45:42 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: kuma (no pair birth time); WARA (no pair birth time); SLOP (mcap $80.8M > $20M) ..."}
 {"ts": "2026-11-05 01:47:03 WAT", "kind": "CYCLE", "msg": "cycle 49 done, equity $1000.00"}
+{"ts": "2026-11-05 01:51:15 WAT", "kind": "SESSION", "msg": "desk online, 49 prior cycles in state"}
+{"ts": "2026-11-05 01:53:47 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: SHEEP (mcap $35.1M > $20M); SAFU (mcap $361.0M > $20M)"}
+{"ts": "2026-11-05 01:53:47 WAT", "kind": "CYCLE", "msg": "cycle 50 done, equity $1000.00"}
