@@ -3503,3 +3503,6 @@
 {"ts": "2026-11-05 22:45:19 WAT", "kind": "SESSION", "msg": "desk online, 65 prior cycles in state"}
 {"ts": "2026-11-05 22:47:46 WAT", "kind": "SCOUT_DROP", "msg": "117 outside scope: Retail (hatchery TTL 6h, never qualified); PISSC (hatchery TTL 6h, never qualified); Cardly (hatchery TTL 6h, never qualified) ..."}
 {"ts": "2026-11-05 22:49:07 WAT", "kind": "CYCLE", "msg": "cycle 66 done, equity $1000.00"}
+{"ts": "2026-11-05 22:53:20 WAT", "kind": "SESSION", "msg": "desk online, 66 prior cycles in state"}
+{"ts": "2026-11-05 22:55:46 WAT", "kind": "SCOUT_DROP", "msg": "16 outside scope: georgia (hatchery TTL 6h, never qualified); MCD (hatchery TTL 6h, never qualified); MCD (hatchery TTL 6h, never qualified) ..."}
+{"ts": "2026-11-05 22:55:46 WAT", "kind": "CYCLE", "msg": "cycle 67 done, equity $1000.00"}
