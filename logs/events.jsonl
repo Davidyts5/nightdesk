@@ -3071,3 +3071,6 @@
 {"ts": "2026-11-05 01:38:02 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: BATMANCOIN (no pair birth time); CALL (mcap $130.1M > $20M); DAVID (mcap $137.7M > $20M)"}
 {"ts": "2026-11-05 01:39:23 WAT", "kind": "DEFER", "msg": "SPIRIT: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-05 01:39:23 WAT", "kind": "CYCLE", "msg": "cycle 48 done, equity $1000.00"}
+{"ts": "2026-11-05 01:43:35 WAT", "kind": "SESSION", "msg": "desk online, 48 prior cycles in state"}
+{"ts": "2026-11-05 01:45:42 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: kuma (no pair birth time); WARA (no pair birth time); SLOP (mcap $80.8M > $20M) ..."}
+{"ts": "2026-11-05 01:47:03 WAT", "kind": "CYCLE", "msg": "cycle 49 done, equity $1000.00"}
