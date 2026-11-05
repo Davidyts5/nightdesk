@@ -3283,3 +3283,6 @@
 {"ts": "2026-11-05 09:12:13 WAT", "kind": "SESSION", "msg": "desk online, 11 prior cycles in state"}
 {"ts": "2026-11-05 09:14:48 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: BTC (mcap $86.0M > $20M)"}
 {"ts": "2026-11-05 09:14:48 WAT", "kind": "CYCLE", "msg": "cycle 12 done, equity $1000.00"}
+{"ts": "2026-11-05 09:19:00 WAT", "kind": "SESSION", "msg": "desk online, 12 prior cycles in state"}
+{"ts": "2026-11-05 09:21:37 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: ZELDA (mcap $346.7M > $20M); PIRATE (mcap $362.4M > $20M)"}
+{"ts": "2026-11-05 09:21:37 WAT", "kind": "CYCLE", "msg": "cycle 13 done, equity $1000.00"}
