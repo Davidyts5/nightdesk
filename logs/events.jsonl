@@ -3163,3 +3163,6 @@
 {"ts": "2026-11-05 05:00:19 WAT", "kind": "SESSION", "msg": "desk online, 70 prior cycles in state"}
 {"ts": "2026-11-05 05:02:47 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: mypin (mcap $489.2M > $20M); \u5389\u5a1c (mcap $318.1M > $20M)"}
 {"ts": "2026-11-05 05:02:47 WAT", "kind": "CYCLE", "msg": "cycle 71 done, equity $1000.00"}
+{"ts": "2026-11-05 05:06:58 WAT", "kind": "SESSION", "msg": "desk online, 71 prior cycles in state"}
+{"ts": "2026-11-05 05:09:25 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: PIRATE (mcap $127.7M > $20M)"}
+{"ts": "2026-11-05 05:09:25 WAT", "kind": "CYCLE", "msg": "cycle 72 done, equity $1000.00"}
