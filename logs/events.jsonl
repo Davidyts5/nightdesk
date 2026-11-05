@@ -3436,3 +3436,6 @@
 {"ts": "2026-11-05 14:47:47 WAT", "kind": "SESSION", "msg": "desk online, 49 prior cycles in state"}
 {"ts": "2026-11-05 14:50:21 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Deadpool (mcap $62.9M > $20M)"}
 {"ts": "2026-11-05 14:51:44 WAT", "kind": "CYCLE", "msg": "cycle 50 done, equity $1000.00"}
+{"ts": "2026-11-05 14:55:58 WAT", "kind": "SESSION", "msg": "desk online, 50 prior cycles in state"}
+{"ts": "2026-11-05 14:58:25 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: dump (mcap $60.2M > $20M); Ramacrn (mcap $23.0M > $20M)"}
+{"ts": "2026-11-05 14:58:25 WAT", "kind": "CYCLE", "msg": "cycle 51 done, equity $1000.00"}
