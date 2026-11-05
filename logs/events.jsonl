@@ -3542,3 +3542,6 @@
 {"ts": "2026-11-06 00:11:12 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: DOUBAO (no pair birth time); HABIBINALD (mcap $704.1M > $20M)"}
 {"ts": "2026-11-06 00:12:33 WAT", "kind": "DEFER", "msg": "UKOR: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-06 00:12:33 WAT", "kind": "CYCLE", "msg": "cycle 77 done, equity $1000.00"}
+{"ts": "2026-11-06 00:16:43 WAT", "kind": "SESSION", "msg": "desk online, 77 prior cycles in state"}
+{"ts": "2026-11-06 00:19:01 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: WST (no pair birth time); NUK (mcap $111.1M > $20M)"}
+{"ts": "2026-11-06 00:20:23 WAT", "kind": "CYCLE", "msg": "cycle 78 done, equity $1000.00"}
