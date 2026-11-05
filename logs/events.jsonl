@@ -3449,3 +3449,7 @@
 {"ts": "2026-11-05 15:17:13 WAT", "kind": "SESSION", "msg": "desk online, 53 prior cycles in state"}
 {"ts": "2026-11-05 15:19:48 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: Samsung (mcap $73.1M > $20M); dump (mcap $69.2M > $20M)"}
 {"ts": "2026-11-05 15:19:48 WAT", "kind": "CYCLE", "msg": "cycle 54 done, equity $1000.00"}
+{"ts": "2026-11-05 15:24:02 WAT", "kind": "SESSION", "msg": "desk online, 54 prior cycles in state"}
+{"ts": "2026-11-05 15:26:36 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: ZEC (mcap $1318.2M > $20M); Chrome-Chan (mcap $81.9M > $20M); Zeldoc (mcap $21.5M > $20M)"}
+{"ts": "2026-11-05 15:27:57 WAT", "kind": "DEFER", "msg": "dump: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-05 15:27:57 WAT", "kind": "CYCLE", "msg": "cycle 55 done, equity $1000.00"}
