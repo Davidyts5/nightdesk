@@ -3996,3 +3996,6 @@
 {"ts": "2026-11-06 23:42:00 WAT", "kind": "CYCLE", "msg": "cycle 84 done, equity $1000.00"}
 {"ts": "2026-11-06 23:46:13 WAT", "kind": "SESSION", "msg": "desk online, 84 prior cycles in state"}
 {"ts": "2026-11-06 23:48:48 WAT", "kind": "CYCLE", "msg": "cycle 85 done, equity $1000.00"}
+{"ts": "2026-11-06 23:52:58 WAT", "kind": "SESSION", "msg": "desk online, 85 prior cycles in state"}
+{"ts": "2026-11-06 23:55:16 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: USDG (mcap $100.0M > $20M)"}
+{"ts": "2026-11-06 23:55:16 WAT", "kind": "CYCLE", "msg": "cycle 86 done, equity $1000.00"}
