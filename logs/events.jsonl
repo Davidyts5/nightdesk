@@ -3792,3 +3792,6 @@
 {"ts": "2026-11-06 11:36:32 WAT", "kind": "SESSION", "msg": "desk online, 35 prior cycles in state"}
 {"ts": "2026-11-06 11:39:01 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: CHUDBOB (mcap $336.2M > $20M)"}
 {"ts": "2026-11-06 11:40:22 WAT", "kind": "CYCLE", "msg": "cycle 36 done, equity $1000.00"}
+{"ts": "2026-11-06 11:44:35 WAT", "kind": "SESSION", "msg": "desk online, 36 prior cycles in state"}
+{"ts": "2026-11-06 11:47:08 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: PF (no pair birth time); HALO (mcap $78.7M > $20M); GM (mcap $337837.5M > $20M)"}
+{"ts": "2026-11-06 11:47:08 WAT", "kind": "CYCLE", "msg": "cycle 37 done, equity $1000.00"}
