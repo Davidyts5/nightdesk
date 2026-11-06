@@ -3668,3 +3668,6 @@
 {"ts": "2026-11-06 07:05:57 WAT", "kind": "SESSION", "msg": "desk online, 0 prior cycles in state"}
 {"ts": "2026-11-06 07:08:25 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: A (mcap $132.7M > $20M); fun (mcap $199.8M > $20M); SK (mcap $268.0M > $20M) ..."}
 {"ts": "2026-11-06 07:08:25 WAT", "kind": "CYCLE", "msg": "cycle 1 done, equity $1000.00"}
+{"ts": "2026-11-06 07:12:37 WAT", "kind": "SESSION", "msg": "desk online, 1 prior cycles in state"}
+{"ts": "2026-11-06 07:14:48 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: bracket (mcap $86.1M > $20M)"}
+{"ts": "2026-11-06 07:14:48 WAT", "kind": "CYCLE", "msg": "cycle 2 done, equity $1000.00"}
