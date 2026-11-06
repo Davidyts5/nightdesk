@@ -3755,3 +3755,7 @@
 {"ts": "2026-11-06 10:16:22 WAT", "kind": "SESSION", "msg": "desk online, 26 prior cycles in state"}
 {"ts": "2026-11-06 10:18:49 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: ZUZ (mcap $105.2M > $20M)"}
 {"ts": "2026-11-06 10:20:09 WAT", "kind": "CYCLE", "msg": "cycle 27 done, equity $1000.00"}
+{"ts": "2026-11-06 10:24:21 WAT", "kind": "SESSION", "msg": "desk online, 27 prior cycles in state"}
+{"ts": "2026-11-06 10:26:50 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: USAD (mcap $28.8M > $20M); Moon Cat (mcap $309.6M > $20M)"}
+{"ts": "2026-11-06 10:28:12 WAT", "kind": "DEFER", "msg": "CNH: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-06 10:28:12 WAT", "kind": "CYCLE", "msg": "cycle 28 done, equity $1000.00"}
