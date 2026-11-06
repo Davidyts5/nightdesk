@@ -3925,3 +3925,7 @@
 {"ts": "2026-11-06 16:19:14 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Green Cat (mcap $449.0M > $20M)"}
 {"ts": "2026-11-06 16:21:57 WAT", "kind": "DEFER", "msg": "Hormoil: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-06 16:23:18 WAT", "kind": "CYCLE", "msg": "cycle 67 done, equity $1000.00"}
+{"ts": "2026-11-06 16:27:30 WAT", "kind": "SESSION", "msg": "desk online, 67 prior cycles in state"}
+{"ts": "2026-11-06 16:29:20 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: XAU (mcap $100.1M > $20M)"}
+{"ts": "2026-11-06 16:30:42 WAT", "kind": "DEFER", "msg": "RSHA262599: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-06 16:32:05 WAT", "kind": "CYCLE", "msg": "cycle 68 done, equity $1000.00"}
