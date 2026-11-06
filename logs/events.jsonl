@@ -3617,3 +3617,6 @@
 {"ts": "2026-11-06 05:14:51 WAT", "kind": "SESSION", "msg": "desk online, 11 prior cycles in state"}
 {"ts": "2026-11-06 05:17:13 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: callinu (mcap $64.3M > $20M)"}
 {"ts": "2026-11-06 05:18:35 WAT", "kind": "CYCLE", "msg": "cycle 12 done, equity $1000.00"}
+{"ts": "2026-11-06 05:22:47 WAT", "kind": "SESSION", "msg": "desk online, 12 prior cycles in state"}
+{"ts": "2026-11-06 05:25:13 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: Hormfir (mcap $27.8M > $20M); Beauty (mcap $527.1M > $20M)"}
+{"ts": "2026-11-06 05:25:13 WAT", "kind": "CYCLE", "msg": "cycle 13 done, equity $1000.00"}
