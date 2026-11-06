@@ -3752,3 +3752,6 @@
 {"ts": "2026-11-06 10:10:49 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: fun (mcap $348.2M > $20M); NIKE (mcap $402.2M > $20M); NEX Ai (mcap $27469866.7M > $20M)"}
 {"ts": "2026-11-06 10:12:10 WAT", "kind": "DEFER", "msg": "USOE: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-06 10:12:10 WAT", "kind": "CYCLE", "msg": "cycle 26 done, equity $1000.00"}
+{"ts": "2026-11-06 10:16:22 WAT", "kind": "SESSION", "msg": "desk online, 26 prior cycles in state"}
+{"ts": "2026-11-06 10:18:49 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: ZUZ (mcap $105.2M > $20M)"}
+{"ts": "2026-11-06 10:20:09 WAT", "kind": "CYCLE", "msg": "cycle 27 done, equity $1000.00"}
