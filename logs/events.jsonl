@@ -3830,3 +3830,7 @@
 {"ts": "2026-11-06 12:56:46 WAT", "kind": "SESSION", "msg": "desk online, 45 prior cycles in state"}
 {"ts": "2026-11-06 12:59:13 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: SOLGALAXY (no pair birth time); XAWO (mcap $110.0M > $20M)"}
 {"ts": "2026-11-06 13:00:35 WAT", "kind": "CYCLE", "msg": "cycle 46 done, equity $1000.00"}
+{"ts": "2026-11-06 13:04:47 WAT", "kind": "SESSION", "msg": "desk online, 46 prior cycles in state"}
+{"ts": "2026-11-06 13:07:13 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: TORT (no pair birth time); ATM (mcap $98.9M > $20M); APPLEPAID (mcap $81.9M > $20M) ..."}
+{"ts": "2026-11-06 13:08:35 WAT", "kind": "DEFER", "msg": "APPLEPAID: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-06 13:08:35 WAT", "kind": "CYCLE", "msg": "cycle 47 done, equity $1000.00"}
