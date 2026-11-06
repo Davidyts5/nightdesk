@@ -4010,3 +4010,7 @@
 {"ts": "2026-11-07 00:21:53 WAT", "kind": "CYCLE", "msg": "cycle 89 done, equity $1000.00"}
 {"ts": "2026-11-07 00:26:05 WAT", "kind": "SESSION", "msg": "desk online, 89 prior cycles in state"}
 {"ts": "2026-11-07 00:28:35 WAT", "kind": "CYCLE", "msg": "cycle 90 done, equity $1000.00"}
+{"ts": "2026-11-07 00:32:47 WAT", "kind": "SESSION", "msg": "desk online, 90 prior cycles in state"}
+{"ts": "2026-11-07 00:35:14 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: AvS (no pair birth time)"}
+{"ts": "2026-11-07 00:36:35 WAT", "kind": "DEFER", "msg": "Jos\u00e9: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-07 00:36:35 WAT", "kind": "CYCLE", "msg": "cycle 91 done, equity $1000.00"}
