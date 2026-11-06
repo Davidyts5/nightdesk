@@ -3674,3 +3674,6 @@
 {"ts": "2026-11-06 07:19:01 WAT", "kind": "SESSION", "msg": "desk online, 2 prior cycles in state"}
 {"ts": "2026-11-06 07:21:36 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: USBD (mcap $1000.3M > $20M); SK (mcap $273.0M > $20M)"}
 {"ts": "2026-11-06 07:21:36 WAT", "kind": "CYCLE", "msg": "cycle 3 done, equity $1000.00"}
+{"ts": "2026-11-06 07:25:48 WAT", "kind": "SESSION", "msg": "desk online, 3 prior cycles in state"}
+{"ts": "2026-11-06 07:28:13 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: BEAR (no pair birth time); \ud83d\udc24Chick (mcap $454.6M > $20M)"}
+{"ts": "2026-11-06 07:28:13 WAT", "kind": "CYCLE", "msg": "cycle 4 done, equity $1000.00"}
