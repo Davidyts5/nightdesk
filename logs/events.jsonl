@@ -3992,3 +3992,5 @@
 {"ts": "2026-11-06 23:33:50 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: wifyan (no pair birth time)"}
 {"ts": "2026-11-06 23:35:11 WAT", "kind": "DEFER", "msg": "PI: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-06 23:35:11 WAT", "kind": "CYCLE", "msg": "cycle 83 done, equity $1000.00"}
+{"ts": "2026-11-06 23:39:24 WAT", "kind": "SESSION", "msg": "desk online, 83 prior cycles in state"}
+{"ts": "2026-11-06 23:42:00 WAT", "kind": "CYCLE", "msg": "cycle 84 done, equity $1000.00"}
