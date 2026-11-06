@@ -3729,3 +3729,6 @@
 {"ts": "2026-11-06 09:22:11 WAT", "kind": "SESSION", "msg": "desk online, 19 prior cycles in state"}
 {"ts": "2026-11-06 09:24:51 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: RM (mcap $127.9M > $20M); RONU (mcap $112.2M > $20M); \u8eba\u67aa (mcap $130.4M > $20M) ..."}
 {"ts": "2026-11-06 09:24:51 WAT", "kind": "CYCLE", "msg": "cycle 20 done, equity $1000.00"}
+{"ts": "2026-11-06 09:29:02 WAT", "kind": "SESSION", "msg": "desk online, 20 prior cycles in state"}
+{"ts": "2026-11-06 09:31:36 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: \u5927A (mcap $280.1M > $20M); \u8eba\u67aa (mcap $208.0M > $20M)"}
+{"ts": "2026-11-06 09:31:36 WAT", "kind": "CYCLE", "msg": "cycle 21 done, equity $1000.00"}
