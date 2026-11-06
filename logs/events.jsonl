@@ -3827,3 +3827,6 @@
 {"ts": "2026-11-06 12:51:12 WAT", "kind": "SCOUT_DROP", "msg": "8 outside scope: ANSEM (mcap $97.9M > $20M); Elons (mcap $75.9M > $20M); GM (mcap $566.6M > $20M) ..."}
 {"ts": "2026-11-06 12:52:34 WAT", "kind": "DEFER", "msg": "ChatGPT: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-06 12:52:34 WAT", "kind": "CYCLE", "msg": "cycle 45 done, equity $1000.00"}
+{"ts": "2026-11-06 12:56:46 WAT", "kind": "SESSION", "msg": "desk online, 45 prior cycles in state"}
+{"ts": "2026-11-06 12:59:13 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: SOLGALAXY (no pair birth time); XAWO (mcap $110.0M > $20M)"}
+{"ts": "2026-11-06 13:00:35 WAT", "kind": "CYCLE", "msg": "cycle 46 done, equity $1000.00"}
