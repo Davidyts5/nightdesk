@@ -3698,3 +3698,8 @@
 {"ts": "2026-11-06 08:12:11 WAT", "kind": "SESSION", "msg": "desk online, 10 prior cycles in state"}
 {"ts": "2026-11-06 08:14:49 WAT", "kind": "SCOUT_DROP", "msg": "6 outside scope: ? (no pair birth time); DHTate (no pair birth time); fun (mcap $79.4M > $20M) ..."}
 {"ts": "2026-11-06 08:14:49 WAT", "kind": "CYCLE", "msg": "cycle 11 done, equity $1000.00"}
+{"ts": "2026-11-06 08:19:03 WAT", "kind": "SESSION", "msg": "desk online, 11 prior cycles in state"}
+{"ts": "2026-11-06 08:21:37 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: Fun (mcap $47.0M > $20M); sssdfg (mcap $180.8M > $20M); \ud83d\udc24Chick (mcap $312.4M > $20M)"}
+{"ts": "2026-11-06 08:22:59 WAT", "kind": "DEFER", "msg": "FUCD: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-06 08:24:20 WAT", "kind": "DEFER", "msg": "Celclov: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-06 08:24:20 WAT", "kind": "CYCLE", "msg": "cycle 12 done, equity $1000.00"}
