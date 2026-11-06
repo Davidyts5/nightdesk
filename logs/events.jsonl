@@ -3686,3 +3686,6 @@
 {"ts": "2026-11-06 07:45:38 WAT", "kind": "SESSION", "msg": "desk online, 6 prior cycles in state"}
 {"ts": "2026-11-06 07:48:00 WAT", "kind": "SCOUT_DROP", "msg": "6 outside scope: BreadCoin (no pair birth time); DONTPANIC (no pair birth time); DP (no pair birth time) ..."}
 {"ts": "2026-11-06 07:48:00 WAT", "kind": "CYCLE", "msg": "cycle 7 done, equity $1000.00"}
+{"ts": "2026-11-06 07:52:10 WAT", "kind": "SESSION", "msg": "desk online, 7 prior cycles in state"}
+{"ts": "2026-11-06 07:54:49 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: PINHEAD (no pair birth time); SI (mcap $82.4M > $20M); Democat (mcap $271.5M > $20M)"}
+{"ts": "2026-11-06 07:54:49 WAT", "kind": "CYCLE", "msg": "cycle 8 done, equity $1000.00"}
