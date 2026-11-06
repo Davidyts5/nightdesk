@@ -3626,3 +3626,6 @@
 {"ts": "2026-11-06 05:36:11 WAT", "kind": "SESSION", "msg": "desk online, 14 prior cycles in state"}
 {"ts": "2026-11-06 05:38:50 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Chika (no pair birth time)"}
 {"ts": "2026-11-06 05:38:50 WAT", "kind": "CYCLE", "msg": "cycle 15 done, equity $1000.00"}
+{"ts": "2026-11-06 05:43:01 WAT", "kind": "SESSION", "msg": "desk online, 15 prior cycles in state"}
+{"ts": "2026-11-06 05:45:36 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: NATF (mcap $218.3M > $20M); inu (mcap $87.7M > $20M); coin (mcap $130.0M > $20M)"}
+{"ts": "2026-11-06 05:45:36 WAT", "kind": "CYCLE", "msg": "cycle 16 done, equity $1000.00"}
