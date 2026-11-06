@@ -3789,3 +3789,6 @@
 {"ts": "2026-11-06 11:31:00 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: KIPAZ (mcap $104.6M > $20M)"}
 {"ts": "2026-11-06 11:32:21 WAT", "kind": "DEFER", "msg": "USCK: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-06 11:32:21 WAT", "kind": "CYCLE", "msg": "cycle 35 done, equity $1000.00"}
+{"ts": "2026-11-06 11:36:32 WAT", "kind": "SESSION", "msg": "desk online, 35 prior cycles in state"}
+{"ts": "2026-11-06 11:39:01 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: CHUDBOB (mcap $336.2M > $20M)"}
+{"ts": "2026-11-06 11:40:22 WAT", "kind": "CYCLE", "msg": "cycle 36 done, equity $1000.00"}
