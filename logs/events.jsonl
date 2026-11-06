@@ -3610,3 +3610,7 @@
 {"ts": "2026-11-06 04:55:44 WAT", "kind": "DEFER", "msg": "TRUCROWN: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-06 04:57:06 WAT", "kind": "DEFER", "msg": "CALLING: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-06 04:59:48 WAT", "kind": "CYCLE", "msg": "cycle 10 done, equity $1000.00"}
+{"ts": "2026-11-06 05:04:00 WAT", "kind": "SESSION", "msg": "desk online, 10 prior cycles in state"}
+{"ts": "2026-11-06 05:06:36 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: Beauty (mcap $368.1M > $20M); ELIZUBETH (mcap $310.0M > $20M)"}
+{"ts": "2026-11-06 05:07:57 WAT", "kind": "DEFER", "msg": "7: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-06 05:10:39 WAT", "kind": "CYCLE", "msg": "cycle 11 done, equity $1000.00"}
