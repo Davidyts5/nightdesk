@@ -3692,3 +3692,6 @@
 {"ts": "2026-11-06 07:58:59 WAT", "kind": "SESSION", "msg": "desk online, 8 prior cycles in state"}
 {"ts": "2026-11-06 08:01:25 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: RM (no pair birth time)"}
 {"ts": "2026-11-06 08:01:25 WAT", "kind": "CYCLE", "msg": "cycle 9 done, equity $1000.00"}
+{"ts": "2026-11-06 08:05:35 WAT", "kind": "SESSION", "msg": "desk online, 9 prior cycles in state"}
+{"ts": "2026-11-06 08:08:00 WAT", "kind": "SCOUT_DROP", "msg": "5 outside scope: BIKER (no pair birth time); FTATE (no pair birth time); PANIC (mcap $93.0M > $20M) ..."}
+{"ts": "2026-11-06 08:08:00 WAT", "kind": "CYCLE", "msg": "cycle 10 done, equity $1000.00"}
