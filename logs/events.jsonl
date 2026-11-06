@@ -3803,3 +3803,8 @@
 {"ts": "2026-11-06 12:01:48 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: USAD (mcap $1000.1M > $20M); PQCJAK (mcap $58.9M > $20M); HALO (mcap $142.2M > $20M) ..."}
 {"ts": "2026-11-06 12:03:09 WAT", "kind": "DEFER", "msg": "XI: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
 {"ts": "2026-11-06 12:03:09 WAT", "kind": "CYCLE", "msg": "cycle 39 done, equity $1000.00"}
+{"ts": "2026-11-06 12:07:21 WAT", "kind": "SESSION", "msg": "desk online, 39 prior cycles in state"}
+{"ts": "2026-11-06 12:09:50 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: Psclk (mcap $79.6M > $20M); NEX Ai (mcap $407.4M > $20M); \u30e8\u30a6\u30e8\u30a6 (mcap $139.2M > $20M)"}
+{"ts": "2026-11-06 12:11:11 WAT", "kind": "DEFER", "msg": "GI: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-06 12:12:32 WAT", "kind": "DEFER", "msg": "XI: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-06 12:12:32 WAT", "kind": "CYCLE", "msg": "cycle 40 done, equity $1000.00"}
