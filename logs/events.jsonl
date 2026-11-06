@@ -3816,3 +3816,6 @@
 {"ts": "2026-11-06 12:27:13 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: HOKUT (mcap $109.8M > $20M); GM (mcap $405.7M > $20M); RM (mcap $337.7M > $20M)"}
 {"ts": "2026-11-06 12:28:34 WAT", "kind": "DEFER", "msg": "RM: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-06 12:28:34 WAT", "kind": "CYCLE", "msg": "cycle 42 done, equity $1000.00"}
+{"ts": "2026-11-06 12:32:47 WAT", "kind": "SESSION", "msg": "desk online, 42 prior cycles in state"}
+{"ts": "2026-11-06 12:35:13 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: \u7ea2 (mcap $395.8M > $20M); NEX Ai (mcap $401.7M > $20M); USAD (mcap $1000.1M > $20M)"}
+{"ts": "2026-11-06 12:36:34 WAT", "kind": "CYCLE", "msg": "cycle 43 done, equity $1000.00"}
