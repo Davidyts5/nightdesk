@@ -4358,3 +4358,6 @@
 {"ts": "2026-11-07 15:30:22 WAT", "kind": "CYCLE", "msg": "cycle 59 done, equity $1000.00"}
 {"ts": "2026-11-07 15:34:33 WAT", "kind": "SESSION", "msg": "desk online, 59 prior cycles in state"}
 {"ts": "2026-11-07 15:37:01 WAT", "kind": "CYCLE", "msg": "cycle 60 done, equity $1000.00"}
+{"ts": "2026-11-07 15:41:12 WAT", "kind": "SESSION", "msg": "desk online, 60 prior cycles in state"}
+{"ts": "2026-11-07 15:43:48 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: DMW (no pair birth time); BLM (no pair birth time)"}
+{"ts": "2026-11-07 15:43:48 WAT", "kind": "CYCLE", "msg": "cycle 61 done, equity $1000.00"}
