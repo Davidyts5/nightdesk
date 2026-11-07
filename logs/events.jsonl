@@ -4108,3 +4108,6 @@
 {"ts": "2026-11-07 05:41:55 WAT", "kind": "DEFER", "msg": "Alice: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-07 05:43:16 WAT", "kind": "DEFER", "msg": "NADF: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-07 05:44:37 WAT", "kind": "CYCLE", "msg": "cycle 17 done, equity $1000.00"}
+{"ts": "2026-11-07 05:48:47 WAT", "kind": "SESSION", "msg": "desk online, 17 prior cycles in state"}
+{"ts": "2026-11-07 05:52:34 WAT", "kind": "DEFER", "msg": "Funny: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-07 05:55:18 WAT", "kind": "CYCLE", "msg": "cycle 18 done, equity $1000.00"}
