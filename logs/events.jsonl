@@ -4160,3 +4160,6 @@
 {"ts": "2026-11-07 07:42:23 WAT", "kind": "DEFER", "msg": "mem: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-07 07:43:44 WAT", "kind": "DEFER", "msg": "ZEC: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-07 07:46:28 WAT", "kind": "CYCLE", "msg": "cycle 4 done, equity $1000.00"}
+{"ts": "2026-11-07 07:50:39 WAT", "kind": "SESSION", "msg": "desk online, 4 prior cycles in state"}
+{"ts": "2026-11-07 07:53:01 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: Bags (no pair birth time); Rocco (mcap $31.0M > $20M)"}
+{"ts": "2026-11-07 07:55:43 WAT", "kind": "CYCLE", "msg": "cycle 5 done, equity $1000.00"}
