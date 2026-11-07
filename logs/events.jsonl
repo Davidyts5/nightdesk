@@ -4190,3 +4190,6 @@
 {"ts": "2026-11-07 08:59:12 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: NASAROCK (mcap $24.9M > $20M)"}
 {"ts": "2026-11-07 09:00:33 WAT", "kind": "DEFER", "msg": "Alice: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-07 09:00:33 WAT", "kind": "CYCLE", "msg": "cycle 13 done, equity $1000.00"}
+{"ts": "2026-11-07 09:04:46 WAT", "kind": "SESSION", "msg": "desk online, 13 prior cycles in state"}
+{"ts": "2026-11-07 09:07:14 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: FEDHAWK (mcap $70.7M > $20M)"}
+{"ts": "2026-11-07 09:08:35 WAT", "kind": "CYCLE", "msg": "cycle 14 done, equity $1000.00"}
