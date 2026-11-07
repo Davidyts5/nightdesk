@@ -4122,3 +4122,5 @@
 {"ts": "2026-11-07 06:20:37 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: Alice (mcap $61914.1M > $20M); HSVDINO (mcap $77.3M > $20M)"}
 {"ts": "2026-11-07 06:21:58 WAT", "kind": "DEFER", "msg": "USDP: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-07 06:23:20 WAT", "kind": "CYCLE", "msg": "cycle 21 done, equity $1000.00"}
+{"ts": "2026-11-07 06:27:31 WAT", "kind": "SESSION", "msg": "desk online, 21 prior cycles in state"}
+{"ts": "2026-11-07 06:31:21 WAT", "kind": "CYCLE", "msg": "cycle 22 done, equity $1000.00"}
