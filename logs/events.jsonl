@@ -4520,3 +4520,6 @@
 {"ts": "2026-11-07 21:57:22 WAT", "kind": "SESSION", "msg": "desk online, 97 prior cycles in state"}
 {"ts": "2026-11-07 21:59:49 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Rybrkt (mcap $79.9M > $20M)"}
 {"ts": "2026-11-07 21:59:49 WAT", "kind": "CYCLE", "msg": "cycle 98 done, equity $1000.00"}
+{"ts": "2026-11-07 22:03:58 WAT", "kind": "SESSION", "msg": "desk online, 98 prior cycles in state"}
+{"ts": "2026-11-07 22:06:26 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: ASS (no pair birth time)"}
+{"ts": "2026-11-07 22:06:26 WAT", "kind": "CYCLE", "msg": "cycle 99 done, equity $1000.00"}
