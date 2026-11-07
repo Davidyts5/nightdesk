@@ -4506,3 +4506,6 @@
 {"ts": "2026-11-07 21:15:24 WAT", "kind": "CYCLE", "msg": "cycle 92 done, equity $1000.00"}
 {"ts": "2026-11-07 21:19:35 WAT", "kind": "SESSION", "msg": "desk online, 92 prior cycles in state"}
 {"ts": "2026-11-07 21:22:01 WAT", "kind": "CYCLE", "msg": "cycle 93 done, equity $1000.00"}
+{"ts": "2026-11-07 21:26:12 WAT", "kind": "SESSION", "msg": "desk online, 93 prior cycles in state"}
+{"ts": "2026-11-07 21:28:48 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: MACKLOC (mcap $76.5M > $20M)"}
+{"ts": "2026-11-07 21:28:48 WAT", "kind": "CYCLE", "msg": "cycle 94 done, equity $1000.00"}
