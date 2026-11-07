@@ -4338,3 +4338,6 @@
 {"ts": "2026-11-07 14:40:56 WAT", "kind": "SESSION", "msg": "desk online, 52 prior cycles in state"}
 {"ts": "2026-11-07 14:43:02 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: duge (mcap $93.4M > $20M)"}
 {"ts": "2026-11-07 14:43:02 WAT", "kind": "CYCLE", "msg": "cycle 53 done, equity $1000.00"}
+{"ts": "2026-11-07 14:47:13 WAT", "kind": "SESSION", "msg": "desk online, 53 prior cycles in state"}
+{"ts": "2026-11-07 14:49:48 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: cig (mcap $119.5M > $20M)"}
+{"ts": "2026-11-07 14:49:48 WAT", "kind": "CYCLE", "msg": "cycle 54 done, equity $1000.00"}
