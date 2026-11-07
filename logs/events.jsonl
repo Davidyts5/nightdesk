@@ -4569,3 +4569,6 @@
 {"ts": "2026-11-07 23:58:22 WAT", "kind": "SESSION", "msg": "desk online, 112 prior cycles in state"}
 {"ts": "2026-11-08 00:02:10 WAT", "kind": "DEFER", "msg": "AOTF: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-08 00:02:10 WAT", "kind": "CYCLE", "msg": "cycle 113 done, equity $1000.00"}
+{"ts": "2026-11-08 00:06:21 WAT", "kind": "SESSION", "msg": "desk online, 113 prior cycles in state"}
+{"ts": "2026-11-08 00:08:49 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: VWANCE (no pair birth time)"}
+{"ts": "2026-11-08 00:10:10 WAT", "kind": "CYCLE", "msg": "cycle 114 done, equity $1000.00"}
