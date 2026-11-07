@@ -4215,3 +4215,7 @@
 {"ts": "2026-11-07 09:51:30 WAT", "kind": "DEFER", "msg": "Garfield: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-07 09:52:51 WAT", "kind": "DEFER", "msg": "HAIRICORN: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-07 09:52:51 WAT", "kind": "CYCLE", "msg": "cycle 19 done, equity $1000.00"}
+{"ts": "2026-11-07 09:57:02 WAT", "kind": "SESSION", "msg": "desk online, 19 prior cycles in state"}
+{"ts": "2026-11-07 09:59:36 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: mewl (no pair birth time); OKKZ (mcap $800.0M > $20M); KYSHIELD (mcap $75.6M > $20M)"}
+{"ts": "2026-11-07 10:00:57 WAT", "kind": "DEFER", "msg": "SKRTU: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-07 10:03:39 WAT", "kind": "CYCLE", "msg": "cycle 20 done, equity $1000.00"}
