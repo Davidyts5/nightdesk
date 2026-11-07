@@ -4316,3 +4316,6 @@
 {"ts": "2026-11-07 13:50:21 WAT", "kind": "SESSION", "msg": "desk online, 46 prior cycles in state"}
 {"ts": "2026-11-07 13:54:10 WAT", "kind": "DEFER", "msg": "KIWIVOTE: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-07 13:54:10 WAT", "kind": "CYCLE", "msg": "cycle 47 done, equity $1000.00"}
+{"ts": "2026-11-07 13:58:22 WAT", "kind": "SESSION", "msg": "desk online, 47 prior cycles in state"}
+{"ts": "2026-11-07 14:00:49 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: ps5pro (no pair birth time); BANANAUT (no pair birth time)"}
+{"ts": "2026-11-07 14:02:10 WAT", "kind": "CYCLE", "msg": "cycle 48 done, equity $1000.00"}
