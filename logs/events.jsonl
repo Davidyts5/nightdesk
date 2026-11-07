@@ -4370,3 +4370,13 @@
 {"ts": "2026-11-07 15:59:24 WAT", "kind": "DEFER", "msg": "ket: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
 {"ts": "2026-11-07 16:00:46 WAT", "kind": "DEFER", "msg": "VALO: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-07 16:00:46 WAT", "kind": "CYCLE", "msg": "cycle 63 done, equity $1000.00"}
+{"ts": "2026-11-07 16:04:56 WAT", "kind": "SESSION", "msg": "desk online, 63 prior cycles in state"}
+{"ts": "2026-11-07 16:07:01 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: USDT (mcap $10612.6M > $20M)"}
+{"ts": "2026-11-07 16:08:23 WAT", "kind": "DEFER", "msg": "PREDICT: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-07 16:09:46 WAT", "kind": "DEFER", "msg": "debtdog: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-07 16:11:14 WAT", "kind": "DEFER", "msg": "duge: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-07 16:12:36 WAT", "kind": "DEFER", "msg": "debtdog: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-07 16:13:57 WAT", "kind": "DEFER", "msg": "OCIA: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-07 16:15:18 WAT", "kind": "DEFER", "msg": "SHANE: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-07 16:16:39 WAT", "kind": "DEFER", "msg": "ket: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-07 16:18:01 WAT", "kind": "CYCLE", "msg": "cycle 64 done, equity $1000.00"}
