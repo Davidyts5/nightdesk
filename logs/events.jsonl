@@ -4060,3 +4060,6 @@
 {"ts": "2026-11-07 03:56:49 WAT", "kind": "CYCLE", "msg": "cycle 6 done, equity $1000.00"}
 {"ts": "2026-11-07 04:01:02 WAT", "kind": "SESSION", "msg": "desk online, 6 prior cycles in state"}
 {"ts": "2026-11-07 04:03:36 WAT", "kind": "CYCLE", "msg": "cycle 7 done, equity $1000.00"}
+{"ts": "2026-11-07 04:07:51 WAT", "kind": "SESSION", "msg": "desk online, 7 prior cycles in state"}
+{"ts": "2026-11-07 04:10:13 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: OKKB (mcap $10001.0M > $20M)"}
+{"ts": "2026-11-07 04:10:13 WAT", "kind": "CYCLE", "msg": "cycle 8 done, equity $1000.00"}
