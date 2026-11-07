@@ -4423,3 +4423,6 @@
 {"ts": "2026-11-07 17:54:52 WAT", "kind": "DEFER", "msg": "BB84: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-07 17:56:21 WAT", "kind": "DEFER", "msg": "McDonald's: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-07 17:57:48 WAT", "kind": "CYCLE", "msg": "cycle 71 done, equity $1000.00"}
+{"ts": "2026-11-07 18:01:59 WAT", "kind": "SESSION", "msg": "desk online, 71 prior cycles in state"}
+{"ts": "2026-11-07 18:04:26 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: $Pendle (no pair birth time)"}
+{"ts": "2026-11-07 18:08:38 WAT", "kind": "CYCLE", "msg": "cycle 72 done, equity $1000.00"}
