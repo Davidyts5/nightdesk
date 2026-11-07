@@ -4537,3 +4537,6 @@
 {"ts": "2026-11-07 22:39:27 WAT", "kind": "CYCLE", "msg": "cycle 103 done, equity $1000.00"}
 {"ts": "2026-11-07 22:43:38 WAT", "kind": "SESSION", "msg": "desk online, 103 prior cycles in state"}
 {"ts": "2026-11-07 22:47:21 WAT", "kind": "CYCLE", "msg": "cycle 104 done, equity $1000.00"}
+{"ts": "2026-11-07 22:51:32 WAT", "kind": "SESSION", "msg": "desk online, 104 prior cycles in state"}
+{"ts": "2026-11-07 22:53:59 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Green cat (mcap $669.8M > $20M)"}
+{"ts": "2026-11-07 22:53:59 WAT", "kind": "CYCLE", "msg": "cycle 105 done, equity $1000.00"}
