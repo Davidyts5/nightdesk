@@ -1,14 +1,14 @@
 # Morning recap - Solana memecoin desk (PAPER)
 
-**Session:** 2026-11-06 07:05:57 WAT -> 2026-11-07 03:12:44 WAT (PAPER) | **Cycles:** 96 | **End reason:** session end (morning rollover)
+**Session:** 2026-11-07 03:12:44 WAT -> 2026-11-07 07:00:53 WAT (PAPER) | **Cycles:** 25 | **End reason:** session end (morning rollover)
 
 **Final balance:** $1000.00 (cash $1000.00 + open $0.00) vs start $1000.00 -> +0.00%
 
 ## Funnel
-- New pairs seen by Scout: **14299** (dropped outside scope: 217)
-- Handed to Filter: **148**
-- Killed: **37**
-    - FAILCLOSED - Data unavailable -> fail-closed (protect the balance first): **37**
+- New pairs seen by Scout: **3922** (dropped outside scope: 27)
+- Handed to Filter: **45**
+- Killed: **14**
+    - FAILCLOSED - Data unavailable -> fail-closed (protect the balance first): **14**
 - Filter survivors tracked: **0** | reached Executor (70+): **0** | trades opened: **0**
 
 ## Trading
