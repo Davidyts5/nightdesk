@@ -4049,3 +4049,6 @@
 {"ts": "2026-11-07 03:25:51 WAT", "kind": "DEFER", "msg": "KILROY: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-07 03:27:12 WAT", "kind": "DEFER", "msg": "scamsem: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-07 03:27:12 WAT", "kind": "CYCLE", "msg": "cycle 2 done, equity $1000.00"}
+{"ts": "2026-11-07 03:31:23 WAT", "kind": "SESSION", "msg": "desk online, 2 prior cycles in state"}
+{"ts": "2026-11-07 03:33:48 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: MOLTSUN (mcap $40.5M > $20M)"}
+{"ts": "2026-11-07 03:36:31 WAT", "kind": "CYCLE", "msg": "cycle 3 done, equity $1000.00"}
