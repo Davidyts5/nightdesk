@@ -4201,3 +4201,6 @@
 {"ts": "2026-11-07 09:23:13 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: AODF (mcap $610.7M > $20M); Kiwivote (mcap $76.9M > $20M)"}
 {"ts": "2026-11-07 09:24:34 WAT", "kind": "DEFER", "msg": "INCOGINU: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-07 09:24:34 WAT", "kind": "CYCLE", "msg": "cycle 16 done, equity $1000.00"}
+{"ts": "2026-11-07 09:28:46 WAT", "kind": "SESSION", "msg": "desk online, 16 prior cycles in state"}
+{"ts": "2026-11-07 09:31:13 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: NADF (mcap $132.3M > $20M)"}
+{"ts": "2026-11-07 09:32:34 WAT", "kind": "CYCLE", "msg": "cycle 17 done, equity $1000.00"}
