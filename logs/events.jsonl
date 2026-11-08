@@ -4719,3 +4719,6 @@
 {"ts": "2026-11-08 06:03:47 WAT", "kind": "SESSION", "msg": "desk online, 16 prior cycles in state"}
 {"ts": "2026-11-08 06:07:34 WAT", "kind": "DEFER", "msg": "KRYOX: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-08 06:07:34 WAT", "kind": "CYCLE", "msg": "cycle 17 done, equity $1000.00"}
+{"ts": "2026-11-08 06:11:46 WAT", "kind": "SESSION", "msg": "desk online, 17 prior cycles in state"}
+{"ts": "2026-11-08 06:14:13 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: BNC (mcap $100.1M > $20M)"}
+{"ts": "2026-11-08 06:15:34 WAT", "kind": "CYCLE", "msg": "cycle 18 done, equity $1000.00"}
