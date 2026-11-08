@@ -4984,3 +4984,6 @@
 {"ts": "2026-11-08 18:14:42 WAT", "kind": "SESSION", "msg": "desk online, 56 prior cycles in state"}
 {"ts": "2026-11-08 18:16:59 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Marilyn (mcap $8633263.3M > $20M)"}
 {"ts": "2026-11-08 18:18:34 WAT", "kind": "CYCLE", "msg": "cycle 57 done, equity $1000.00"}
+{"ts": "2026-11-08 18:22:45 WAT", "kind": "SESSION", "msg": "desk online, 57 prior cycles in state"}
+{"ts": "2026-11-08 18:25:12 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: PNUTRIX (no pair birth time)"}
+{"ts": "2026-11-08 18:25:12 WAT", "kind": "CYCLE", "msg": "cycle 58 done, equity $1000.00"}
