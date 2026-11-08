@@ -4987,3 +4987,6 @@
 {"ts": "2026-11-08 18:22:45 WAT", "kind": "SESSION", "msg": "desk online, 57 prior cycles in state"}
 {"ts": "2026-11-08 18:25:12 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: PNUTRIX (no pair birth time)"}
 {"ts": "2026-11-08 18:25:12 WAT", "kind": "CYCLE", "msg": "cycle 58 done, equity $1000.00"}
+{"ts": "2026-11-08 18:29:24 WAT", "kind": "SESSION", "msg": "desk online, 58 prior cycles in state"}
+{"ts": "2026-11-08 18:31:48 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: PinGo (no pair birth time); SSCI (no pair birth time)"}
+{"ts": "2026-11-08 18:31:48 WAT", "kind": "CYCLE", "msg": "cycle 59 done, equity $1000.00"}
