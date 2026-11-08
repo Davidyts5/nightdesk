@@ -4647,3 +4647,8 @@
 {"ts": "2026-11-08 03:09:48 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: USDA (mcap $127.9M > $20M)"}
 {"ts": "2026-11-08 03:11:10 WAT", "kind": "DEFER", "msg": "SPCX28K: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
 {"ts": "2026-11-08 03:11:10 WAT", "kind": "CYCLE", "msg": "cycle 1 done, equity $1000.00"}
+{"ts": "2026-11-08 03:15:22 WAT", "kind": "SESSION", "msg": "desk online, 1 prior cycles in state"}
+{"ts": "2026-11-08 03:19:09 WAT", "kind": "DEFER", "msg": "FLOAT: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-08 03:20:41 WAT", "kind": "DEFER", "msg": "HEREWEGO: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-08 03:22:01 WAT", "kind": "DEFER", "msg": "SPCX28K: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-08 03:22:01 WAT", "kind": "CYCLE", "msg": "cycle 2 done, equity $1000.00"}
