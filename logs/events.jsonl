@@ -5141,3 +5141,6 @@
 {"ts": "2026-11-09 00:08:37 WAT", "kind": "CYCLE", "msg": "cycle 95 done, equity $1000.00"}
 {"ts": "2026-11-09 00:12:49 WAT", "kind": "SESSION", "msg": "desk online, 95 prior cycles in state"}
 {"ts": "2026-11-09 00:15:12 WAT", "kind": "CYCLE", "msg": "cycle 96 done, equity $1000.00"}
+{"ts": "2026-11-09 00:19:22 WAT", "kind": "SESSION", "msg": "desk online, 96 prior cycles in state"}
+{"ts": "2026-11-09 00:21:50 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: KODAK (no pair birth time)"}
+{"ts": "2026-11-09 00:21:50 WAT", "kind": "CYCLE", "msg": "cycle 97 done, equity $1000.00"}
