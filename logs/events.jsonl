@@ -5068,3 +5068,6 @@
 {"ts": "2026-11-08 21:19:10 WAT", "kind": "DEFER", "msg": "GROKIA: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-08 21:20:33 WAT", "kind": "DEFER", "msg": "OKLAY: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-08 21:20:33 WAT", "kind": "CYCLE", "msg": "cycle 77 done, equity $1000.00"}
+{"ts": "2026-11-08 21:24:44 WAT", "kind": "SESSION", "msg": "desk online, 77 prior cycles in state"}
+{"ts": "2026-11-08 21:27:12 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: STONK (mcap $481.8M > $20M)"}
+{"ts": "2026-11-08 21:29:55 WAT", "kind": "CYCLE", "msg": "cycle 78 done, equity $1000.00"}
