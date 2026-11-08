@@ -4881,3 +4881,6 @@
 {"ts": "2026-11-08 14:25:35 WAT", "kind": "DEFER", "msg": "XRPN\ud83d\udfe2: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-08 14:26:56 WAT", "kind": "DEFER", "msg": "WHITELIE: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-08 14:26:56 WAT", "kind": "CYCLE", "msg": "cycle 36 done, equity $1000.00"}
+{"ts": "2026-11-08 14:31:07 WAT", "kind": "SESSION", "msg": "desk online, 36 prior cycles in state"}
+{"ts": "2026-11-08 14:33:47 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: SpaceCoin (no pair birth time)"}
+{"ts": "2026-11-08 14:36:30 WAT", "kind": "CYCLE", "msg": "cycle 37 done, equity $1000.00"}
