@@ -4805,3 +4805,5 @@
 {"ts": "2026-11-08 11:22:12 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: FOMO (mcap $62.8M > $20M)"}
 {"ts": "2026-11-08 11:23:34 WAT", "kind": "DEFER", "msg": "ZORBLE: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-08 11:24:55 WAT", "kind": "CYCLE", "msg": "cycle 16 done, equity $1000.00"}
+{"ts": "2026-11-08 11:29:07 WAT", "kind": "SESSION", "msg": "desk online, 16 prior cycles in state"}
+{"ts": "2026-11-08 11:33:09 WAT", "kind": "CYCLE", "msg": "cycle 17 done, equity $1000.00"}
