@@ -4837,3 +4837,7 @@
 {"ts": "2026-11-08 12:42:54 WAT", "kind": "DEFER", "msg": "yarl: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-08 12:44:15 WAT", "kind": "DEFER", "msg": "PMUSI: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-08 12:44:15 WAT", "kind": "CYCLE", "msg": "cycle 25 done, equity $1000.00"}
+{"ts": "2026-11-08 12:48:25 WAT", "kind": "SESSION", "msg": "desk online, 25 prior cycles in state"}
+{"ts": "2026-11-08 12:51:00 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: earlwifhat (no pair birth time); PURPLECAT (no pair birth time)"}
+{"ts": "2026-11-08 12:52:21 WAT", "kind": "DEFER", "msg": "STAGLOV: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-08 12:55:02 WAT", "kind": "CYCLE", "msg": "cycle 26 done, equity $1000.00"}
