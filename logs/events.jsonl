@@ -4981,3 +4981,6 @@
 {"ts": "2026-11-08 18:06:00 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: FLOAT (mcap $6280.4M > $20M); CLAUDIA (mcap $352.0M > $20M); HXTD (mcap $10001.0M > $20M)"}
 {"ts": "2026-11-08 18:07:41 WAT", "kind": "DEFER", "msg": "MAGGIE: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-08 18:10:32 WAT", "kind": "CYCLE", "msg": "cycle 56 done, equity $1000.00"}
+{"ts": "2026-11-08 18:14:42 WAT", "kind": "SESSION", "msg": "desk online, 56 prior cycles in state"}
+{"ts": "2026-11-08 18:16:59 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Marilyn (mcap $8633263.3M > $20M)"}
+{"ts": "2026-11-08 18:18:34 WAT", "kind": "CYCLE", "msg": "cycle 57 done, equity $1000.00"}
