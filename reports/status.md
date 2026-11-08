@@ -1,10 +1,10 @@
 # Desk status - PAPER mode
 
-**Now:** 2026-11-08 18:31:48 WAT | **Cycle:** 59 | **Next cycle:** ~180s | **Ends:** 2026-11-09 03:02 WAT
+**Now:** 2026-11-08 18:39:46 WAT | **Cycle:** 60 | **Next cycle:** ~180s | **Ends:** 2026-11-09 03:02 WAT
 
 **Equity:** $1000.00 (cash $1000.00 + open $0.00) | start $1000.00 (+0.00%)
 
-**Funnel so far:** seen 8151 | handed to Filter 136 | killed 41 | survivors tracked 0 | entries 0 | open 0 | exits 0 (W0/L0)
+**Funnel so far:** seen 8272 | handed to Filter 137 | killed 41 | survivors tracked 0 | entries 0 | open 0 | exits 0 (W0/L0)
 
 **Top survivors (score):** _No live survivors._
 
