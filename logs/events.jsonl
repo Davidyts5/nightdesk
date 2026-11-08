@@ -5136,3 +5136,6 @@
 {"ts": "2026-11-08 23:59:21 WAT", "kind": "SESSION", "msg": "desk online, 93 prior cycles in state"}
 {"ts": "2026-11-09 00:01:49 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Fartcoin  (mcap $8266.7M > $20M)"}
 {"ts": "2026-11-09 00:01:49 WAT", "kind": "CYCLE", "msg": "cycle 94 done, equity $1000.00"}
+{"ts": "2026-11-09 00:06:03 WAT", "kind": "SESSION", "msg": "desk online, 94 prior cycles in state"}
+{"ts": "2026-11-09 00:08:37 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: abacus (no pair birth time)"}
+{"ts": "2026-11-09 00:08:37 WAT", "kind": "CYCLE", "msg": "cycle 95 done, equity $1000.00"}
