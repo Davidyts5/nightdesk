@@ -4601,3 +4601,6 @@
 {"ts": "2026-11-08 01:09:24 WAT", "kind": "SESSION", "msg": "desk online, 119 prior cycles in state"}
 {"ts": "2026-11-08 01:13:11 WAT", "kind": "DEFER", "msg": "HIGHCAP: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-08 01:14:32 WAT", "kind": "CYCLE", "msg": "cycle 120 done, equity $1000.00"}
+{"ts": "2026-11-08 01:18:43 WAT", "kind": "SESSION", "msg": "desk online, 120 prior cycles in state"}
+{"ts": "2026-11-08 01:21:12 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: UBTC (mcap $100.1M > $20M)"}
+{"ts": "2026-11-08 01:22:33 WAT", "kind": "CYCLE", "msg": "cycle 121 done, equity $1000.00"}
