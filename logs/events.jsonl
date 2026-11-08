@@ -4657,3 +4657,6 @@
 {"ts": "2026-11-08 03:31:31 WAT", "kind": "DEFER", "msg": "FLOAT: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-08 03:32:57 WAT", "kind": "DEFER", "msg": "HEREWEGO: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-08 03:34:18 WAT", "kind": "CYCLE", "msg": "cycle 3 done, equity $1000.00"}
+{"ts": "2026-11-08 03:38:29 WAT", "kind": "SESSION", "msg": "desk online, 3 prior cycles in state"}
+{"ts": "2026-11-08 03:41:02 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: $Habibi (no pair birth time); HABI (no pair birth time); PAD (mcap $22.0M > $20M)"}
+{"ts": "2026-11-08 03:43:44 WAT", "kind": "CYCLE", "msg": "cycle 4 done, equity $1000.00"}
