@@ -5030,3 +5030,6 @@
 {"ts": "2026-11-08 19:53:37 WAT", "kind": "CYCLE", "msg": "cycle 68 done, equity $1000.00"}
 {"ts": "2026-11-08 19:57:48 WAT", "kind": "SESSION", "msg": "desk online, 68 prior cycles in state"}
 {"ts": "2026-11-08 20:00:13 WAT", "kind": "CYCLE", "msg": "cycle 69 done, equity $1000.00"}
+{"ts": "2026-11-08 20:04:23 WAT", "kind": "SESSION", "msg": "desk online, 69 prior cycles in state"}
+{"ts": "2026-11-08 20:06:49 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: DRIVER (no pair birth time); FLOAT (mcap $509.3M > $20M); OKKX (mcap $300.0M > $20M)"}
+{"ts": "2026-11-08 20:06:49 WAT", "kind": "CYCLE", "msg": "cycle 70 done, equity $1000.00"}
