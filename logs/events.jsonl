@@ -5259,3 +5259,11 @@
 {"ts": "2026-11-09 04:11:20 WAT", "kind": "DEFER", "msg": "ELYSION: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-09 04:12:42 WAT", "kind": "DEFER", "msg": "Godbox: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-09 04:14:02 WAT", "kind": "CYCLE", "msg": "cycle 4 done, equity $1000.00"}
+{"ts": "2026-11-09 04:18:13 WAT", "kind": "SESSION", "msg": "desk online, 4 prior cycles in state"}
+{"ts": "2026-11-09 04:20:48 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: \u725b\u903c (no pair birth time); AGC (mcap $595.2M > $20M); OFFICIAL (mcap $433.7M > $20M) ..."}
+{"ts": "2026-11-09 04:22:09 WAT", "kind": "DEFER", "msg": "Gasgolem: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-09 04:23:31 WAT", "kind": "DEFER", "msg": "ELYS: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-09 04:24:52 WAT", "kind": "DEFER", "msg": "Z\u0421TA: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-09 04:26:14 WAT", "kind": "DEFER", "msg": "MrBeast: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-09 04:27:35 WAT", "kind": "DEFER", "msg": "GC: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-09 04:28:56 WAT", "kind": "CYCLE", "msg": "cycle 5 done, equity $1000.00"}
