@@ -5651,3 +5651,6 @@
 {"ts": "2026-11-09 17:46:00 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: BURTIG (mcap $79.4M > $20M)"}
 {"ts": "2026-11-09 17:46:44 WAT", "kind": "DEFER", "msg": "Pepetide: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-09 17:46:44 WAT", "kind": "CYCLE", "msg": "cycle 70 done, equity $1000.00"}
+{"ts": "2026-11-09 17:50:56 WAT", "kind": "SESSION", "msg": "desk online, 70 prior cycles in state"}
+{"ts": "2026-11-09 17:53:02 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: QSOL (no pair birth time); MELANIA (no pair birth time); MADWIZ (mcap $78.9M > $20M)"}
+{"ts": "2026-11-09 17:53:47 WAT", "kind": "CYCLE", "msg": "cycle 71 done, equity $1000.00"}
