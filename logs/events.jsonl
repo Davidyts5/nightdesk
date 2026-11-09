@@ -5444,3 +5444,6 @@
 {"ts": "2026-11-09 11:02:47 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: 42690% (no pair birth time); LIGHTSIGMA (no pair birth time)"}
 {"ts": "2026-11-09 11:04:08 WAT", "kind": "DEFER", "msg": "Bobina: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-09 11:04:08 WAT", "kind": "CYCLE", "msg": "cycle 24 done, equity $1000.00"}
+{"ts": "2026-11-09 11:08:19 WAT", "kind": "SESSION", "msg": "desk online, 24 prior cycles in state"}
+{"ts": "2026-11-09 11:10:47 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: Garfield (mcap $577.4M > $20M); StonksPay (mcap $382.2M > $20M)"}
+{"ts": "2026-11-09 11:12:08 WAT", "kind": "CYCLE", "msg": "cycle 25 done, equity $1000.00"}
