@@ -5593,3 +5593,6 @@
 {"ts": "2026-11-09 15:31:33 WAT", "kind": "DEFER", "msg": "GINGATO: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-09 15:32:17 WAT", "kind": "DEFER", "msg": "AETHER: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-09 15:35:20 WAT", "kind": "CYCLE", "msg": "cycle 52 done, equity $1000.00"}
+{"ts": "2026-11-09 15:39:35 WAT", "kind": "SESSION", "msg": "desk online, 52 prior cycles in state"}
+{"ts": "2026-11-09 15:42:03 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: CREATINE (no pair birth time); shiken (mcap $420.1M > $20M); \u5927A (mcap $406.6M > $20M)"}
+{"ts": "2026-11-09 15:43:31 WAT", "kind": "CYCLE", "msg": "cycle 53 done, equity $1000.00"}
