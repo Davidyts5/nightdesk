@@ -5677,3 +5677,5 @@
 {"ts": "2026-11-09 18:43:01 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: USPR (mcap $132.1M > $20M)"}
 {"ts": "2026-11-09 18:43:45 WAT", "kind": "DEFER", "msg": "WIFE: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-09 18:43:45 WAT", "kind": "CYCLE", "msg": "cycle 78 done, equity $1000.00"}
+{"ts": "2026-11-09 18:47:57 WAT", "kind": "SESSION", "msg": "desk online, 78 prior cycles in state"}
+{"ts": "2026-11-09 18:50:46 WAT", "kind": "CYCLE", "msg": "cycle 79 done, equity $1000.00"}
