@@ -5466,3 +5466,6 @@
 {"ts": "2026-11-09 11:56:13 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: STATMOO (mcap $25.0M > $20M)"}
 {"ts": "2026-11-09 11:56:58 WAT", "kind": "DEFER", "msg": "\u725b\u903c: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-09 11:56:58 WAT", "kind": "CYCLE", "msg": "cycle 31 done, equity $1000.00"}
+{"ts": "2026-11-09 12:01:10 WAT", "kind": "SESSION", "msg": "desk online, 31 prior cycles in state"}
+{"ts": "2026-11-09 12:03:50 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: Riner (no pair birth time); OKKX (mcap $300.0M > $20M); Windkit (mcap $20.7M > $20M)"}
+{"ts": "2026-11-09 12:04:34 WAT", "kind": "CYCLE", "msg": "cycle 32 done, equity $1000.00"}
