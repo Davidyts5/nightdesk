@@ -5436,3 +5436,7 @@
 {"ts": "2026-11-09 10:44:01 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: XDT (mcap $102.1M > $20M); HSBC (mcap $288.3M > $20M); PEPE (mcap $9549.3M > $20M)"}
 {"ts": "2026-11-09 10:45:22 WAT", "kind": "DEFER", "msg": "Scronty : R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-09 10:45:22 WAT", "kind": "CYCLE", "msg": "cycle 22 done, equity $1000.00"}
+{"ts": "2026-11-09 10:49:34 WAT", "kind": "SESSION", "msg": "desk online, 22 prior cycles in state"}
+{"ts": "2026-11-09 10:53:23 WAT", "kind": "DEFER", "msg": "\u725b\u903c: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-09 10:54:44 WAT", "kind": "DEFER", "msg": "Bobina: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-09 10:56:06 WAT", "kind": "CYCLE", "msg": "cycle 23 done, equity $1000.00"}
