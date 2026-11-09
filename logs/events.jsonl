@@ -5679,3 +5679,7 @@
 {"ts": "2026-11-09 18:43:45 WAT", "kind": "CYCLE", "msg": "cycle 78 done, equity $1000.00"}
 {"ts": "2026-11-09 18:47:57 WAT", "kind": "SESSION", "msg": "desk online, 78 prior cycles in state"}
 {"ts": "2026-11-09 18:50:46 WAT", "kind": "CYCLE", "msg": "cycle 79 done, equity $1000.00"}
+{"ts": "2026-11-09 18:55:02 WAT", "kind": "SESSION", "msg": "desk online, 79 prior cycles in state"}
+{"ts": "2026-11-09 18:57:25 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: UDTF (mcap $129.5M > $20M); Btcbear (mcap $70.1M > $20M)"}
+{"ts": "2026-11-09 18:58:09 WAT", "kind": "DEFER", "msg": "USPR: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-09 18:58:09 WAT", "kind": "CYCLE", "msg": "cycle 80 done, equity $1000.00"}
