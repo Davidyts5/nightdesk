@@ -5484,3 +5484,6 @@
 {"ts": "2026-11-09 12:34:11 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: Grotti (no pair birth time); Grotti (no pair birth time)"}
 {"ts": "2026-11-09 12:34:56 WAT", "kind": "DEFER", "msg": "SWDC: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-09 12:34:56 WAT", "kind": "CYCLE", "msg": "cycle 36 done, equity $1000.00"}
+{"ts": "2026-11-09 12:39:08 WAT", "kind": "SESSION", "msg": "desk online, 36 prior cycles in state"}
+{"ts": "2026-11-09 12:41:47 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Chunkee (no pair birth time)"}
+{"ts": "2026-11-09 12:42:31 WAT", "kind": "CYCLE", "msg": "cycle 37 done, equity $1000.00"}
