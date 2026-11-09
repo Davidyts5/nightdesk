@@ -5659,3 +5659,6 @@
 {"ts": "2026-11-09 18:00:37 WAT", "kind": "CYCLE", "msg": "cycle 72 done, equity $1000.00"}
 {"ts": "2026-11-09 18:04:48 WAT", "kind": "SESSION", "msg": "desk online, 72 prior cycles in state"}
 {"ts": "2026-11-09 18:07:05 WAT", "kind": "CYCLE", "msg": "cycle 73 done, equity $1000.00"}
+{"ts": "2026-11-09 18:11:17 WAT", "kind": "SESSION", "msg": "desk online, 73 prior cycles in state"}
+{"ts": "2026-11-09 18:13:21 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: UBTC (mcap $100.1M > $20M)"}
+{"ts": "2026-11-09 18:13:21 WAT", "kind": "CYCLE", "msg": "cycle 74 done, equity $1000.00"}
