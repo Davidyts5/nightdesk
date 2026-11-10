@@ -6338,3 +6338,6 @@
 {"ts": "2026-11-10 23:21:00 WAT", "kind": "CYCLE", "msg": "cycle 125 done, equity $1000.00"}
 {"ts": "2026-11-10 23:25:10 WAT", "kind": "SESSION", "msg": "desk online, 125 prior cycles in state"}
 {"ts": "2026-11-10 23:27:49 WAT", "kind": "CYCLE", "msg": "cycle 126 done, equity $1000.00"}
+{"ts": "2026-11-10 23:32:00 WAT", "kind": "SESSION", "msg": "desk online, 126 prior cycles in state"}
+{"ts": "2026-11-10 23:34:45 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: head (mcap $553.3M > $20M)"}
+{"ts": "2026-11-10 23:34:45 WAT", "kind": "CYCLE", "msg": "cycle 127 done, equity $1000.00"}
