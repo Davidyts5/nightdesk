@@ -5969,3 +5969,6 @@
 {"ts": "2026-11-10 10:17:55 WAT", "kind": "SESSION", "msg": "desk online, 24 prior cycles in state"}
 {"ts": "2026-11-10 10:20:53 WAT", "kind": "DEFER", "msg": "ZEC: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-10 10:21:37 WAT", "kind": "CYCLE", "msg": "cycle 25 done, equity $1000.00"}
+{"ts": "2026-11-10 10:25:49 WAT", "kind": "SESSION", "msg": "desk online, 25 prior cycles in state"}
+{"ts": "2026-11-10 10:28:12 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: PUSSY (mcap $27.7M > $20M)"}
+{"ts": "2026-11-10 10:28:56 WAT", "kind": "CYCLE", "msg": "cycle 26 done, equity $1000.00"}
