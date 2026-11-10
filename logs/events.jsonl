@@ -6278,3 +6278,6 @@
 {"ts": "2026-11-10 20:45:33 WAT", "kind": "DEFER", "msg": "grog: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-10 20:46:29 WAT", "kind": "DEFER", "msg": "DACITY: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-10 20:47:27 WAT", "kind": "CYCLE", "msg": "cycle 103 done, equity $1000.00"}
+{"ts": "2026-11-10 20:51:39 WAT", "kind": "SESSION", "msg": "desk online, 103 prior cycles in state"}
+{"ts": "2026-11-10 20:54:01 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Cldbell (mcap $34.8M > $20M)"}
+{"ts": "2026-11-10 20:54:46 WAT", "kind": "CYCLE", "msg": "cycle 104 done, equity $1000.00"}
