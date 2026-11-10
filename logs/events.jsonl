@@ -6361,3 +6361,6 @@
 {"ts": "2026-11-11 00:19:41 WAT", "kind": "SESSION", "msg": "desk online, 133 prior cycles in state"}
 {"ts": "2026-11-11 00:22:00 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Turcere (mcap $71.2M > $20M)"}
 {"ts": "2026-11-11 00:22:00 WAT", "kind": "CYCLE", "msg": "cycle 134 done, equity $1000.00"}
+{"ts": "2026-11-11 00:26:14 WAT", "kind": "SESSION", "msg": "desk online, 134 prior cycles in state"}
+{"ts": "2026-11-11 00:28:48 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: NASH (no pair birth time)"}
+{"ts": "2026-11-11 00:28:48 WAT", "kind": "CYCLE", "msg": "cycle 135 done, equity $1000.00"}
