@@ -6358,3 +6358,6 @@
 {"ts": "2026-11-11 00:09:06 WAT", "kind": "CYCLE", "msg": "cycle 132 done, equity $1000.00"}
 {"ts": "2026-11-11 00:13:18 WAT", "kind": "SESSION", "msg": "desk online, 132 prior cycles in state"}
 {"ts": "2026-11-11 00:15:29 WAT", "kind": "CYCLE", "msg": "cycle 133 done, equity $1000.00"}
+{"ts": "2026-11-11 00:19:41 WAT", "kind": "SESSION", "msg": "desk online, 133 prior cycles in state"}
+{"ts": "2026-11-11 00:22:00 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Turcere (mcap $71.2M > $20M)"}
+{"ts": "2026-11-11 00:22:00 WAT", "kind": "CYCLE", "msg": "cycle 134 done, equity $1000.00"}
