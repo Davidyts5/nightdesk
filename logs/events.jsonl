@@ -6032,3 +6032,6 @@
 {"ts": "2026-11-10 12:16:13 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: SI (mcap $302.6M > $20M); DERP404 (mcap $38.7M > $20M)"}
 {"ts": "2026-11-10 12:16:57 WAT", "kind": "DEFER", "msg": "GTA 6: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-10 12:18:30 WAT", "kind": "CYCLE", "msg": "cycle 38 done, equity $1000.00"}
+{"ts": "2026-11-10 12:22:43 WAT", "kind": "SESSION", "msg": "desk online, 38 prior cycles in state"}
+{"ts": "2026-11-10 12:25:12 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: HODL (no pair birth time); GOSS (no pair birth time)"}
+{"ts": "2026-11-10 12:25:57 WAT", "kind": "CYCLE", "msg": "cycle 39 done, equity $1000.00"}
