@@ -6066,3 +6066,6 @@
 {"ts": "2026-11-10 13:24:02 WAT", "kind": "SESSION", "msg": "desk online, 46 prior cycles in state"}
 {"ts": "2026-11-10 13:27:10 WAT", "kind": "DEFER", "msg": "\uba38\uc2a4\ud06c: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
 {"ts": "2026-11-10 13:28:41 WAT", "kind": "CYCLE", "msg": "cycle 47 done, equity $1000.00"}
+{"ts": "2026-11-10 13:32:53 WAT", "kind": "SESSION", "msg": "desk online, 47 prior cycles in state"}
+{"ts": "2026-11-10 13:35:13 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: BAGSPAY (mcap $16594.1M > $20M); yoki\u9171 (mcap $665.9M > $20M); MLC (mcap $358.0M > $20M)"}
+{"ts": "2026-11-10 13:35:13 WAT", "kind": "CYCLE", "msg": "cycle 48 done, equity $1000.00"}
