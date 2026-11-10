@@ -5880,3 +5880,6 @@
 {"ts": "2026-11-10 07:27:46 WAT", "kind": "DEFER", "msg": "PUSSY: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-10 07:28:30 WAT", "kind": "DEFER", "msg": "Pepetide: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-10 07:28:30 WAT", "kind": "CYCLE", "msg": "cycle 4 done, equity $1000.00"}
+{"ts": "2026-11-10 07:32:42 WAT", "kind": "SESSION", "msg": "desk online, 4 prior cycles in state"}
+{"ts": "2026-11-10 07:34:59 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: FOMO (mcap $612.4M > $20M); Gasgolem (mcap $25.3M > $20M)"}
+{"ts": "2026-11-10 07:36:28 WAT", "kind": "CYCLE", "msg": "cycle 5 done, equity $1000.00"}
