@@ -5996,3 +5996,6 @@
 {"ts": "2026-11-10 11:11:22 WAT", "kind": "DEFER", "msg": "DERP404: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-10 11:12:06 WAT", "kind": "DEFER", "msg": "X: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-10 11:12:06 WAT", "kind": "CYCLE", "msg": "cycle 31 done, equity $1000.00"}
+{"ts": "2026-11-10 11:16:18 WAT", "kind": "SESSION", "msg": "desk online, 31 prior cycles in state"}
+{"ts": "2026-11-10 11:18:49 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: TOOT (no pair birth time); Jos\u00e9 (mcap $703.7M > $20M)"}
+{"ts": "2026-11-10 11:20:18 WAT", "kind": "CYCLE", "msg": "cycle 32 done, equity $1000.00"}
