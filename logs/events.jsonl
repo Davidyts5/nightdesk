@@ -6341,3 +6341,6 @@
 {"ts": "2026-11-10 23:32:00 WAT", "kind": "SESSION", "msg": "desk online, 126 prior cycles in state"}
 {"ts": "2026-11-10 23:34:45 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: head (mcap $553.3M > $20M)"}
 {"ts": "2026-11-10 23:34:45 WAT", "kind": "CYCLE", "msg": "cycle 127 done, equity $1000.00"}
+{"ts": "2026-11-10 23:38:55 WAT", "kind": "SESSION", "msg": "desk online, 127 prior cycles in state"}
+{"ts": "2026-11-10 23:41:09 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: DOGELAR (no pair birth time)"}
+{"ts": "2026-11-10 23:41:09 WAT", "kind": "CYCLE", "msg": "cycle 128 done, equity $1000.00"}
