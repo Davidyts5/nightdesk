@@ -6149,3 +6149,6 @@
 {"ts": "2026-11-10 16:28:56 WAT", "kind": "CYCLE", "msg": "cycle 71 done, equity $1000.00"}
 {"ts": "2026-11-10 16:33:15 WAT", "kind": "SESSION", "msg": "desk online, 71 prior cycles in state"}
 {"ts": "2026-11-10 16:35:47 WAT", "kind": "CYCLE", "msg": "cycle 72 done, equity $1000.00"}
+{"ts": "2026-11-10 16:40:00 WAT", "kind": "SESSION", "msg": "desk online, 72 prior cycles in state"}
+{"ts": "2026-11-10 16:42:37 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: XTO (mcap $124.1M > $20M)"}
+{"ts": "2026-11-10 16:42:37 WAT", "kind": "CYCLE", "msg": "cycle 73 done, equity $1000.00"}
