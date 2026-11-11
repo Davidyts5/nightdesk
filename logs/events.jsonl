@@ -6662,3 +6662,6 @@
 {"ts": "2026-11-11 10:00:42 WAT", "kind": "SESSION", "msg": "desk online, 20 prior cycles in state"}
 {"ts": "2026-11-11 10:03:01 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: $TOOTSi (no pair birth time)"}
 {"ts": "2026-11-11 10:03:45 WAT", "kind": "CYCLE", "msg": "cycle 21 done, equity $1000.00"}
+{"ts": "2026-11-11 10:07:57 WAT", "kind": "SESSION", "msg": "desk online, 21 prior cycles in state"}
+{"ts": "2026-11-11 10:10:26 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: USPD (mcap $1000.1M > $20M)"}
+{"ts": "2026-11-11 10:10:26 WAT", "kind": "CYCLE", "msg": "cycle 22 done, equity $1000.00"}
