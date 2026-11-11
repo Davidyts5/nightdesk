@@ -6461,3 +6461,8 @@
 {"ts": "2026-11-11 03:32:40 WAT", "kind": "DEFER", "msg": "HOLD: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-11 03:33:24 WAT", "kind": "DEFER", "msg": "XTEN: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-11 03:34:11 WAT", "kind": "CYCLE", "msg": "cycle 4 done, equity $1000.00"}
+{"ts": "2026-11-11 03:38:22 WAT", "kind": "SESSION", "msg": "desk online, 4 prior cycles in state"}
+{"ts": "2026-11-11 03:40:01 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: N\u01d0h\u01ceo (no pair birth time); GWCAN (mcap $34.7M > $20M); HOLD (mcap $329.5M > $20M)"}
+{"ts": "2026-11-11 03:40:45 WAT", "kind": "DEFER", "msg": "WEMBLOCK: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-11 03:41:30 WAT", "kind": "DEFER", "msg": "HOLD: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-11 03:43:47 WAT", "kind": "CYCLE", "msg": "cycle 5 done, equity $1000.00"}
