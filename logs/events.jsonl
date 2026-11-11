@@ -6382,3 +6382,6 @@
 {"ts": "2026-11-11 00:58:03 WAT", "kind": "SESSION", "msg": "desk online, 138 prior cycles in state"}
 {"ts": "2026-11-11 01:00:37 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: mihao (mcap $12286.6M > $20M)"}
 {"ts": "2026-11-11 01:01:22 WAT", "kind": "CYCLE", "msg": "cycle 139 done, equity $1000.00"}
+{"ts": "2026-11-11 01:05:40 WAT", "kind": "SESSION", "msg": "desk online, 139 prior cycles in state"}
+{"ts": "2026-11-11 01:07:19 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: NHCAT (no pair birth time)"}
+{"ts": "2026-11-11 01:07:19 WAT", "kind": "CYCLE", "msg": "cycle 140 done, equity $1000.00"}
