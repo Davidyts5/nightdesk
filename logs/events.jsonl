@@ -6405,3 +6405,9 @@
 {"ts": "2026-11-11 01:44:01 WAT", "kind": "DEFER", "msg": "DOUGHBOY: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-11 01:44:45 WAT", "kind": "DEFER", "msg": "NIHAO: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-11 01:44:45 WAT", "kind": "CYCLE", "msg": "cycle 145 done, equity $1000.00"}
+{"ts": "2026-11-11 01:48:56 WAT", "kind": "SESSION", "msg": "desk online, 145 prior cycles in state"}
+{"ts": "2026-11-11 01:51:09 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: NIGATTI (no pair birth time); Kyshbot (mcap $76.7M > $20M)"}
+{"ts": "2026-11-11 01:51:53 WAT", "kind": "DEFER", "msg": "Fineshyt: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-11 01:52:37 WAT", "kind": "DEFER", "msg": "mihao: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-11 01:53:25 WAT", "kind": "DEFER", "msg": "FLOAT: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-11 01:54:53 WAT", "kind": "CYCLE", "msg": "cycle 146 done, equity $1000.00"}
