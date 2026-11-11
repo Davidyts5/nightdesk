@@ -6811,3 +6811,6 @@
 {"ts": "2026-11-11 14:57:37 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: SMR (no pair birth time)"}
 {"ts": "2026-11-11 14:58:22 WAT", "kind": "DEFER", "msg": "Grok Bot: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-11 14:58:22 WAT", "kind": "CYCLE", "msg": "cycle 56 done, equity $1000.00"}
+{"ts": "2026-11-11 15:02:35 WAT", "kind": "SESSION", "msg": "desk online, 56 prior cycles in state"}
+{"ts": "2026-11-11 15:05:01 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Gldphx (mcap $34.3M > $20M)"}
+{"ts": "2026-11-11 15:05:45 WAT", "kind": "CYCLE", "msg": "cycle 57 done, equity $1000.00"}
