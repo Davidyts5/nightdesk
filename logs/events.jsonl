@@ -6427,3 +6427,7 @@
 {"ts": "2026-11-11 02:34:03 WAT", "kind": "SCOUT_DROP", "msg": "5 outside scope: BILLYDRAW (no pair birth time); RRAMBO (no pair birth time); $WHAM (no pair birth time) ..."}
 {"ts": "2026-11-11 02:34:47 WAT", "kind": "DEFER", "msg": "GTA6MAS: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
 {"ts": "2026-11-11 02:35:32 WAT", "kind": "CYCLE", "msg": "cycle 151 done, equity $1000.00"}
+{"ts": "2026-11-11 02:39:44 WAT", "kind": "SESSION", "msg": "desk online, 151 prior cycles in state"}
+{"ts": "2026-11-11 02:42:57 WAT", "kind": "DEFER", "msg": "\u54aa\u597d: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-11 02:43:41 WAT", "kind": "DEFER", "msg": "GTA6MAS: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-11 02:43:41 WAT", "kind": "CYCLE", "msg": "cycle 152 done, equity $1000.00"}
