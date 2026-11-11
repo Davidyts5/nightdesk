@@ -6523,3 +6523,6 @@
 {"ts": "2026-11-11 05:51:13 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: mihao (mcap $13100.8M > $20M); UCI (mcap $26.5M > $20M)"}
 {"ts": "2026-11-11 05:51:57 WAT", "kind": "DEFER", "msg": "IPF: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-11 05:51:57 WAT", "kind": "CYCLE", "msg": "cycle 21 done, equity $1000.00"}
+{"ts": "2026-11-11 05:56:07 WAT", "kind": "SESSION", "msg": "desk online, 21 prior cycles in state"}
+{"ts": "2026-11-11 05:57:44 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Monkey  (mcap $671.8M > $20M)"}
+{"ts": "2026-11-11 05:58:28 WAT", "kind": "CYCLE", "msg": "cycle 22 done, equity $1000.00"}
