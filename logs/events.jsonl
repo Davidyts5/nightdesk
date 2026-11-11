@@ -6955,3 +6955,6 @@
 {"ts": "2026-11-11 19:52:36 WAT", "kind": "CYCLE", "msg": "cycle 95 done, equity $1000.00"}
 {"ts": "2026-11-11 19:56:47 WAT", "kind": "SESSION", "msg": "desk online, 95 prior cycles in state"}
 {"ts": "2026-11-11 20:00:06 WAT", "kind": "CYCLE", "msg": "cycle 96 done, equity $1000.00"}
+{"ts": "2026-11-11 20:04:18 WAT", "kind": "SESSION", "msg": "desk online, 96 prior cycles in state"}
+{"ts": "2026-11-11 20:06:45 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: SuperHeavy (no pair birth time)"}
+{"ts": "2026-11-11 20:06:45 WAT", "kind": "CYCLE", "msg": "cycle 97 done, equity $1000.00"}
