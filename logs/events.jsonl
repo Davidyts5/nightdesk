@@ -6659,3 +6659,6 @@
 {"ts": "2026-11-11 09:52:41 WAT", "kind": "SESSION", "msg": "desk online, 19 prior cycles in state"}
 {"ts": "2026-11-11 09:55:45 WAT", "kind": "DEFER", "msg": "\u6708\u85aa\u55b5: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-11 09:56:29 WAT", "kind": "CYCLE", "msg": "cycle 20 done, equity $1000.00"}
+{"ts": "2026-11-11 10:00:42 WAT", "kind": "SESSION", "msg": "desk online, 20 prior cycles in state"}
+{"ts": "2026-11-11 10:03:01 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: $TOOTSi (no pair birth time)"}
+{"ts": "2026-11-11 10:03:45 WAT", "kind": "CYCLE", "msg": "cycle 21 done, equity $1000.00"}
