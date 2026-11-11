@@ -6958,3 +6958,6 @@
 {"ts": "2026-11-11 20:04:18 WAT", "kind": "SESSION", "msg": "desk online, 96 prior cycles in state"}
 {"ts": "2026-11-11 20:06:45 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: SuperHeavy (no pair birth time)"}
 {"ts": "2026-11-11 20:06:45 WAT", "kind": "CYCLE", "msg": "cycle 97 done, equity $1000.00"}
+{"ts": "2026-11-11 20:10:58 WAT", "kind": "SESSION", "msg": "desk online, 97 prior cycles in state"}
+{"ts": "2026-11-11 20:13:26 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: updog (no pair birth time)"}
+{"ts": "2026-11-11 20:13:26 WAT", "kind": "CYCLE", "msg": "cycle 98 done, equity $1000.00"}
