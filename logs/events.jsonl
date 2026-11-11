@@ -6446,3 +6446,10 @@
 {"ts": "2026-11-11 03:12:12 WAT", "kind": "DEFER", "msg": "Gizwiz: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
 {"ts": "2026-11-11 03:12:56 WAT", "kind": "DEFER", "msg": "SKRST: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-11 03:12:56 WAT", "kind": "CYCLE", "msg": "cycle 2 done, equity $1000.00"}
+{"ts": "2026-11-11 03:17:08 WAT", "kind": "SESSION", "msg": "desk online, 2 prior cycles in state"}
+{"ts": "2026-11-11 03:19:47 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: N\u01d0h\u01ceo (no pair birth time)"}
+{"ts": "2026-11-11 03:20:32 WAT", "kind": "DEFER", "msg": "Duadisco: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-11 03:21:16 WAT", "kind": "DEFER", "msg": "HOLD: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-11 03:22:04 WAT", "kind": "DEFER", "msg": "XTEN: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-11 03:22:48 WAT", "kind": "DEFER", "msg": "Gizwiz: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-11 03:23:32 WAT", "kind": "CYCLE", "msg": "cycle 3 done, equity $1000.00"}
