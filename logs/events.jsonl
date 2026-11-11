@@ -6608,3 +6608,9 @@
 {"ts": "2026-11-11 08:19:34 WAT", "kind": "DEFER", "msg": "TRENCHER: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
 {"ts": "2026-11-11 08:20:18 WAT", "kind": "DEFER", "msg": "GTA 6: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-11 08:20:18 WAT", "kind": "CYCLE", "msg": "cycle 9 done, equity $1000.00"}
+{"ts": "2026-11-11 08:24:29 WAT", "kind": "SESSION", "msg": "desk online, 9 prior cycles in state"}
+{"ts": "2026-11-11 08:26:15 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Gunndc (mcap $37.3M > $20M)"}
+{"ts": "2026-11-11 08:27:00 WAT", "kind": "DEFER", "msg": "GTA 6: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-11 08:27:44 WAT", "kind": "DEFER", "msg": "\u62f3\u51fb\u732b: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-11 08:28:31 WAT", "kind": "DEFER", "msg": "TRENCHER: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-11 08:29:16 WAT", "kind": "CYCLE", "msg": "cycle 10 done, equity $1000.00"}
