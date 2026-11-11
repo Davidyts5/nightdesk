@@ -6899,3 +6899,6 @@
 {"ts": "2026-11-11 17:54:07 WAT", "kind": "CYCLE", "msg": "cycle 79 done, equity $1000.00"}
 {"ts": "2026-11-11 17:58:19 WAT", "kind": "SESSION", "msg": "desk online, 79 prior cycles in state"}
 {"ts": "2026-11-11 18:01:20 WAT", "kind": "CYCLE", "msg": "cycle 80 done, equity $1000.00"}
+{"ts": "2026-11-11 18:05:32 WAT", "kind": "SESSION", "msg": "desk online, 80 prior cycles in state"}
+{"ts": "2026-11-11 18:07:24 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: MINECATY (no pair birth time)"}
+{"ts": "2026-11-11 18:07:24 WAT", "kind": "CYCLE", "msg": "cycle 81 done, equity $1000.00"}
