@@ -7346,3 +7346,6 @@
 {"ts": "2026-11-12 11:11:01 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: NIGGERISM (no pair birth time); NIGCAT (no pair birth time)"}
 {"ts": "2026-11-12 11:11:45 WAT", "kind": "DEFER", "msg": "FLC: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-12 11:13:16 WAT", "kind": "CYCLE", "msg": "cycle 28 done, equity $1000.00"}
+{"ts": "2026-11-12 11:17:30 WAT", "kind": "SESSION", "msg": "desk online, 28 prior cycles in state"}
+{"ts": "2026-11-12 11:20:00 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: :> (no pair birth time)"}
+{"ts": "2026-11-12 11:20:44 WAT", "kind": "CYCLE", "msg": "cycle 29 done, equity $1000.00"}
