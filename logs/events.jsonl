@@ -7576,3 +7576,6 @@
 {"ts": "2026-11-12 18:12:07 WAT", "kind": "CYCLE", "msg": "cycle 76 done, equity $1000.00"}
 {"ts": "2026-11-12 18:16:21 WAT", "kind": "SESSION", "msg": "desk online, 76 prior cycles in state"}
 {"ts": "2026-11-12 18:19:40 WAT", "kind": "CYCLE", "msg": "cycle 77 done, equity $1000.00"}
+{"ts": "2026-11-12 18:23:53 WAT", "kind": "SESSION", "msg": "desk online, 77 prior cycles in state"}
+{"ts": "2026-11-12 18:26:13 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: TAMPONTIM (no pair birth time)"}
+{"ts": "2026-11-12 18:26:13 WAT", "kind": "CYCLE", "msg": "cycle 78 done, equity $1000.00"}
