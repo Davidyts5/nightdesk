@@ -7542,3 +7542,7 @@
 {"ts": "2026-11-12 17:04:50 WAT", "kind": "SESSION", "msg": "desk online, 67 prior cycles in state"}
 {"ts": "2026-11-12 17:07:14 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: CATM (no pair birth time); Green cat (mcap $340.2M > $20M); Max (mcap $268.6M > $20M)"}
 {"ts": "2026-11-12 17:08:00 WAT", "kind": "CYCLE", "msg": "cycle 68 done, equity $1000.00"}
+{"ts": "2026-11-12 17:12:19 WAT", "kind": "SESSION", "msg": "desk online, 68 prior cycles in state"}
+{"ts": "2026-11-12 17:14:46 WAT", "kind": "SCOUT_DROP", "msg": "3 outside scope: AODF (mcap $32.2M > $20M); \u725b\u6765 (mcap $276.4M > $20M); Max (mcap $341.0M > $20M)"}
+{"ts": "2026-11-12 17:15:43 WAT", "kind": "DEFER", "msg": "COOK: R1 revoked (RPC-verified) (strike 1/3) - retrying next cycle"}
+{"ts": "2026-11-12 17:15:43 WAT", "kind": "CYCLE", "msg": "cycle 69 done, equity $1000.00"}
