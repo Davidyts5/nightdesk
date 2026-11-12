@@ -7555,3 +7555,6 @@
 {"ts": "2026-11-12 17:30:00 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: SGTD (mcap $78.0M > $20M)"}
 {"ts": "2026-11-12 17:30:44 WAT", "kind": "DEFER", "msg": "POPPER: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-12 17:31:28 WAT", "kind": "CYCLE", "msg": "cycle 71 done, equity $1000.00"}
+{"ts": "2026-11-12 17:35:40 WAT", "kind": "SESSION", "msg": "desk online, 71 prior cycles in state"}
+{"ts": "2026-11-12 17:37:49 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: TIMCOOKED (no pair birth time); Qi (mcap $16590.1M > $20M)"}
+{"ts": "2026-11-12 17:37:49 WAT", "kind": "CYCLE", "msg": "cycle 72 done, equity $1000.00"}
