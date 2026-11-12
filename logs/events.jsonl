@@ -7609,3 +7609,6 @@
 {"ts": "2026-11-12 19:31:20 WAT", "kind": "SESSION", "msg": "desk online, 87 prior cycles in state"}
 {"ts": "2026-11-12 19:33:47 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: CAPY (no pair birth time)"}
 {"ts": "2026-11-12 19:33:47 WAT", "kind": "CYCLE", "msg": "cycle 88 done, equity $1000.00"}
+{"ts": "2026-11-12 19:37:57 WAT", "kind": "SESSION", "msg": "desk online, 88 prior cycles in state"}
+{"ts": "2026-11-12 19:40:24 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: USOP (no pair birth time); MHGA (no pair birth time); CAPY (no pair birth time) ..."}
+{"ts": "2026-11-12 19:40:24 WAT", "kind": "CYCLE", "msg": "cycle 89 done, equity $1000.00"}
