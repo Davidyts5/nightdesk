@@ -7612,3 +7612,6 @@
 {"ts": "2026-11-12 19:37:57 WAT", "kind": "SESSION", "msg": "desk online, 88 prior cycles in state"}
 {"ts": "2026-11-12 19:40:24 WAT", "kind": "SCOUT_DROP", "msg": "4 outside scope: USOP (no pair birth time); MHGA (no pair birth time); CAPY (no pair birth time) ..."}
 {"ts": "2026-11-12 19:40:24 WAT", "kind": "CYCLE", "msg": "cycle 89 done, equity $1000.00"}
+{"ts": "2026-11-12 19:44:35 WAT", "kind": "SESSION", "msg": "desk online, 89 prior cycles in state"}
+{"ts": "2026-11-12 19:47:01 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: HYPE\u1160 (mcap $711.6M > $20M); AMD (mcap $356.3M > $20M)"}
+{"ts": "2026-11-12 19:47:01 WAT", "kind": "CYCLE", "msg": "cycle 90 done, equity $1000.00"}
