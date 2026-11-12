@@ -7600,3 +7600,6 @@
 {"ts": "2026-11-12 19:11:29 WAT", "kind": "SESSION", "msg": "desk online, 84 prior cycles in state"}
 {"ts": "2026-11-12 19:14:01 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: HI (no pair birth time)"}
 {"ts": "2026-11-12 19:14:01 WAT", "kind": "CYCLE", "msg": "cycle 85 done, equity $1000.00"}
+{"ts": "2026-11-12 19:18:12 WAT", "kind": "SESSION", "msg": "desk online, 85 prior cycles in state"}
+{"ts": "2026-11-12 19:19:59 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: SUBAE (no pair birth time); CAPY (no pair birth time)"}
+{"ts": "2026-11-12 19:19:59 WAT", "kind": "CYCLE", "msg": "cycle 86 done, equity $1000.00"}
