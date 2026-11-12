@@ -7524,3 +7524,8 @@
 {"ts": "2026-11-12 16:27:40 WAT", "kind": "DEFER", "msg": "GTA 6 Coin: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-12 16:28:28 WAT", "kind": "DEFER", "msg": "Huang: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-12 16:29:12 WAT", "kind": "CYCLE", "msg": "cycle 63 done, equity $1000.00"}
+{"ts": "2026-11-12 16:33:31 WAT", "kind": "SESSION", "msg": "desk online, 63 prior cycles in state"}
+{"ts": "2026-11-12 16:34:53 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: RECK (no pair birth time)"}
+{"ts": "2026-11-12 16:35:38 WAT", "kind": "DEFER", "msg": "Huang: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-12 16:36:28 WAT", "kind": "DEFER", "msg": "KRESS: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-12 16:38:00 WAT", "kind": "CYCLE", "msg": "cycle 64 done, equity $1000.00"}
