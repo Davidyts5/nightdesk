@@ -7995,3 +7995,7 @@
 {"ts": "2026-11-13 08:48:16 WAT", "kind": "DEFER", "msg": "AUTISM: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-13 08:49:00 WAT", "kind": "DEFER", "msg": "UNLUCKY: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-13 08:49:00 WAT", "kind": "CYCLE", "msg": "cycle 13 done, equity $1000.00"}
+{"ts": "2026-11-13 08:53:11 WAT", "kind": "SESSION", "msg": "desk online, 13 prior cycles in state"}
+{"ts": "2026-11-13 08:55:48 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: XTO (mcap $371.2M > $20M)"}
+{"ts": "2026-11-13 08:56:32 WAT", "kind": "DEFER", "msg": "UXCP: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-13 08:57:16 WAT", "kind": "CYCLE", "msg": "cycle 14 done, equity $1000.00"}
