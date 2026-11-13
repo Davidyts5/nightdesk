@@ -7941,3 +7941,6 @@
 {"ts": "2026-11-13 07:01:49 WAT", "kind": "SESSION", "msg": "desk online, 0 prior cycles in state"}
 {"ts": "2026-11-13 07:04:12 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: DONTPANIC (no pair birth time); scept (no pair birth time)"}
 {"ts": "2026-11-13 07:04:12 WAT", "kind": "CYCLE", "msg": "cycle 1 done, equity $1000.00"}
+{"ts": "2026-11-13 07:08:22 WAT", "kind": "SESSION", "msg": "desk online, 1 prior cycles in state"}
+{"ts": "2026-11-13 07:10:49 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: Democat (mcap $485.8M > $20M)"}
+{"ts": "2026-11-13 07:10:49 WAT", "kind": "CYCLE", "msg": "cycle 2 done, equity $1000.00"}
