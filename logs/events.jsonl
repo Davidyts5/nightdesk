@@ -7930,3 +7930,5 @@
 {"ts": "2026-11-13 06:35:58 WAT", "kind": "DEFER", "msg": "GTA: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-13 06:36:42 WAT", "kind": "DEFER", "msg": "DacityCoin: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-13 06:36:42 WAT", "kind": "CYCLE", "msg": "cycle 24 done, equity $1000.00"}
+{"ts": "2026-11-13 06:40:55 WAT", "kind": "SESSION", "msg": "desk online, 24 prior cycles in state"}
+{"ts": "2026-11-13 06:43:54 WAT", "kind": "CYCLE", "msg": "cycle 25 done, equity $1000.00"}
