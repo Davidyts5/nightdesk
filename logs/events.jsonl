@@ -7937,3 +7937,7 @@
 {"ts": "2026-11-13 06:55:00 WAT", "kind": "SESSION", "msg": "desk online, 26 prior cycles in state"}
 {"ts": "2026-11-13 06:57:37 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: STEP MOM (no pair birth time)"}
 {"ts": "2026-11-13 06:57:37 WAT", "kind": "CYCLE", "msg": "cycle 27 done, equity $1000.00"}
+{"ts": "2026-11-13 07:01:49 WAT", "kind": "SESSION", "msg": "morning recap written at rollover"}
+{"ts": "2026-11-13 07:01:49 WAT", "kind": "SESSION", "msg": "desk online, 0 prior cycles in state"}
+{"ts": "2026-11-13 07:04:12 WAT", "kind": "SCOUT_DROP", "msg": "2 outside scope: DONTPANIC (no pair birth time); scept (no pair birth time)"}
+{"ts": "2026-11-13 07:04:12 WAT", "kind": "CYCLE", "msg": "cycle 1 done, equity $1000.00"}
