@@ -7980,3 +7980,7 @@
 {"ts": "2026-11-13 08:20:55 WAT", "kind": "DEFER", "msg": "\u5c0f\u74dc: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-13 08:21:42 WAT", "kind": "DEFER", "msg": "DacityCoin: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
 {"ts": "2026-11-13 08:21:42 WAT", "kind": "CYCLE", "msg": "cycle 10 done, equity $1000.00"}
+{"ts": "2026-11-13 08:25:55 WAT", "kind": "SESSION", "msg": "desk online, 10 prior cycles in state"}
+{"ts": "2026-11-13 08:28:12 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: $RL9 (no pair birth time)"}
+{"ts": "2026-11-13 08:28:56 WAT", "kind": "DEFER", "msg": "364: R1 revoked (RPC-verified) (strike 2/3) - retrying next cycle"}
+{"ts": "2026-11-13 08:30:28 WAT", "kind": "CYCLE", "msg": "cycle 11 done, equity $1000.00"}
