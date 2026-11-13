@@ -7934,3 +7934,6 @@
 {"ts": "2026-11-13 06:43:54 WAT", "kind": "CYCLE", "msg": "cycle 25 done, equity $1000.00"}
 {"ts": "2026-11-13 06:48:06 WAT", "kind": "SESSION", "msg": "desk online, 25 prior cycles in state"}
 {"ts": "2026-11-13 06:50:48 WAT", "kind": "CYCLE", "msg": "cycle 26 done, equity $1000.00"}
+{"ts": "2026-11-13 06:55:00 WAT", "kind": "SESSION", "msg": "desk online, 26 prior cycles in state"}
+{"ts": "2026-11-13 06:57:37 WAT", "kind": "SCOUT_DROP", "msg": "1 outside scope: STEP MOM (no pair birth time)"}
+{"ts": "2026-11-13 06:57:37 WAT", "kind": "CYCLE", "msg": "cycle 27 done, equity $1000.00"}
